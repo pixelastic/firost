@@ -16,7 +16,8 @@ const module = {
       this._glob = pify(glob);
     }
     const matches = await this._glob(pattern);
-    return matches.sort();
+    // Sort results by lexicographic order (ie. foo_2 will be before foo_10)
+    return matches.sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
   },
 
   /**

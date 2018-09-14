@@ -30,6 +30,16 @@ describe('fileutils', () => {
 
       expect(actual).toEqual(['foo_1', 'foo_10', 'foo_100']);
     });
+
+    it('should return results ordered lexicographically', async () => {
+      module._glob = jest
+        .fn()
+        .mockReturnValue(['foo_179', 'foo_18', 'foo_180']);
+
+      const actual = await module.glob('pattern');
+
+      expect(actual).toEqual(['foo_18', 'foo_179', 'foo_180']);
+    });
   });
 
   describe('read', () => {
