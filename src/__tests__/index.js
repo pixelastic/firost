@@ -13,14 +13,22 @@ describe('fileutils', () => {
   describe('glob', () => {
     it('is a promise wrapper around glob', async () => {
       module._glob = null;
-      const mockGlob = jest.fn().mockReturnValue('foo');
+      const mockGlob = jest.fn().mockReturnValue(['foo']);
       pify.mockReturnValue(mockGlob);
 
       const actual = await module.glob('pattern');
 
-      expect(actual).toEqual('foo');
+      expect(actual).toEqual(['foo']);
       expect(pify).toHaveBeenCalledWith(glob);
       expect(mockGlob).toHaveBeenCalledWith('pattern');
+    });
+
+    it('should return results ordered', async () => {
+      module._glob = jest.fn().mockReturnValue(['foo_10', 'foo_100', 'foo_1']);
+
+      const actual = await module.glob('pattern');
+
+      expect(actual).toEqual(['foo_1', 'foo_10', 'foo_100']);
     });
   });
 

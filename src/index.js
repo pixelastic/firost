@@ -15,7 +15,8 @@ const module = {
     if (!this._glob) {
       this._glob = pify(glob);
     }
-    return await this._glob(pattern);
+    const matches = await this._glob(pattern);
+    return matches.sort();
   },
 
   /**
