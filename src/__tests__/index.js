@@ -51,7 +51,7 @@ describe('fileutils', () => {
       const actual = await module.read('filepath');
 
       expect(actual).toEqual('foo');
-      expect(pify).toHaveBeenCalledWith(fs.readfile);
+      expect(pify).toHaveBeenCalledWith(fs.readFile);
       expect(mockReadFile).toHaveBeenCalledWith('filepath');
     });
   });
