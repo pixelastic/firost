@@ -9,7 +9,7 @@ import fs from 'fs-extra';
 jest.mock('pify');
 import pify from 'pify';
 
-describe('fileutils', () => {
+describe('firost', () => {
   describe('glob', () => {
     it('is a promise wrapper around glob', async () => {
       module._glob = null;
