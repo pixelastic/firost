@@ -54,6 +54,15 @@ describe('fileutils', () => {
       expect(pify).toHaveBeenCalledWith(fs.readFile);
       expect(mockReadFile).toHaveBeenCalledWith('filepath');
     });
+
+    it('should convert buffers to string', async () => {
+      const buffer = Buffer.from('foo ‽', 'utf8');
+      module._readFile = jest.fn().mockReturnValue(buffer);
+
+      const actual = await module.read('filepath');
+
+      expect(actual).toEqual('foo ‽');
+    });
   });
 
   describe('readJson', () => {

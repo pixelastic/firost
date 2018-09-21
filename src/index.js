@@ -41,7 +41,8 @@ const module = {
     if (!this._readFile) {
       this._readFile = pify(fs.readFile);
     }
-    return await this._readFile(filepath);
+    const content = await this._readFile(filepath);
+    return content.toString('utf8');
   },
 
   /**
