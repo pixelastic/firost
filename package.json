@@ -1,6 +1,6 @@
 {
   "name": "firost",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Async glob, read and write files",
   "main": "build/index.js",
   "files": [
