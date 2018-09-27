@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
+set -e
 
-release-it
+release-it --no-npm.publish
+npm publish
