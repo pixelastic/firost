@@ -12,7 +12,8 @@
     "lint": "./scripts/lint",
     "build": "./scripts/build",
     "precommit": "yarn run lint",
-    "prepush": "yarn run test"
+    "prepush": "yarn run test",
+    "release": "./scripts/release"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,7 @@
     "husky": "0.14.3",
     "jest": "23.6.0",
     "prettier": "1.9.2",
+    "release-it": "7.6.1",
     "webpack": "4.19.0",
     "webpack-command": "0.4.1"
   },
