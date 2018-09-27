@@ -1,8 +1,14 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -e
 
-# Should display current version and ask for new version
-# pass it as paraleter to release-it
+if [[ $npm_execpath = *"yarn"* ]]; then
+  echo "This script must be run using npm, not yarn.";
+  exit 1
+fi
 
-release-it --no-npm.publish
-# npm publish
+version=$(npm view ./ version)
+echo "Current version is $version"
+read -p "New version: " new_version
+
+release-it --no-npm.publish "$new_version"
+npm publish
