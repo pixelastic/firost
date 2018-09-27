@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
+# Should display current version and ask for new version
+# pass it as paraleter to release-it
+
 release-it --no-npm.publish
 npm publish
