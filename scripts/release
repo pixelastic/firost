@@ -5,4 +5,4 @@ set -e
 # pass it as paraleter to release-it
 
 release-it --no-npm.publish
-npm publish
+# npm publish
