@@ -3,7 +3,7 @@ const merge = require('webpack-merge');
 const common = require('./webpack.config.common.js');
 
 const webpackConfig = merge(common, {
-  mode: 'development',
+  mode: 'production',
 });
 
 module.exports = webpackConfig;
