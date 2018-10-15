@@ -1,4 +1,5 @@
 /* eslint-disable import/no-commonjs */
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 const path = require('path');
 const webpackConfig = {
   entry: path.resolve(__dirname, 'src/index.js'),
@@ -20,6 +21,16 @@ const webpackConfig = {
       },
     ],
   },
+  plugins: [
+    // Will create a cache of the dependency graph on first build so subsequent
+    // builds can re-use it, improving performance time
+    new HardSourceWebpackPlugin({
+      cacheDirectory: path.resolve(
+        __dirname,
+        'node_modules/.cache/hard-source/[confighash]'
+      ),
+    }),
+  ]
 };
 
 module.exports = webpackConfig;

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+mkdir -p ./build
+
+NODE_ENV=development webpack --watch --config ./webpack.config.dev.js
