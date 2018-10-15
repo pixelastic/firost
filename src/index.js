@@ -4,6 +4,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import glob from 'glob';
 import pify from 'pify';
+import shelljs from 'shelljs';
 
 const module = {
   /**
@@ -74,6 +75,27 @@ const module = {
     } catch (err) {
       return null;
     }
+  },
+
+  /**
+   * Run a command in the shell
+   * @param {String} command Command to run
+   * @returns {Promise} Resolves with stdout if exit code is 0, otherewise reject
+   * with sterr
+   **/
+  async shell(command) {
+    return await new Promise((resolve, reject) => {
+      shelljs.exec(
+        command,
+        { async: true, silent: true },
+        (code, stdout, stderr) => {
+          if (code === 0) {
+            return resolve(stdout);
+          }
+          return reject(stderr);
+        }
+      );
+    });
   },
 
   /**

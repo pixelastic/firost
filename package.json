@@ -50,6 +50,7 @@
     "jest": "23.6.0",
     "prettier": "1.9.2",
     "release-it": "7.6.1",
+    "shelljs": "0.8.2",
     "webpack": "4.19.0",
     "webpack-command": "0.4.1",
     "webpack-merge": "4.1.4"
