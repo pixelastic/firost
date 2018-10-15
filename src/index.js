@@ -21,6 +21,22 @@ const module = {
   },
 
   /**
+   * Check if the specific path is a directory
+   * @param {String} userPath Path to check
+   * @returns {Boolean} If the path is a directory
+   **/
+  async isDirectory(userPath) {
+    if (!fs.existsSync(userPath)) {
+      return false;
+    }
+    if (!this._lstat) {
+      this._lstat = pify(fs.lstat);
+    }
+    const stats = await this._lstat(userPath);
+    return stats.isDirectory();
+  },
+
+  /**
    * Wrapper around fs.mkdirp to work as a promise
    * @param {String} dirpath Directory path to create
    * @returns {Void}

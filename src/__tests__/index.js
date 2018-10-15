@@ -42,6 +42,42 @@ describe('firost', () => {
     });
   });
 
+  describe('isDirectory', () => {
+    const mockIsDirectory = jest.fn();
+    const mockIsFile = jest.fn();
+    beforeEach(() => {
+      module._lstat = jest.fn().mockReturnValue({
+        isDirectory: mockIsDirectory,
+        isFile: mockIsFile,
+      });
+    });
+    it('should return true if the path is a directory', async () => {
+      fs.existsSync.mockReturnValue(true);
+      mockIsDirectory.mockReturnValue(true);
+      mockIsFile.mockReturnValue(false);
+
+      const actual = await module.isDirectory('./exists');
+
+      expect(actual).toEqual(true);
+    });
+    it('should return false if the path is a file', async () => {
+      fs.existsSync.mockReturnValue(true);
+      mockIsDirectory.mockReturnValue(false);
+      mockIsFile.mockReturnValue(true);
+
+      const actual = await module.isDirectory('./exists.txt');
+
+      expect(actual).toEqual(false);
+    });
+    it('should return false if the path does not exist', async () => {
+      fs.existsSync.mockReturnValue(false);
+
+      const actual = await module.isDirectory('./does-not-exist');
+
+      expect(actual).toEqual(false);
+    });
+  });
+
   describe('read', () => {
     it('is a promise wrapper around fs.readfile', async () => {
       module._readFile = null;
