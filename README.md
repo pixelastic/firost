@@ -1,4 +1,4 @@
-# firost
+# > firost
 
 Async glob, read and write files.
 
