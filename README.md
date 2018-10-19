@@ -1,6 +1,6 @@
 # firost
 
-Async glob, read and write files in nodejs.
+Async glob, read and write files.
 
 I was getting tired of having to write the same helpers and wrappers for
 reading/writing files, so I packaged the best libraries and made an API that
