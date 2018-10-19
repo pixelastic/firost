@@ -30,7 +30,7 @@ const webpackConfig = {
         'node_modules/.cache/hard-source/[confighash]'
       ),
     }),
-  ]
+  ],
 };
 
 module.exports = webpackConfig;

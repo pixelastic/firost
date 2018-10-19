@@ -8,4 +8,3 @@ const webpackConfig = merge(common, {
 });
 
 module.exports = webpackConfig;
-
