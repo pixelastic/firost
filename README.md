@@ -79,6 +79,6 @@ easier diffing of the file.
 
 ```js
 const records = [{ name: 'foo', value: 2 }, { value: 3, name: 'bar' }];
-await firost.writeJson('./records/records.json, records);
+await firost.writeJson('./records/records.json, records');
 ```
 
