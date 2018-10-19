@@ -10,7 +10,7 @@ if [[ $npm_execpath = *"yarn"* ]]; then
   exit 1
 fi
 
-version=$(npm view ./ version)
+version=$(node -p -e "require('./package.json').version")
 echo "Current version is $version"
 read -rp "New version: " new_version
 
