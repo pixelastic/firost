@@ -32,6 +32,16 @@ if (await firost.isDirectory('./dist')) {
 }
 ```
 
+## `isFile(path)`
+
+Checks if the given path exists and is a file
+
+```js
+if (await firost.isFile('./package.json')) {
+  console.info("File exists");
+}
+```
+
 ## `mkdirp(path)`
 
 Creates a set of nested directories if they don't yet exist.

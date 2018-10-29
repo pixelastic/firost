@@ -50,6 +50,22 @@ const module = {
   },
 
   /**
+   * Check if the specific path is a file
+   * @param {String} userPath Path to check
+   * @returns {Boolean} If the path is a file
+   **/
+  async isFile(userPath) {
+    if (!fs.existsSync(userPath)) {
+      return false;
+    }
+    if (!this._lstat) {
+      this._lstat = pify(fs.lstat);
+    }
+    const stats = await this._lstat(userPath);
+    return stats.isFile();
+  },
+
+  /**
    * Wrapper around fs.mkdirp to work as a promise
    * @param {String} dirpath Directory path to create
    * @returns {Void}
