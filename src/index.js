@@ -1,7 +1,7 @@
 import stringify from 'json-stable-stringify';
 import _ from 'lodash';
 import fs from 'fs-extra';
-import download from 'download';
+import got from 'got';
 import glob from 'glob';
 import path from 'path';
 import pify from 'pify';
@@ -29,8 +29,17 @@ const module = {
    * @returns {Void}
    **/
   async download(destination, url) {
-    const content = await download(url);
-    await this.write(destination, content);
+    return await new Promise((resolve, reject) => {
+      const writeStream = fs.createWriteStream(destination);
+      writeStream.on('finish', () => {
+        resolve();
+      });
+      try {
+        got.stream(url).pipe(writeStream);
+      } catch (err) {
+        reject(err);
+      }
+    });
   },
 
   /**
