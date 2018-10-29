@@ -2,6 +2,8 @@
 # shellcheck disable=2154
 set -e
 
+yarn run build
+
 # When running `yarn run`, the special var $npm_execpath is set. We check it to
 # stop the execution as there is a bug in the `yarn release` process that
 # prevent releasing. npm release should be used instead.
