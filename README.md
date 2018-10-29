@@ -6,8 +6,7 @@ I was getting tired of having to write the same helpers and wrappers for
 reading/writing files, so I packaged the best libraries and made an API that
 works well with `async`/`await`.
 
-
-## glob(pattern)
+## `glob(pattern)`
 
 Returns an array of filepaths matching the specified glob pattern.
 
@@ -15,7 +14,15 @@ Returns an array of filepaths matching the specified glob pattern.
 const paths = await firost.glob('./src/**/*.css');
 ```
 
-## isDirectory(path)
+## `download(destination, content)`
+
+Download a file to specific path on disk
+
+```js
+await firost.download('http://www.example.com/file.jpg', './example.jpg');
+```
+
+## `isDirectory(path)`
 
 Checks if the given path exists and is a directory
 
@@ -25,7 +32,7 @@ if (await firost.isDirectory('./dist')) {
 }
 ```
 
-## mkdirp(path)
+## `mkdirp(path)`
 
 Creates a set of nested directories if they don't yet exist.
 
@@ -33,7 +40,7 @@ Creates a set of nested directories if they don't yet exist.
 await firost.mkdirp('./dist/css');
 ```
 
-## read(path)
+## `read(path)`
 
 Returns the textual content of a file located at the specified filepath.
 
@@ -41,7 +48,7 @@ Returns the textual content of a file located at the specified filepath.
 const content = await firost.read('./src/css/style.css');
 ```
 
-## readJson(path)
+## `readJson(path)`
 
 Returns the content of a JSON file as a JavaScript object.
 
@@ -49,7 +56,7 @@ Returns the content of a JSON file as a JavaScript object.
 const data = await firost.readJson('./records.json');
 ```
 
-## shell(command)
+## `shell(command)`
 
 Execute the given command in a shell. Returns `stdout`, throws with `stderr`.
 
@@ -63,7 +70,7 @@ try {
 }
 ```
 
-## write(destination, content)
+## `write(destination, content)`
 
 Write content to a file on disk. This will create all needed directories if they
 don't exist.
@@ -72,13 +79,12 @@ don't exist.
 await firost.write('./dist/content.txt', "This is my content");
 ```
 
-## writeJson
+## `writeJson(destination, data)`
 
 Write data to a JSON file on disk. Keys will be ordered alphabetically, for
 easier diffing of the file.
 
 ```js
 const records = [{ name: 'foo', value: 2 }, { value: 3, name: 'bar' }];
-await firost.writeJson('./records/records.json, records');
+await firost.writeJson('./records/records.json', records);
 ```
-

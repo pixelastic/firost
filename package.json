@@ -53,6 +53,7 @@
     "webpack-merge": "4.1.4"
   },
   "dependencies": {
+    "download": "7.1.0",
     "fs-extra": "7.0.0",
     "glob": "7.1.3",
     "json-stable-stringify": "1.0.1",

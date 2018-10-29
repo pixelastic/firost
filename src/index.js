@@ -1,8 +1,9 @@
 import stringify from 'json-stable-stringify';
 import _ from 'lodash';
 import fs from 'fs-extra';
-import path from 'path';
+import download from 'download';
 import glob from 'glob';
+import path from 'path';
 import pify from 'pify';
 import shelljs from 'shelljs';
 
@@ -19,6 +20,17 @@ const module = {
     const matches = await this._glob(pattern);
     // Sort results by lexicographic order (ie. foo_2 will be before foo_10)
     return matches.sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
+  },
+
+  /**
+   * Download the file at the specified url to disk
+   * @param {String} destination Path on disk to save it to
+   * @param {String} url Url of the file to download
+   * @returns {Void}
+   **/
+  async download(destination, url) {
+    const content = await download(url);
+    await this.write(destination, content);
   },
 
   /**
