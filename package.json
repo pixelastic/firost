@@ -7,13 +7,13 @@
     "build"
   ],
   "scripts": {
-    "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch",
-    "lint": "aberlaas lint",
-    "lint:fix": "aberlaas lint --fix",
     "build": "aberlaas build",
     "build:watch": "aberlaas build --watch",
-    "release": "./scripts/release"
+    "lint": "aberlaas lint",
+    "lint:fix": "aberlaas lint --fix",
+    "release": "./scripts/release",
+    "test": "aberlaas test",
+    "test:watch": "aberlaas test --watch"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
   "devDependencies": {
     "aberlaas": "0.0.3",
     "husky": "1.1.1",
-    "jest": "23.6.0",
     "prettier": "1.9.2",
     "release-it": "7.6.1"
   },
