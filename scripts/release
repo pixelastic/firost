@@ -16,5 +16,5 @@ version=$(node -p -e "require('./package.json').version")
 echo "Current version is $version"
 read -rp "New version: " new_version
 
-release-it --no-npm.publish "$new_version"
+release-it -n --no-npm.publish "$new_version"
 npm publish
