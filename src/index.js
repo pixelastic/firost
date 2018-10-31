@@ -127,9 +127,9 @@ const module = {
         { async: true, silent: true },
         (code, stdout, stderr) => {
           if (code === 0) {
-            return resolve(stdout);
+            return resolve(_.trim(stdout));
           }
-          return reject(stderr);
+          return reject(_.trim(stderr));
         }
       );
     });
