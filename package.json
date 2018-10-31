@@ -10,6 +10,7 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch",
     "lint": "aberlaas lint",
+    "lint:fix": "aberlaas lint --fix",
     "build": "aberlaas build",
     "build:watch": "aberlaas build --watch",
     "release": "./scripts/release"
