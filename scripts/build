@@ -1,6 +1,10 @@
 #!/usr/bin/env sh
+set -e
 
 mkdir -p ./build
 
-NODE_ENV=production webpack \
-  --config ./webpack.config.prod.js
+babel \
+  ./lib/*.js \
+  --ignore "lib/__tests__" \
+  --ignore "lib/test-helper.js" \
+  --out-dir ./build

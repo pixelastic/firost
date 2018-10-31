@@ -34,7 +34,6 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "8.2.3",
     "babel-jest": "23.6.0",
-    "babel-loader": "8.0.2",
     "babel-plugin-dynamic-import-node-sync": "2.0.1",
     "eslint": "4.19.1",
     "eslint-config-algolia": "13.1.0",
@@ -42,15 +41,10 @@
     "eslint-plugin-import": "2.11.0",
     "eslint-plugin-jest": "21.15.1",
     "eslint-plugin-prettier": "2.6.0",
-    "hard-source-webpack-plugin": "0.12.0",
     "husky": "1.1.1",
     "jest": "23.6.0",
     "prettier": "1.9.2",
-    "release-it": "7.6.1",
-    "shelljs": "0.8.2",
-    "webpack": "4.19.0",
-    "webpack-command": "0.4.1",
-    "webpack-merge": "4.1.4"
+    "release-it": "7.6.1"
   },
   "dependencies": {
     "fs-extra": "7.0.0",
@@ -58,6 +52,7 @@
     "got": "9.2.2",
     "json-stable-stringify": "1.0.1",
     "lodash": "4.17.11",
-    "pify": "4.0.0"
+    "pify": "4.0.0",
+    "shelljs": "0.8.2"
   }
 }

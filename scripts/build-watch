@@ -1,5 +1,13 @@
 #!/usr/bin/env sh
+set -e
 
 mkdir -p ./build
 
-NODE_ENV=development webpack --watch --config ./webpack.config.dev.js
+babel \
+  ./lib/*.js \
+  --ignore "lib/__tests__" \
+  --ignore "lib/test-helper.js" \
+  --out-dir ./build \
+  --watch \
+  --verbose \
+  --source-maps inline
