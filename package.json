@@ -3,15 +3,13 @@
   "version": "0.0.10",
   "description": "Async glob, read and write files",
   "main": "build/index.js",
-  "files": [
-    "build"
-  ],
+  "files": ["build"],
   "scripts": {
     "build": "aberlaas build",
     "build:watch": "aberlaas build --watch",
     "lint": "aberlaas lint",
     "lint:fix": "aberlaas lint --fix",
-    "release": "./scripts/release",
+    "release": "aberlaas release",
     "test": "aberlaas test",
     "test:watch": "aberlaas test --watch"
   },
@@ -28,9 +26,7 @@
   "homepage": "https://github.com/pixelastic/firost#readme",
   "devDependencies": {
     "aberlaas": "0.0.3",
-    "husky": "1.1.1",
-    "prettier": "1.9.2",
-    "release-it": "7.6.1"
+    "husky": "1.1.1"
   },
   "dependencies": {
     "fs-extra": "7.0.0",
