@@ -27,8 +27,7 @@
   },
   "homepage": "https://github.com/pixelastic/firost#readme",
   "devDependencies": {
-    "aberlaas": "0.0.3",
-    "husky": "1.1.1"
+    "aberlaas": "file:.yalc/aberlaas"
   },
   "dependencies": {
     "fs-extra": "7.0.0",
