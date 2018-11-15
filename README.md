@@ -66,6 +66,14 @@ Returns the content of a JSON file as a JavaScript object.
 const data = await firost.readJson('./records.json');
 ```
 
+## `readJsonUrl(url)`
+
+Returns the content of a JSON url as a JavaScript object.
+
+```js
+const data = await firost.readJsonUrl('http://www.example.com/data.json');
+```
+
 ## `shell(command)`
 
 Execute the given command in a shell. Returns `stdout`, throws with `stderr`.

@@ -772,8 +772,10 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-"aberlaas@file:.yalc/aberlaas":
-  version "0.0.8-ab3e855d"
+aberlaas@0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.0.11.tgz#0e83ca06d28e1ba6c4fdbed1c4ca7b191b894a1d"
+  integrity sha512-vgasTqLmPqxr/52tuHnpMknlaDFnXhqO5ZmQuPbk+2QPV8ZYwuVumpyysRf5ncIakSYyPgTXaDnfJTR6wr7/6g==
   dependencies:
     "@babel/cli" "7.1.2"
     "@babel/core" "7.0.0"

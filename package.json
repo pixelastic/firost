@@ -1,33 +1,7 @@
 {
-  "name": "firost",
-  "version": "0.0.14",
-  "description": "Async glob, read and write files",
-  "main": "build/index.js",
-  "files": [
-    "build"
-  ],
-  "scripts": {
-    "build": "aberlaas build",
-    "build:watch": "aberlaas build --watch",
-    "lint": "aberlaas lint",
-    "lint:fix": "aberlaas lint --fix",
-    "release": "aberlaas release",
-    "test": "aberlaas test",
-    "test:watch": "aberlaas test --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pixelastic/firost.git"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pixelastic/firost/issues"
-  },
-  "homepage": "https://github.com/pixelastic/firost#readme",
-  "devDependencies": {
-    "aberlaas": "file:.yalc/aberlaas"
   },
   "dependencies": {
     "fs-extra": "7.0.0",
@@ -37,5 +11,32 @@
     "lodash": "4.17.11",
     "pify": "4.0.0",
     "shelljs": "0.8.2"
-  }
+  },
+  "description": "Async glob, read and write files",
+  "devDependencies": {
+    "aberlaas": "0.0.11"
+  },
+  "files": [
+    "build"
+  ],
+  "homepage": "https://github.com/pixelastic/firost#readme",
+  "keywords": [
+  ],
+  "license": "ISC",
+  "main": "build/index.js",
+  "name": "firost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelastic/firost.git"
+  },
+  "scripts": {
+    "build": "aberlaas build",
+    "build:watch": "aberlaas build --watch",
+    "lint": "aberlaas lint",
+    "lint:fix": "aberlaas lint --fix",
+    "release": "aberlaas release",
+    "test": "aberlaas test",
+    "test:watch": "aberlaas test --watch"
+  },
+  "version": "0.0.14"
 }
