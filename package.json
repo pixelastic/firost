@@ -21,8 +21,7 @@
     "build"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
-  "keywords": [
-  ],
+  "keywords": [],
   "license": "ISC",
   "main": "build/index.js",
   "name": "firost",
@@ -39,5 +38,5 @@
     "test": "aberlaas test",
     "test:watch": "aberlaas test --watch"
   },
-  "version": "0.0.15"
+  "version": "0.0.16"
 }
