@@ -28,7 +28,7 @@ Checks if the given path exists and is a directory
 
 ```js
 if (await firost.isDirectory('./dist')) {
-  console.info("Website created");
+  console.info('Website created');
 }
 ```
 
@@ -38,7 +38,7 @@ Checks if the given path exists and is a file
 
 ```js
 if (await firost.isFile('./package.json')) {
-  console.info("File exists");
+  console.info('File exists');
 }
 ```
 
@@ -68,7 +68,7 @@ const data = await firost.readJson('./records.json');
 
 ## `readJsonUrl(url)`
 
-Returns the content of a JSON url as a JavaScript object.
+Returns the content of a JSON URL as a JavaScript object.
 
 ```js
 const data = await firost.readJsonUrl('http://www.example.com/data.json');
@@ -76,16 +76,25 @@ const data = await firost.readJsonUrl('http://www.example.com/data.json');
 
 ## `shell(command)`
 
-Execute the given command in a shell. Returns `stdout`, throws with `stderr`.
+Run the given command in a shell. Returns `stdout`, throws with `stderr`.
 
 ```js
 try {
   const result = await firost.shell('git checkout -b master');
-  console.info("Created branch master");
-} catch(err) {
-  console.info("Count not create master")
+  console.info('Created branch master');
+} catch (err) {
+  console.info('Count not create master');
   console.error(err);
 }
+```
+
+## `urlToFilepath(url)`
+
+Converts an URL into a filepath suitable for writing the file to disk.
+
+```js
+const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo=bar`);
+// http/www.example.com/path/file_foo-bar.html
 ```
 
 ## `write(destination, content)`
@@ -94,7 +103,7 @@ Write content to a file on disk. This will create all needed directories if they
 don't exist.
 
 ```js
-await firost.write('./dist/content.txt', "This is my content");
+await firost.write('./dist/content.txt', 'This is my content');
 ```
 
 ## `writeJson(destination, data)`
