@@ -50,6 +50,7 @@ Creates a set of nested directories if they don't yet exist.
 await firost.mkdirp('./dist/css');
 ```
 
+
 ## `read(path)`
 
 Returns the textual content of a file located at the specified filepath.
@@ -72,6 +73,19 @@ Returns the content of a JSON URL as a JavaScript object.
 
 ```js
 const data = await firost.readJsonUrl('http://www.example.com/data.json');
+```
+
+## `spinner(max)`
+
+Creates a spinner for displaying progress of a task.
+
+```js
+const items = ['foo', 'bar', 'baz'];
+const spinner = firost.spinner(42);
+_.each(items, item => {
+  spinner.tick(item);
+});
+spinner.succeed('All items scanned');
 ```
 
 ## `shell(command)`
