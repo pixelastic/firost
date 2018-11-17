@@ -10,17 +10,19 @@
     "json-stable-stringify": "1.0.1",
     "lodash": "4.17.11",
     "pify": "4.0.0",
+    "query-string": "6.2.0",
     "shelljs": "0.8.2"
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.0.11"
+    "aberlaas": "0.0.12"
   },
   "files": [
     "build"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
-  "keywords": [],
+  "keywords": [
+  ],
   "license": "ISC",
   "main": "build/index.js",
   "name": "firost",
