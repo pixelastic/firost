@@ -75,19 +75,6 @@ Returns the content of a JSON URL as a JavaScript object.
 const data = await firost.readJsonUrl('http://www.example.com/data.json');
 ```
 
-## `spinner(max)`
-
-Creates a spinner for displaying progress of a task.
-
-```js
-const items = ['foo', 'bar', 'baz'];
-const spinner = firost.spinner(42);
-_.each(items, item => {
-  spinner.tick(item);
-});
-spinner.succeed('All items scanned');
-```
-
 ## `shell(command)`
 
 Run the given command in a shell. Returns `stdout`, throws with `stderr`.
