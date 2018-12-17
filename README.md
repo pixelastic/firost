@@ -94,7 +94,7 @@ try {
 Converts an URL into a filepath suitable for writing the file to disk.
 
 ```js
-const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo=bar`);
+const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo=bar');
 // http/www.example.com/path/file_foo-bar.html
 ```
 
