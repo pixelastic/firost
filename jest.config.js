@@ -1,5 +1,5 @@
 /* eslint-disable import/no-commonjs */
-const aberlaasConfig = require('aberlaas/jest');
+const jestConfig = require('aberlaas/build/configs/jest.js');
 module.exports = {
-  ...aberlaasConfig,
+  ...jestConfig,
 };

@@ -6,6 +6,31 @@ I was getting tired of having to write the same helpers and wrappers for
 reading/writing files, so I packaged the best libraries and made an API that
 works well with `async`/`await`.
 
+## `copy(source, destination)`
+
+Copy file(s)
+
+```js
+await firost.copy('index.html', './dist/index.html');
+await firost.copy('./foo/*.html', './dist');
+```
+
+## `download(url, path)`
+
+Download a file to specific path on disk
+
+```js
+await firost.download('http://www.example.com/file.jpg', './example.jpg');
+```
+
+## `exists(path)`
+
+Check if a file/directory exists
+
+```js
+await firost.exists('./foo/bar/file.ext')
+```
+
 ## `glob(pattern)`
 
 Returns an array of filepaths matching the specified glob pattern.
@@ -14,17 +39,9 @@ Returns an array of filepaths matching the specified glob pattern.
 const paths = await firost.glob('./src/**/*.css');
 ```
 
-## `download(destination, content)`
-
-Download a file to specific path on disk
-
-```js
-await firost.download('http://www.example.com/file.jpg', './example.jpg');
-```
-
 ## `isDirectory(path)`
 
-Checks if the given path exists and is a directory
+Checks if the given path is a directory
 
 ```js
 if (await firost.isDirectory('./dist')) {
@@ -34,7 +51,7 @@ if (await firost.isDirectory('./dist')) {
 
 ## `isFile(path)`
 
-Checks if the given path exists and is a file
+Checks if the given path is a file
 
 ```js
 if (await firost.isFile('./package.json')) {
@@ -50,6 +67,14 @@ Creates a set of nested directories if they don't yet exist.
 await firost.mkdirp('./dist/css');
 ```
 
+## `move(source, destination)`
+
+Move file(s)
+
+```js
+await firost.move('index.html', 'index.back.html');
+await firost.move('./*.html', './dist');
+```
 
 ## `read(path)`
 
@@ -75,17 +100,27 @@ Returns the content of a JSON URL as a JavaScript object.
 const data = await firost.readJsonUrl('http://www.example.com/data.json');
 ```
 
+## `remove(target)`
+
+Remove file(s)
+
+```js
+await firost.remove('index.back.html');
+await firost.remove('*.back.html');
+```
+
 ## `shell(command)`
 
-Run the given command in a shell. Returns `stdout`, throws with `stderr`.
+Run the given command in a shell. Returns `stdout`, throws with `stderr` and
+`exitCode`.
 
 ```js
 try {
   const result = await firost.shell('git checkout -b master');
   console.info('Created branch master');
 } catch (err) {
-  console.info('Count not create master');
-  console.error(err);
+  console.error(err.message);
+  console.error(err.code);
 }
 ```
 
@@ -98,21 +133,20 @@ const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo
 // http/www.example.com/path/file_foo-bar.html
 ```
 
-## `write(destination, content)`
+## `write(content, destination)`
 
-Write content to a file on disk. This will create all needed directories if they
-don't exist.
+Write content to a file on disk.
 
 ```js
-await firost.write('./dist/content.txt', 'This is my content');
+await firost.write('This is my content', './dist/content.txt');
 ```
 
-## `writeJson(destination, data)`
+## `writeJson(data, destination)`
 
 Write data to a JSON file on disk. Keys will be ordered alphabetically, for
 easier diffing of the file.
 
 ```js
 const records = [{ name: 'foo', value: 2 }, { value: 3, name: 'bar' }];
-await firost.writeJson('./records/records.json', records);
+await firost.writeJson(records, './records/records.json');
 ```
