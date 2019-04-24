@@ -33,9 +33,9 @@
   },
   "scripts": {
     "build": "./scripts/build",
-    "build:watch": "./scripts/build",
+    "build:watch": "./scripts/build-watch",
     "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"

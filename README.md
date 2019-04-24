@@ -138,10 +138,13 @@ const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo
 Watch for file change, and run specified callback with path to changed files.
 
 ```js
-function doSomething(filepath) {
-  console.info(`File ${filepath} just changed`);
+function doSomething(filepath, type) {
+  console.info(`File ${filepath} was just ${type}`);
 }
-firost.watch('./path/to/files/*.jpg', doSomething);
+const watcher = await firost.watch('./path/to/files/*.jpg', doSomething);
+
+// To remove the watcher:
+await watcher.kill();
 ```
 
 ## `write(content, destination)`
