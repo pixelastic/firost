@@ -133,6 +133,17 @@ const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo
 // http/www.example.com/path/file_foo-bar.html
 ```
 
+## `watch(pattern, callback)`
+
+Watch for file change, and run specified callback with path to changed files.
+
+```js
+function doSomething(filepath) {
+  console.info(`File ${filepath} just changed`);
+}
+firost.watch('./path/to/files/*.jpg', doSomething);
+```
+
 ## `write(content, destination)`
 
 Write content to a file on disk.
