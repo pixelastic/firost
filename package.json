@@ -16,14 +16,15 @@
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.0.18",
+    "aberlaas": "0.0.22",
     "get-port": "4.0.0"
   },
   "files": [
     "build"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
-  "keywords": [],
+  "keywords": [
+  ],
   "license": "ISC",
   "main": "build/index.js",
   "name": "firost",

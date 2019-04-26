@@ -794,10 +794,10 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-aberlaas@0.0.18:
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.0.18.tgz#73aab616afde3459d348e3fc42fbdf836088db2f"
-  integrity sha512-+XvyA/IFbMuCX7/pAwDrerojvkRSGoz2Uf9G4mCAKUhPm/OImXVd/bo/R8oZe2HrjJhIVgLqv3LGIA86Lr8XcQ==
+aberlaas@0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.0.22.tgz#00137eb85297cbbcddac909df9036b763a46f820"
+  integrity sha512-NOWbPTAJAl/8OdWJ6YD24efEMMk37odfNcpaq0OCmsxMrUgh0/1PuDbCuWuiks7gHeAVnmDfdEjto7LgM+iwfQ==
   dependencies:
     "@babel/cli" "7.1.2"
     "@babel/core" "7.0.0"
@@ -814,7 +814,7 @@ aberlaas@0.0.18:
     eslint-plugin-jest "21.15.1"
     eslint-plugin-prettier "2.6.0"
     execa "1.0.0"
-    firost "0.0.18"
+    firost "0.0.19"
     golgoth "0.0.11"
     husky "1.1.3"
     inquirer "6.2.0"
@@ -2923,6 +2923,20 @@ firost@0.0.18:
     lodash "4.17.11"
     ora "3.0.0"
     pify "4.0.0"
+    query-string "6.2.0"
+    shelljs "0.8.2"
+
+firost@0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.19.tgz#71ba3f8923d869494f10a31564578b99d03e918b"
+  integrity sha512-9DZkHazpUginRf8YiKDgB1aEMQibalRVsdGDUMQ98k47SoIryR/l+EUYZnSpMZX0PaQ05ovnbzCbErR/6csLBQ==
+  dependencies:
+    fs-extra "7.0.0"
+    globby "8.0.1"
+    golgoth "0.0.11"
+    got "9.2.2"
+    is-glob "4.0.0"
+    json-stable-stringify "1.0.1"
     query-string "6.2.0"
     shelljs "0.8.2"
 
