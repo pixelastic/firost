@@ -23,8 +23,7 @@
     "build"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
-  "keywords": [
-  ],
+  "keywords": [],
   "license": "ISC",
   "main": "build/index.js",
   "name": "firost",
@@ -41,5 +40,5 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "version": "0.0.22"
+  "version": "0.0.23"
 }
