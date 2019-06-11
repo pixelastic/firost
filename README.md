@@ -36,7 +36,7 @@ await firost.exists('./foo/bar/file.ext')
 Returns an array of filepaths matching the specified glob pattern.
 
 ```js
-const paths = await firost.glob('./src/**/*.css');
+const paths = await firost.glob(['./src/**/*.css', '!./src/**/_*.css']);
 ```
 
 ## `isDirectory(path)`
