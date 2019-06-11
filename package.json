@@ -7,11 +7,9 @@
     "chokidar": "2.1.5",
     "fs-extra": "7.0.0",
     "globby": "8.0.1",
-    "golgoth": "0.1.1",
-    "got": "9.2.2",
+    "golgoth": "^0.1.0",
     "is-glob": "4.0.0",
     "json-stable-stringify": "1.0.1",
-    "query-string": "6.2.0",
     "shelljs": "0.8.2"
   },
   "description": "Async glob, read and write files",
@@ -23,7 +21,8 @@
     "build"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
-  "keywords": [],
+  "keywords": [
+  ],
   "license": "ISC",
   "main": "build/index.js",
   "name": "firost",

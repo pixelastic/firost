@@ -2955,6 +2955,51 @@ firost@0.0.21:
     query-string "6.2.0"
     shelljs "0.8.2"
 
+firost@0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.23.tgz#e2e8f2f219885775a644aced5500b41e0b3cdb2b"
+  integrity sha512-KDMkpabACzvn7WaBiPJ+CCGeCBC4AbJryWPO+VOuA8feGFO6btaITR7B+yYkUJHCPXAMt5r2ru9337EWGlmGHw==
+  dependencies:
+    chokidar "2.1.5"
+    fs-extra "7.0.0"
+    globby "8.0.1"
+    golgoth "0.0.13"
+    got "9.2.2"
+    is-glob "4.0.0"
+    json-stable-stringify "1.0.1"
+    query-string "6.2.0"
+    shelljs "0.8.2"
+
+firost@0.0.24:
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.24.tgz#448915808cebf12073b0bceeb6d64fa9a7604547"
+  integrity sha512-SqAJTbg7Tfocu3vVuMnadq0loZxx6vpNSAB2QY8vQn4KlwYpVCnkILbqSlJlKYhuPx4vWLzsyF7uGrtTP6QRkA==
+  dependencies:
+    chokidar "2.1.5"
+    fs-extra "7.0.0"
+    globby "8.0.1"
+    golgoth "0.1.0"
+    got "9.2.2"
+    is-glob "4.0.0"
+    json-stable-stringify "1.0.1"
+    query-string "6.2.0"
+    shelljs "0.8.2"
+
+firost@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.1.0.tgz#b8ce40f2210869e3b625813eb82f0c13a012be29"
+  integrity sha512-MaX+KObyQK262+3UA5B+7mIe4+SC5IH9GG7O5rebRrpAfoFHPBZ1BRXptycaZ0zFJKbn8OHIs4357Bs+EjJMKQ==
+  dependencies:
+    chokidar "2.1.5"
+    fs-extra "7.0.0"
+    globby "8.0.1"
+    golgoth "0.1.1"
+    got "9.2.2"
+    is-glob "4.0.0"
+    json-stable-stringify "1.0.1"
+    query-string "6.2.0"
+    shelljs "0.8.2"
+
 flat-cache@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-1.3.0.tgz#d3030b32b38154f4e3b7e9c709f490f7ef97c481"
@@ -3249,6 +3294,57 @@ golgoth@0.0.13:
     p-map-series "1.0.0"
     pify "4.0.1"
     progress "2.0.1"
+    query-string "6.2.0"
+
+golgoth@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.1.0.tgz#cfd7f1d49713460e0cba31d05ac267440920fcdb"
+  integrity sha512-GKdRl/LNHEyKxRqZbLmYQnJebJxm3jx4PrXuMXsT6jMhvcNIGfI+/o/WqzdcIqSCdO1pjp1pwsWC6T56IoDWMQ==
+  dependencies:
+    chalk "2.4.1"
+    dayjs "1.7.7"
+    firost "0.0.23"
+    got "9.3.2"
+    lodash "4.17.11"
+    ora "3.0.0"
+    p-all "1.0.0"
+    p-map "2.0.0"
+    p-map-series "1.0.0"
+    pify "4.0.1"
+    query-string "6.2.0"
+
+golgoth@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.1.1.tgz#c4a5b6bfa346ecd2372c8edfd086d5ce2ffa4ab2"
+  integrity sha512-/9tqMHgy//y8MfkdjxtmVCahHCJFoefnVOWwJ8Ns0ANXg9tU88cLg0DknF6ue6CJjWUNljtcy9tcJ4hHZeq/YA==
+  dependencies:
+    chalk "2.4.1"
+    dayjs "1.7.7"
+    firost "0.0.24"
+    got "9.3.2"
+    lodash "4.17.11"
+    ora "3.0.0"
+    p-all "1.0.0"
+    p-map "2.0.0"
+    p-map-series "1.0.0"
+    pify "4.0.1"
+    query-string "6.2.0"
+
+golgoth@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.1.2.tgz#b26cb26b5e4be4c9b6fbe07c52b0d20b8e42da3c"
+  integrity sha512-XPgYM2lTPKmW6rTtGOtS/wx+ekyPf/4oq0nmIu79rdhfXkysaOBdKTp/fEkXqPoYzK1lijK9MJrKwtyn5oPu7A==
+  dependencies:
+    chalk "2.4.1"
+    dayjs "1.7.7"
+    firost "0.1.0"
+    got "9.3.2"
+    lodash "4.17.11"
+    ora "3.0.0"
+    p-all "1.0.0"
+    p-map "2.0.0"
+    p-map-series "1.0.0"
+    pify "4.0.1"
     query-string "6.2.0"
 
 got@8.3.2:
