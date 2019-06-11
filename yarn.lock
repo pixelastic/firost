@@ -794,10 +794,10 @@ abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
-aberlaas@0.0.22:
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.0.22.tgz#00137eb85297cbbcddac909df9036b763a46f820"
-  integrity sha512-NOWbPTAJAl/8OdWJ6YD24efEMMk37odfNcpaq0OCmsxMrUgh0/1PuDbCuWuiks7gHeAVnmDfdEjto7LgM+iwfQ==
+aberlaas@~0.0.0:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.0.23.tgz#bfd17f2423bb010548408158dd4c721dadcbe386"
+  integrity sha512-/c47JNA0x9N62/klzKaYZJIKVk2q+yt/5hpPFZ8Fkgx8ZxZarC2zlGc7OX3YXWcfh8celhTBDBqlii46r8SH6w==
   dependencies:
     "@babel/cli" "7.1.2"
     "@babel/core" "7.0.0"
@@ -814,16 +814,11 @@ aberlaas@0.0.22:
     eslint-plugin-jest "21.15.1"
     eslint-plugin-prettier "2.6.0"
     execa "1.0.0"
-    firost "0.0.19"
-    golgoth "0.0.11"
+    golgoth "0.0.12"
     husky "1.1.3"
     inquirer "6.2.0"
     jest "23.6.0"
-    lodash "4.17.11"
     minimist "1.2.0"
-    p-all "1.0.0"
-    p-map "2.0.0"
-    pify "4.0.1"
     prettier "1.9.2"
     release-it "9.1.0"
 
@@ -2926,11 +2921,12 @@ firost@0.0.18:
     query-string "6.2.0"
     shelljs "0.8.2"
 
-firost@0.0.19:
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.19.tgz#71ba3f8923d869494f10a31564578b99d03e918b"
-  integrity sha512-9DZkHazpUginRf8YiKDgB1aEMQibalRVsdGDUMQ98k47SoIryR/l+EUYZnSpMZX0PaQ05ovnbzCbErR/6csLBQ==
+firost@0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.20.tgz#dfcf3da83dd43230fbdce31f2bde94add5c3e043"
+  integrity sha512-bsyjf8i1n77GK19Jp+VnLKeCBJQyIGreymgIqbGmNGWcI6r7Q0tqQFYSWYMD6X3A4hN/U3F3FyLk1eXARg1r5A==
   dependencies:
+    chokidar "2.1.5"
     fs-extra "7.0.0"
     globby "8.0.1"
     golgoth "0.0.11"
@@ -3278,6 +3274,24 @@ golgoth@0.0.11:
     progress "2.0.1"
     query-string "6.2.0"
 
+golgoth@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.0.12.tgz#b69a214ad2c3d1f5827e61c90f1979cac25ba9a1"
+  integrity sha512-VVX5B//Ofmx5bY5ONZsD8uiBxiH7a5D2jqErhKFQ3K1fxkEOv+AXtcMzZlu8FXu6EIkImpfZzGVO4kVqp5pYog==
+  dependencies:
+    chalk "2.4.1"
+    dayjs "1.7.7"
+    firost "0.0.20"
+    got "9.3.2"
+    lodash "4.17.11"
+    ora "3.0.0"
+    p-all "1.0.0"
+    p-map "2.0.0"
+    p-map-series "1.0.0"
+    pify "4.0.1"
+    progress "2.0.1"
+    query-string "6.2.0"
+
 golgoth@0.0.13:
   version "0.0.13"
   resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.0.13.tgz#f89e94acf16c819cbb215581787261b0692de76c"
@@ -3330,7 +3344,7 @@ golgoth@0.1.1:
     pify "4.0.1"
     query-string "6.2.0"
 
-golgoth@^0.1.0:
+golgoth@~0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.1.2.tgz#b26cb26b5e4be4c9b6fbe07c52b0d20b8e42da3c"
   integrity sha512-XPgYM2lTPKmW6rTtGOtS/wx+ekyPf/4oq0nmIu79rdhfXkysaOBdKTp/fEkXqPoYzK1lijK9MJrKwtyn5oPu7A==

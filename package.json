@@ -7,14 +7,14 @@
     "chokidar": "2.1.5",
     "fs-extra": "7.0.0",
     "globby": "8.0.1",
-    "golgoth": "^0.1.0",
+    "golgoth": "~0.1.0",
     "is-glob": "4.0.0",
     "json-stable-stringify": "1.0.1",
     "shelljs": "0.8.2"
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.0.22",
+    "aberlaas": "~0.0.0",
     "get-port": "4.0.0"
   },
   "files": [
