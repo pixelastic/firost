@@ -23,6 +23,14 @@ Download a file to specific path on disk
 await firost.download('http://www.example.com/file.jpg', './example.jpg');
 ```
 
+## `emptyDir(path)`
+
+Empty the content of a directory
+
+```js
+await firost.emptyDir('./foo/bar')
+```
+
 ## `exists(path)`
 
 Check if a file/directory exists
