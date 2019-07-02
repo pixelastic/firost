@@ -39,12 +39,18 @@ Check if a file/directory exists
 await firost.exists('./foo/bar/file.ext')
 ```
 
-## `glob(pattern)`
+## `glob(pattern, options = {})`
 
 Returns an array of filepaths matching the specified glob pattern.
 
+It will return hidden files and directories by default, but you can override it
+by passing `hiddenFiles: false` or `directories: false` to the `options`
+argument.
+
 ```js
 const paths = await firost.glob(['./src/**/*.css', '!./src/**/_*.css']);
+const noHiddenFiles = await firost.glob(['./lib/**/*.js'], { hiddenFiles: false });
+const noDirectories = await firost.glob(['./lib'], { directories: false });
 ```
 
 ## `isDirectory(path)`
