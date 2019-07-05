@@ -27,8 +27,6 @@ cache.clearAll();
 cache.has('key'); // false
 ```
 
-
-
 ## `copy(source, destination)`
 
 Copy file(s)
