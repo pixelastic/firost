@@ -6,6 +6,29 @@ I was getting tired of having to write the same helpers and wrappers for
 reading/writing files, so I packaged the best libraries and made an API that
 works well with `async`/`await`.
 
+## `cache`
+
+Shared singleton to used a proxy cache.
+
+```js
+cache.write(42, 'foo');
+cache.read('foo'); // 42
+cache.has('foo'); // true
+cache.has('nope'); // false
+
+cache.write({ foo: ['one', 'two'], bar: { three: 3 } }, 'key');
+cache.read('key.foo'); // ['one', 'two'];
+cache.read('key.bar.three'); // 3
+
+cache.clear('key.foo');
+cache.has('key.foo'); // false
+
+cache.clearAll();
+cache.has('key'); // false
+```
+
+
+
 ## `copy(source, destination)`
 
 Copy file(s)
