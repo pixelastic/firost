@@ -147,7 +147,7 @@ const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo
 // http/www.example.com/path/file_foo-bar.html
 ```
 
-## `watch(pattern, callback)`
+## `watch(pattern, callback, {watcherName})`
 
 Watch for file change, and run specified callback with path to changed files.
 
@@ -155,10 +155,12 @@ Watch for file change, and run specified callback with path to changed files.
 function doSomething(filepath, type) {
   console.info(`File ${filepath} was just ${type}`);
 }
-const watcher = await firost.watch('./path/to/files/*.jpg', doSomething);
+const watcher = await firost.watch('./path/to/files/*.jpg', doSomething, 'my-watcher');
 
 // To remove the watcher:
-await watcher.kill();
+await unwatch('my-watch');
+// To remove all watchers:
+await unwatchAll();
 ```
 
 ## `write(content, destination)`
