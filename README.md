@@ -180,8 +180,11 @@ const watcher = await firost.watch('./path/to/files/*.jpg', doSomething, 'my-wat
 
 // To remove the watcher:
 await unwatch('my-watch');
+// or await unwatch(watcher);
 // To remove all watchers:
 await unwatchAll();
+// To force wait until the next watcher loop
+await nextWatchTick();
 ```
 
 ## `write(content, destination)`
