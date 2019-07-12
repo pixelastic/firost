@@ -11,12 +11,12 @@ works well with `async`/`await`.
 Shared singleton to used a proxy cache.
 
 ```js
-cache.write(42, 'foo');
+cache.write('foo', 42);
 cache.read('foo'); // 42
 cache.has('foo'); // true
 cache.has('nope'); // false
 
-cache.write({ foo: ['one', 'two'], bar: { three: 3 } }, 'key');
+cache.write('key', { foo: ['one', 'two'], bar: { three: 3 } });
 cache.read('key.foo'); // ['one', 'two'];
 cache.read('key.bar.three'); // 3
 
@@ -159,6 +159,14 @@ try {
 }
 ```
 
+## `sleep(delay)`
+
+Wait for a specific number of milliseconds
+
+```js
+await sleep(100); // Wait for 100 ms
+```
+
 ## `urlToFilepath(url)`
 
 Converts an URL into a filepath suitable for writing the file to disk.
@@ -183,8 +191,8 @@ await unwatch('my-watch');
 // or await unwatch(watcher);
 // To remove all watchers:
 await unwatchAll();
-// To force wait until the next watcher loop
-await nextWatchTick();
+// To force wait until all watchers are executed
+await waitForWatchers();
 ```
 
 ## `write(content, destination)`
