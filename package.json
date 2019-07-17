@@ -44,5 +44,5 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
-  "version": "0.4.0"
+  "version": "0.4.1"
 }
