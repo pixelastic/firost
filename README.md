@@ -111,6 +111,14 @@ await firost.move('index.html', 'index.back.html');
 await firost.move('./*.html', './dist');
 ```
 
+## `prompt(question)`
+
+Interactively ask user a question
+
+```js
+const mood = await firost.prompt('How do you feel?');
+```
+
 ## `read(path)`
 
 Returns the textual content of a file located at the specified filepath.
