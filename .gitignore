@@ -1,12 +1,17 @@
+# Hidden files
 .DS_Store
+.envrc
 .sass-cache
 .yalc/
-Thumbs.db
+# Directories
 build/
-node_modules
+dist/
+node_modules/
+tmp/
+# Files
+Thumbs.db
 npm-debug.log
-tmp
-yarn-error.log
 yalc.lock
+yarn-error.log
 *~
-tmp
+
