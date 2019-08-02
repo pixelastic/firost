@@ -1925,6 +1925,11 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
+convert-hrtime@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/convert-hrtime/-/convert-hrtime-2.0.0.tgz#19bfb2c9162f9e11c2f04c2c79de2b7e8095c627"
+  integrity sha1-Gb+yyRYvnhHC8Ewsed4rfoCVxic=
+
 convert-source-map@^1.1.0, convert-source-map@^1.4.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.6.0.tgz#51b537a8c43e0f04dec1993bffcdd504e758ac20"
@@ -2813,7 +2818,7 @@ flat-map-polyfill@^0.3.8:
   resolved "https://registry.yarnpkg.com/flat-map-polyfill/-/flat-map-polyfill-0.3.8.tgz#4ec0bfb7c70e2962f00db03548d3620471fd8697"
   integrity sha512-ZfmD5MnU7GglUEhiky9C7yEPaNq1/wh36RDohe+Xr3nJVdccwHbdTkFIYvetcdsoAckUKT51fuf44g7Ni5Doyg==
 
-flat@^4.1.0:
+flat@4.1.0, flat@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/flat/-/flat-4.1.0.tgz#090bec8b05e39cba309747f1d588f04dbaf98db2"
   integrity sha512-Px/TiLIznH7gEDlPXcUD4KnBusa6kR6ayRUVcnEAbreRIuhkqow/mun59BuRXwoYk7ZQOLW1ZM05ilIvK38hFw==
@@ -3109,6 +3114,24 @@ golgoth@0.1.4, golgoth@~0.1.0:
     p-map-series "1.0.0"
     pify "4.0.1"
     query-string "6.2.0"
+
+golgoth@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.3.0.tgz#329e17799b308ecb518f6f4b3c715b169730a475"
+  integrity sha512-sZHhRS/EbGBpcEoSGWh5bz2n4wUePTudsR3hXxcQqexQxy7VsjyvXarRuMYPOFixB/SIki5A03bYmMNZgEhy4g==
+  dependencies:
+    chalk "2.4.1"
+    dayjs "1.7.7"
+    flat "4.1.0"
+    got "9.3.2"
+    lodash "4.17.11"
+    ora "3.0.0"
+    p-all "1.0.0"
+    p-map "2.0.0"
+    p-map-series "1.0.0"
+    pify "4.0.1"
+    query-string "6.2.0"
+    time-span "3.1.0"
 
 gonzales-pe@^4.2.3:
   version "4.2.4"
@@ -6738,6 +6761,13 @@ through@^2.3.6:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+time-span@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/time-span/-/time-span-3.1.0.tgz#7c33a0dcc3f46199c966f532ac48442bfc7f7c0d"
+  integrity sha512-iol7ZQkkMAtlveWFZdTmphGho2RZcUrrg8E3U+YfeDCjFil0sPFU4Q+iyi21HDPwY3vieXV2bjAla75uA6WW+w==
+  dependencies:
+    convert-hrtime "^2.0.0"
 
 tmp@^0.0.33:
   version "0.0.33"

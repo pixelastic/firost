@@ -7,7 +7,7 @@
     "chokidar": "3.0.2",
     "fs-extra": "7.0.0",
     "globby": "8.0.2",
-    "golgoth": "~0.1.0",
+    "golgoth": "0.3.0",
     "inquirer": "6.5.0",
     "is-glob": "4.0.0",
     "json-stable-stringify": "1.0.1",
