@@ -4,7 +4,6 @@
     "url": "https://github.com/pixelastic/firost/issues"
   },
   "dependencies": {
-    "caller-path": "2.0.0",
     "chokidar": "3.0.2",
     "fs-extra": "7.0.0",
     "globby": "8.0.2",
