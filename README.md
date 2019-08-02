@@ -143,6 +143,17 @@ Returns the content of a JSON URL as a JavaScript object.
 const data = await firost.readJsonUrl('http://www.example.com/data.json');
 ```
 
+## `require(id)`
+
+Alternative to the default `require()` call that works with `module.exports` and
+`export default` syntax. Pass `forceReload: true` as an option to force
+reloading the latest version on disk, bypassing the singleton cache.
+
+```js
+const module = firost.require('./path/to/module.js');
+const updatedModule = firost.require('./path/to/module.js', { forceReload: true });
+```
+
 ## `remove(target)`
 
 Remove file(s)
