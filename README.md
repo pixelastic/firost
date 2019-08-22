@@ -214,6 +214,17 @@ await unwatchAll();
 await waitForWatchers();
 ```
 
+## `which(command)`
+
+Returns the path to an executable on the system. Returns `false` if none is
+found.
+
+```js
+if (!await firost.which('convert')) {
+  console.info('You need to install ImageMagick');
+}
+```
+
 ## `write(content, destination)`
 
 Write content to a file on disk.
