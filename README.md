@@ -195,6 +195,15 @@ const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo
 // http/www.example.com/path/file_foo-bar.html
 ```
 
+## `uuid()`
+
+Returns a unique id that could be used in URL of filepaths.
+
+```js
+console.info(firost.uuid());
+// V1StGXR8_Z5jdHi6B-myT
+```
+
 ## `watch(pattern, callback, {watcherName})`
 
 Watch for file change, and run specified callback with path to changed files.
