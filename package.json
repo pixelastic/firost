@@ -6,7 +6,7 @@
   "dependencies": {
     "chokidar": "3.0.2",
     "esm": "^3.2.25",
-    "fs-extra": "7.0.0",
+    "fs-extra": "^8.1.0",
     "globby": "8.0.2",
     "golgoth": "0.3.0",
     "inquirer": "6.5.0",
