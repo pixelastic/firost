@@ -119,6 +119,18 @@ Interactively ask user a question
 const mood = await firost.prompt('How do you feel?');
 ```
 
+## `pulse`
+
+Shared event emitter to listen and emit events
+
+```js
+pulse.on('custom', (data) => {
+  console.info(data);
+});
+pulse.emit('custom', 'Hello');
+// Hello
+```
+
 ## `read(path)`
 
 Returns the textual content of a file located at the specified filepath.

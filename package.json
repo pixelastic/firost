@@ -6,6 +6,7 @@
   "dependencies": {
     "chokidar": "3.0.2",
     "esm": "^3.2.25",
+    "eventemitter2": "^5.0.1",
     "fs-extra": "^8.1.0",
     "globby": "8.0.2",
     "golgoth": "0.3.0",
