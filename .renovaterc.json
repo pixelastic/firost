@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:js-lib",
+    "aberlaas",
+    "aberlaas:automergePublicly",
+    "aberlaas:enableMasterIssue",
+    "aberlaas:scheduleAtNight"
+  ]
+}
