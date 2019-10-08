@@ -9,7 +9,7 @@
     "eventemitter2": "^5.0.1",
     "fs-extra": "^8.1.0",
     "globby": "8.0.2",
-    "golgoth": "^0.3.4",
+    "golgoth": "^0.4.0",
     "inquirer": "6.5.0",
     "is-glob": "4.0.0",
     "json-stable-stringify": "1.0.1",

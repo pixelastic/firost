@@ -3180,10 +3180,10 @@ golgoth@0.3.1:
     query-string "6.2.0"
     time-span "3.1.0"
 
-golgoth@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.3.4.tgz#ffff3a5e1d7fbcef45c775ae993f0eb92a433091"
-  integrity sha512-qH92dMzQqUSSVOMQgVdn8qJvqe9whRAqDfVzsSSyuq+tg4+nDOqvm3eaEJjPbArvkK2fi4wIanGZj/toMXPdXQ==
+golgoth@^0.4.0:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.4.2.tgz#66c1c5202bbe58bd35c54ce95a7056046dc895e8"
+  integrity sha512-1t+rmZk64TSzfpU1psgFmNnqy+4vW4WONYn1S0WuwbJ1e4JQnzlMDrc87iqQaMQV/qdJjqMm2mRt0cyqFtYsKQ==
   dependencies:
     chalk "2.4.2"
     dayjs "1.8.16"
