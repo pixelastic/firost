@@ -8,7 +8,7 @@
     "esm": "^3.2.25",
     "eventemitter2": "^5.0.1",
     "fs-extra": "^8.1.0",
-    "globby": "8.0.2",
+    "globby": "10.0.1",
     "golgoth": "^0.4.0",
     "inquirer": "7.0.0",
     "is-glob": "4.0.1",
@@ -20,7 +20,7 @@
   "description": "Async glob, read and write files",
   "devDependencies": {
     "aberlaas": "0.4.3",
-    "get-port": "4.2.0"
+    "get-port": "5.0.0"
   },
   "files": [
     "build"
