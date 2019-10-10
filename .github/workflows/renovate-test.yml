@@ -1,0 +1,31 @@
+name: Test Renovate Pull Requests
+
+on: 
+  pull_request:
+    branches:
+      - renovate/**
+    types: 
+      - opened
+      - synchronize
+
+jobs:
+  main:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      # Setup Git
+      - uses: actions/checkout@v1
+        with:
+          ref: master
+      # Setup Node
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Yarn install
+        run: |
+          npm install -g yarn
+          yarn install
+
+      # Push data to Algolia
+      - name: Run tests
+        run: yarn run test
