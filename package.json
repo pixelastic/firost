@@ -19,11 +19,11 @@
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.6.3",
+    "aberlaas": "0.6.4",
     "get-port": "5.0.0"
   },
   "files": [
-    "build"
+    "build/"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
   "keywords": [],
@@ -45,6 +45,7 @@
     "lint:js:fix": "./scripts/lint-js-fix",
     "lint:json": "./scripts/lint-json",
     "lint:json:fix": "./scripts/lint-json-fix",
+    "precommit": "./scripts/precommit",
     "release": "./scripts/release",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
