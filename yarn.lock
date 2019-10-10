@@ -1095,7 +1095,7 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@^0.4.3:
+aberlaas@0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.4.3.tgz#c91be13602c5cc5f7d5b1fe719f3234b9ea09bc1"
   integrity sha512-zGsf9o8du7OQbxFHNNngkY03MPT2pFjlu52jfwuUPqUcgSjI30NKa3XXlC0CpqFXBl4N1YrBSHuuEbGNPifGdg==
