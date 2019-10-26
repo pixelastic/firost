@@ -1,3 +1,10 @@
+# [0.15.0](https://github.com/pixelastic/firost/compare/0.14.0...0.15.0) (2019-10-26)
+
+
+### Features
+
+* **spinner:** Add spinner ([fb5e2e1](https://github.com/pixelastic/firost/commit/fb5e2e1c503063b97ac5697d873dcbd61cefb855))
+
 # [0.14.0](https://github.com/pixelastic/firost/compare/0.13.1...0.14.0) (2019-10-26)
 
 
