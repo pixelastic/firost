@@ -175,6 +175,18 @@ await firost.remove('index.back.html');
 await firost.remove('*.back.html');
 ```
 
+## `spinner(max)`
+
+Creates a spinner with optional max number of elements.
+
+```js
+const progress = firost.spinner(10);
+
+progress.tick('Doing task 1');
+progress.success('All tasks done');
+// or progress.failure('All tasks failed');
+```
+
 ## `shell(command)`
 
 Run the given command in a shell. Returns `stdout`, throws with `stderr` and
