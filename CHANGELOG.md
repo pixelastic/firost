@@ -1,3 +1,10 @@
+# [0.16.0](https://github.com/pixelastic/firost/compare/0.15.0...0.16.0) (2019-10-31)
+
+
+### Features
+
+* **writeJson:** Prettify output if prettier is available ([cef3ed2](https://github.com/pixelastic/firost/commit/cef3ed2b269ee8762ccf3fa8b6f5e18ee62b9efc))
+
 # [0.15.0](https://github.com/pixelastic/firost/compare/0.14.0...0.15.0) (2019-10-26)
 
 
