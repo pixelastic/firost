@@ -3,6 +3,6 @@
     "config:js-lib",
     "aberlaas",
     "aberlaas:automergeSilently",
-    "aberlaas:scheduleAtNight"
+    "aberlaas:scheduleAtAnyTime"
   ]
 }
