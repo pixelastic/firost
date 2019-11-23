@@ -29,13 +29,13 @@ workflows:
   ci:
     jobs:
       - test
-      - style
+      - lint
       - build
 
 jobs:
   test:
     <<: *defaults
-    name: 'Run tests'
+    description: 'Run tests'
     steps:
       - checkout
       - restore_cache: *restore_cache
@@ -44,7 +44,7 @@ jobs:
       - run: 'yarn run test'
   lint:
     <<: *defaults
-    name: 'Check styles'
+    description: 'Check styles'
     steps:
       - checkout
       - restore_cache: *restore_cache
