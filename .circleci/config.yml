@@ -1,0 +1,61 @@
+version: 2.1
+# Note: This file make use of "advanced" YAML features, like default values and
+# aliases. Those two must be declared at the top of the file.
+
+# These default can be added to any yaml entry with <<: *defaults
+defaults: &defaults
+  docker:
+    # Use node v13.1.0
+    # To know the correct sha, trigger a dummy build with
+    # circleci/node:latest, and check the logs for the full sha
+    - image: circleci/node@sha256:ec36681b4ad809d668bb6117e135db9cc44f0af87c9d9d65adafd75cace78477
+
+# These &alias, can then be used by calling them as *alias
+aliases:
+  - &restore_cache
+    name: Restore Yarn cache
+    key: yarn-cache-{{ checksum "yarn.lock" }}
+
+  - &save_cache
+    name: Save Yarn cache
+    key: yarn-cache-{{ checksum "yarn.lock" }}
+    paths:
+      - ~/.cache/yarn
+
+# We run tests, check for linting issues and try to build the project in
+# parallel
+workflows:
+  version: 2.1
+  ci:
+    jobs:
+      - test
+      - lint
+      - build
+
+jobs:
+  test:
+    <<: *defaults
+    description: 'Run tests'
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: 'yarn install'
+      - save_cache: *save_cache
+      - run: 'yarn run test'
+  lint:
+    <<: *defaults
+    description: 'Check styles'
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: 'yarn install'
+      - save_cache: *save_cache
+      - run: 'yarn run lint'
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: 'yarn install'
+      - save_cache: *save_cache
+      - run: 'yarn run build'
