@@ -3661,29 +3661,27 @@ globjoin@^0.1.4:
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
   integrity sha1-L0SUrIkZ43Z8XLtpHp9GMyQoXUM=
 
-golgoth@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.4.0.tgz#cee7e8677813ceddcfd021d5ac776fee548a7c94"
-  integrity sha512-QI2Q77UmVmWpZ4SEI9PpIljdMqpriW/kFGxYO9SsgbiP69eLb3mj2ckQjfx2ItzDyCpkyE2OqHX/WcczQdYTQQ==
-  dependencies:
-    chalk "2.4.2"
-    dayjs "1.8.16"
-    flat "4.1.0"
-    got "9.6.0"
-    lodash "^4.17.15"
-    ora "3.0.0"
-    p-all "1.0.0"
-    p-map "2.0.0"
-    p-map-series "1.0.0"
-    p-settle "3.1.0"
-    pify "4.0.1"
-    query-string "6.2.0"
-    time-span "3.1.0"
-
 golgoth@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.5.1.tgz#5eba3efe36e194b8846d51f6a4a0cfaf366ad708"
   integrity sha512-Y8GhgQE+FleE21Nz+xjgEoO14ZCwcMfUHu7wASJz6QTvA2JzjE9euOYfVWrGKsby39y0u6N8BaurKTUT9ddREA==
+  dependencies:
+    chalk "3.0.0"
+    dayjs "1.8.17"
+    flat "5.0.0"
+    got "9.6.0"
+    lodash "^4.17.15"
+    p-all "2.1.0"
+    p-map "3.0.0"
+    p-map-series "2.1.0"
+    pify "4.0.1"
+    query-string "6.9.0"
+    time-span "3.1.0"
+
+golgoth@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.0.tgz#e0bf779719e8c0055f016abe0cd7a3526d1906ba"
+  integrity sha512-9vFuY+SsJhCwPfEGXzcJmh+0OyWhtNT22kgNGLLCqEJ34WYtpCe1ZFBo4kDDwmIBfl831oOGevQQguj4X0RHZA==
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.17"
@@ -6234,19 +6232,6 @@ p-reduce@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-reduce/-/p-reduce-1.0.0.tgz#18c2b0dd936a4690a529f8231f58a0fdb6a47dfa"
   integrity sha1-GMKw3ZNqRpClKfgjH1ig/bakffo=
-
-p-reflect@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/p-reflect/-/p-reflect-2.1.0.tgz#5d67c7b3c577c4e780b9451fc9129675bd99fe67"
-  integrity sha512-paHV8NUz8zDHu5lhr/ngGWQiW067DK/+IbJ+RfZ4k+s8y4EKyYCz8pGYWjxCg35eHztpJAt+NUgvN4L+GCbPlg==
-
-p-settle@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/p-settle/-/p-settle-3.1.0.tgz#6194f4f929364a8843be54ced118389b7b9ee017"
-  integrity sha512-gkN3UDlyofG81IRhxLnonSIi8BBrwcPlKMJS6tcJRubofyekqQPMdB5LXPrmCkeu/m/YKx5PzkUVQLezda5/JQ==
-  dependencies:
-    p-limit "^2.2.0"
-    p-reflect "^2.0.0"
 
 p-try@^1.0.0:
   version "1.0.0"
