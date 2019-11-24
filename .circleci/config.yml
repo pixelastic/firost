@@ -24,9 +24,9 @@ aliases:
 
   - &versions
     name: Show node and yarn versions
-    run:
-      - 'node --version'
-      - 'yarn --version'
+    command: |
+      node --version
+      yarn --version
 
 # We run tests, check for linting issues and try to build the project in
 # parallel
