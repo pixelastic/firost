@@ -31,7 +31,7 @@ aliases:
 # We run tests, check for linting issues and try to build the project in
 # parallel
 workflows:
-  version: 2.1
+  version: 2
   ci:
     jobs:
       - test
