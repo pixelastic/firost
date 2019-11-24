@@ -4,7 +4,7 @@
     "url": "https://github.com/pixelastic/firost/issues"
   },
   "dependencies": {
-    "chokidar": "3.2.1",
+    "chokidar": "3.3.0",
     "esm": "3.2.25",
     "eventemitter2": "5.0.1",
     "fs-extra": "8.1.0",
