@@ -1188,10 +1188,10 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.8.1.tgz#aa1268fa6e1a6deb8d8965a047db1d032b254672"
-  integrity sha512-YP4IwTfXGcvq83YusWAfeGtCVJIFDfhBNeUyH3BKOBjAFRWrVwoMNf4ZZMuis3WsTzMs/OQDh3nQAVgp9AAykw==
+aberlaas@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.8.0.tgz#5c193a4b007186c42e648729b0be3dc9e89a7f89"
+  integrity sha512-REM8CqjhaLZr+ANxP2QJAepYspuq1LZwjZJ8m7CQW5j98uqyy8iwXJ0pDJqyKp76tMmjcek2vGIzMnmg2/PNbA==
   dependencies:
     "@babel/cli" "7.6.0"
     "@babel/core" "7.6.0"
@@ -1202,7 +1202,6 @@ aberlaas@0.8.1:
     babel-core "7.0.0-bridge.0"
     babel-eslint "10.0"
     babel-jest "24.9.0"
-    ci-info "2.0.0"
     eslint "6.3.0"
     eslint-config-prettier "6.2.0"
     eslint-plugin-import "2.18.2"
@@ -1920,7 +1919,7 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
   integrity sha512-i70fVHhmV3DtTl6nqvZOnIjbY0Pe4kAUjwHj8z0zAdgBtYrJyYwLKCCuRBQ5ppkyL0AkN7HKRnETdmdp1zqNXw==
 
-ci-info@2.0.0, ci-info@^2.0.0:
+ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
