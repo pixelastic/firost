@@ -22,6 +22,12 @@ aliases:
     paths:
       - ~/.cache/yarn
 
+  - &versions
+    name: Show node and yarn versions
+    run:
+      - 'node --version'
+      - 'yarn --version'
+
 # We run tests, check for linting issues and try to build the project in
 # parallel
 workflows:
@@ -38,6 +44,7 @@ jobs:
     description: 'Run tests'
     steps:
       - checkout
+      - run: *versions
       - restore_cache: *restore_cache
       - run: 'yarn install'
       - save_cache: *save_cache
@@ -47,6 +54,7 @@ jobs:
     description: 'Check styles'
     steps:
       - checkout
+      - run: *versions
       - restore_cache: *restore_cache
       - run: 'yarn install'
       - save_cache: *save_cache
@@ -55,6 +63,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run: *versions
       - restore_cache: *restore_cache
       - run: 'yarn install'
       - save_cache: *save_cache
