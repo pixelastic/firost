@@ -1,4 +1,4 @@
-version: 2.1
+version: 2
 # Note: This file make use of "advanced" YAML features, like default values and
 # aliases. Those two must be declared at the top of the file.
 
