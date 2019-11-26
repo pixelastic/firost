@@ -20,8 +20,12 @@
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.8.1",
+    "aberlaas": "0.9.0",
     "get-port": "5.0.0"
+  },
+  "engines": {
+    "node": "13.1.0",
+    "yarn": "1.19.1"
   },
   "files": [
     "build/"
@@ -38,6 +42,7 @@
   "scripts": {
     "build": "./scripts/build",
     "build:watch": "./scripts/build-watch",
+    "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:css": "./scripts/lint-css",
