@@ -1,3 +1,27 @@
+# [0.17.0](https://github.com/pixelastic/firost/compare/0.15.0...0.17.0) (2019-11-26)
+
+
+### Bug Fixes
+
+* **actions:** Remove GitHub action ([954a9b3](https://github.com/pixelastic/firost/commit/954a9b3c4449cbc0495e1da4477bc7bfaea9b7ef))
+* **circleci:** Downgrade to version 2 ([3910726](https://github.com/pixelastic/firost/commit/3910726ea2e6924b3ff269fa4191842faebae0e4))
+* **circleci:** Fix run command syntax ([8cd9182](https://github.com/pixelastic/firost/commit/8cd91825de5b1bf3f90f2d44507cfa885cbb6121))
+* **circleci:** Use version 2, not 2.1 ([078ab07](https://github.com/pixelastic/firost/commit/078ab07575f6ca4f0bc57ec7b1b6b2be60578d4f))
+* **deps:** update dependency chokidar to v3.3.0 ([3b6866f](https://github.com/pixelastic/firost/commit/3b6866fa684492d446ba5c67a50b96d204643cc1))
+* **deps:** update dependency golgoth to v0.6.0 ([130b636](https://github.com/pixelastic/firost/commit/130b636dec3b646007c40447212c5146740c2cf2))
+* **deps:** update dependency nanoid to v2.1.7 ([4283e9a](https://github.com/pixelastic/firost/commit/4283e9a29c15df7cd1c7d26f41dd270a51eb6fdf))
+* **deps:** update dependency ora to v4.0.3 ([b1e82d7](https://github.com/pixelastic/firost/commit/b1e82d7bdb8ab5094cfa9ac1f458441b082f6c60))
+* **deps:** update dependency which to v2.0.2 ([3a44895](https://github.com/pixelastic/firost/commit/3a44895169e3e017dde36c09b4a1f2de606b9188))
+
+
+### Features
+
+* **circleci:** Add test/build/lint pipeline ([1ec1bbb](https://github.com/pixelastic/firost/commit/1ec1bbb8de337d684f1e5d5bc78dbd4c3308d3cc))
+* **circleci:** Add version debugging ([200b4b6](https://github.com/pixelastic/firost/commit/200b4b6948193c26231f2e998bed227ae75d8caf))
+* **lint:** Update aberlaas to validate circleci ([5902e0d](https://github.com/pixelastic/firost/commit/5902e0ddf22c054fe08487b83c498fbf01ba146c))
+* **renovate:** Update deps as soon as possible ([ce7d5bf](https://github.com/pixelastic/firost/commit/ce7d5bff85a09458afb81ae31a8851c655e3e4c9))
+* **writeJson:** Prettify output if prettier is available ([cef3ed2](https://github.com/pixelastic/firost/commit/cef3ed2b269ee8762ccf3fa8b6f5e18ee62b9efc))
+
 # [0.16.0](https://github.com/pixelastic/firost/compare/0.15.0...0.16.0) (2019-10-31)
 
 
