@@ -8,7 +8,7 @@ defaults: &defaults
     # Use node v13.1.0
     # To know the correct sha, trigger a dummy build with
     # circleci/node:latest, and check the logs for the full sha
-    - image: circleci/node@sha256:ec36681b4ad809d668bb6117e135db9cc44f0af87c9d9d65adafd75cace78477
+    - image: circleci/node@sha256:91bdc627e3c06298c8edc6c5030429401c81819acc2f3784765f8ae555775ebf
 
 # These &alias, can then be used by calling them as *alias
 aliases:
