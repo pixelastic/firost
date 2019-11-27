@@ -1,3 +1,10 @@
+## [0.19.1](https://github.com/pixelastic/firost/compare/0.19.0...0.19.1) (2019-11-27)
+
+
+### Features
+
+* **release:** Update release script ([4040a07](https://github.com/pixelastic/firost/commit/4040a07a9a1e4a0c9b5f1960a714559368e9d5b3))
+
 # [0.19.0](https://github.com/pixelastic/firost/compare/0.18.0...0.19.0) (2019-11-27)
 
 
