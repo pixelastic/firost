@@ -1,3 +1,15 @@
+# [0.18.0](https://github.com/pixelastic/firost/compare/0.17.1...0.18.0) (2019-11-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency golgoth to v0.6.1 ([5478529](https://github.com/pixelastic/firost/commit/547852994ff69de58adcdcf7b74cefc160f084e2))
+
+
+### Features
+
+* **methods:** Add console{Info|Warn|Error|Success}, error and exit ([a9fab03](https://github.com/pixelastic/firost/commit/a9fab0369200e128e11d294bc6acfbd4a7dbede9))
+
 ## [0.17.1](https://github.com/pixelastic/firost/compare/0.17.0...0.17.1) (2019-11-27)
 
 
