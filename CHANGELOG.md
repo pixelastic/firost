@@ -1,3 +1,16 @@
+## [0.17.1](https://github.com/pixelastic/firost/compare/0.17.0...0.17.1) (2019-11-27)
+
+
+### Bug Fixes
+
+* **ci:** Use proper CircleCI config ([4f710ad](https://github.com/pixelastic/firost/commit/4f710adb8f8ba0d2704771eae15543a630e08a71))
+* **engines:** Do not pin engines ([64c2c22](https://github.com/pixelastic/firost/commit/64c2c22c30ed52bbdc5c4d8214f33e1da6beab16))
+
+
+### Features
+
+* **ci:** Add CI integration ([9126058](https://github.com/pixelastic/firost/commit/91260582854020d7a9ecb40bd0a09961f65a3130))
+
 # [0.17.0](https://github.com/pixelastic/firost/compare/0.15.0...0.17.0) (2019-11-26)
 
 
