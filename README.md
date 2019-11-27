@@ -229,6 +229,22 @@ Interactively ask user a question
 const mood = await firost.prompt('How do you feel?');
 ```
 
+### `run(command)`
+
+Run a shell command just like in the terminal, but also allows access to
+`stdout`, `stderr` and exit `code`.
+
+```javascript
+const { stdout } = await run('echo foo'); // foo
+const { stderr } = await run('>&2 echo bar', { shell: true }); // foo
+try {
+  await run('echo foo && exit 42');
+} catch (err) {
+  // err.code = 42
+  // err.stdout = foo
+}
+```
+
 ### `spinner(max)`
 
 Creates a spinner with optional max number of elements.
@@ -242,6 +258,8 @@ progress.success('All tasks done');
 ```
 
 ### `shell(command)`
+
+_Deprecated. Use `run` instead, it if much more flexible_
 
 Run the given command in a shell. Returns `stdout`, throws with `stderr` and
 `exitCode`.
