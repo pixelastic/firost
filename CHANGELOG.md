@@ -1,3 +1,10 @@
+# [0.19.0](https://github.com/pixelastic/firost/compare/0.18.0...0.19.0) (2019-11-27)
+
+
+### Features
+
+* **run:** Add run method to replace shell ([2e63f99](https://github.com/pixelastic/firost/commit/2e63f9939c7a8820a3fedf3e29bcbd1022e995c2))
+
 # [0.18.0](https://github.com/pixelastic/firost/compare/0.17.1...0.18.0) (2019-11-27)
 
 
