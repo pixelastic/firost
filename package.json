@@ -21,7 +21,7 @@
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.9.2",
+    "aberlaas": "0.9.3",
     "get-port": "5.0.0"
   },
   "files": [
