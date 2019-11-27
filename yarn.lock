@@ -3653,6 +3653,23 @@ golgoth@0.6.0:
     query-string "6.9.0"
     time-span "3.1.0"
 
+golgoth@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.1.tgz#3a53d1b42a92d98bf3498d0fe09170224bd65fe0"
+  integrity sha512-MqYipWlUf5CGyOFwMPRfQ7sGdhCowloffAMxLLAUL2zTYA9CAa/VJArHuSM/A9CGt5S5NCrgEvqpfxJhvvzysA==
+  dependencies:
+    chalk "3.0.0"
+    dayjs "1.8.17"
+    flat "5.0.0"
+    got "9.6.0"
+    lodash "^4.17.15"
+    p-all "2.1.0"
+    p-map "3.0.0"
+    p-map-series "2.1.0"
+    pify "4.0.1"
+    query-string "6.9.0"
+    time-span "3.1.0"
+
 gonzales-pe@^4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/gonzales-pe/-/gonzales-pe-4.2.4.tgz#356ae36a312c46fe0f1026dd6cb539039f8500d2"
