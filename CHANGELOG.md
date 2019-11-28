@@ -1,3 +1,10 @@
+## [0.19.2](https://github.com/pixelastic/firost/compare/0.19.1...0.19.2) (2019-11-28)
+
+
+### Bug Fixes
+
+* **watch:** Close watchers with .close() ([eee5dff](https://github.com/pixelastic/firost/commit/eee5dff955d35f07a1cff8bf5e9056f7073f4712))
+
 ## [0.19.1](https://github.com/pixelastic/firost/compare/0.19.0...0.19.1) (2019-11-27)
 
 
