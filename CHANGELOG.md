@@ -1,3 +1,10 @@
+## [0.19.3](https://github.com/pixelastic/firost/compare/0.19.2...0.19.3) (2019-11-29)
+
+
+### Features
+
+* **node:** Downgrade to node 12 instead of node 13 ([6d9ad14](https://github.com/pixelastic/firost/commit/6d9ad1461d2e0356dacb368e222123cfbbddfac2))
+
 ## [0.19.2](https://github.com/pixelastic/firost/compare/0.19.1...0.19.2) (2019-11-28)
 
 
