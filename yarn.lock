@@ -1159,10 +1159,10 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.0.tgz#064b5873d3e34a84a8b1c957aca2111c5fb65049"
-  integrity sha512-o5kcL1GJoA9khcJIG1a1SysvvapGbAqz/cZsOL9BiUhg5wV82gG+kRwbCg0xuZwkYkrgGseyLsD84Q40GT6NTA==
+aberlaas@0.10.5:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.5.tgz#9527bdba5eaebbe71209d159da3439c27bb42614"
+  integrity sha512-QriJWGLcorkFRpbXl571i8GKQh30/MOni71Yd6m6eGu7fOn9fp3VCywBIzGYUYvEPQZhqMT5lKfB9cCAUhZWSQ==
   dependencies:
     "@babel/cli" "7.7.4"
     "@babel/core" "7.7.4"
@@ -1180,7 +1180,7 @@ aberlaas@0.10.0:
     eslint-plugin-jest "23.0.5"
     eslint-plugin-jsdoc "18.1.5"
     eslint-plugin-prettier "3.1.1"
-    firost "0.19.0"
+    firost "0.19.3"
     golgoth "0.6.1"
     husky "3.1.0"
     jasmine-fail-fast "2.0.0"
@@ -3240,10 +3240,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firost@0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.19.0.tgz#eb08dd06bcc4d5e2b1752f33ed8c52229a249b38"
-  integrity sha512-AmrKLvJj7V7UGLshKfNFCYKdFj8vLKcUWqr0ag6KLKI9UOw+hgJXFXnnXocaNMvztGt7wjOpQCBzzfIKBScbNA==
+firost@0.19.3:
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.19.3.tgz#93d751802c2002cb8b0bc06d73a1785f24694665"
+  integrity sha512-fXOBzsr/jbgueUlao6u9Y/843vqNSemhAIf9yKL9pjzJnChe/NTA2/FVi9oufd4wYSU0wreL+dRqNgECuM0Jrg==
   dependencies:
     chokidar "3.3.0"
     esm "3.2.25"
