@@ -318,10 +318,10 @@ firost.cache.has('key'); // false
 
 ### `error`
 
-Returns an `Error` with both a `.message` and a `.code`
+Returns an `Error` with both a `.code` and a `.message`
 
 ```js
-throw firost.error('This failed', 'E_ERROR');
+throw firost.error('E_ERROR', 'This failed');
 ```
 
 ### `pulse`
