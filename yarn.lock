@@ -3666,10 +3666,10 @@ golgoth@0.6.1:
     query-string "6.9.0"
     time-span "3.1.0"
 
-golgoth@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.2.tgz#c0bcc20a4377a3563683e33ec70400c62f385639"
-  integrity sha512-nX4YKqZdsCXpDB3ZPo+SFdTD0zjC083JVpBtyM3afKjKwtg9lA+GgcxeUWayplUPxMty7ojTtw9UbzkqkcwIhQ==
+golgoth@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.3.tgz#0e9a1fa9398c0c52725c5fac79e6d5dfccfcc243"
+  integrity sha512-vyjWTp7Rka+3K/73q9H2olYMUHy8NOe6BQWtFoOP9RTYP4mo+X2XVe+QlKjyXBdE9p0VMKoq1ak6K1fIlG+i2w==
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.17"
