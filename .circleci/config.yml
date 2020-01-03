@@ -1,18 +1,34 @@
-version: 2
+version: 2.1
+
+aliases:
+  - &defaults
+    docker:
+      - image: circleci/node:12.12.0
+  - &restore_cache
+    restore_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+  - &yarn_install
+    run: 'yarn install'
+  - &save_cache
+    save_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+      paths:
+        - ~/.cache/yarn
 
 jobs:
-  build:
-    docker:
-      # To know the correct sha, trigger a dummy build with
-      # circleci/node:latest, and check the logs for the full sha
-      - image: circleci/node@sha256:ec36681b4ad809d668bb6117e135db9cc44f0af87c9d9d65adafd75cace78477
+  # Build/Test/lint
+  ci:
+    <<: *defaults
     steps:
       - checkout
-      - restore_cache:
-          key: yarn-cache-{{ checksum "yarn.lock" }}
-      - run: 'yarn install'
-      - save_cache:
-          key: yarn-cache-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
+      - *restore_cache
+      - *yarn_install
+      - *save_cache
       - run: 'yarn run ci'
+
+workflows:
+  version: 2
+  # On every commit: Build/Test/Lint
+  commit:
+    jobs:
+      - ci
