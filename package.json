@@ -10,7 +10,7 @@
     "execa": "3.4.0",
     "fs-extra": "8.1.0",
     "globby": "10.0.1",
-    "golgoth": "0.6.3",
+    "golgoth": "0.6.4",
     "inquirer": "7.0.1",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
