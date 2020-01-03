@@ -1,3 +1,5 @@
+# [0.20.0](https://github.com/pixelastic/firost/compare/0.19.4...0.20.0) (2020-01-03)
+
 ## [0.19.4](https://github.com/pixelastic/firost/compare/0.19.3...0.19.4) (2020-01-03)
 
 
