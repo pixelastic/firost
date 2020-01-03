@@ -1,3 +1,19 @@
+## [0.19.4](https://github.com/pixelastic/firost/compare/0.19.3...0.19.4) (2020-01-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chokidar to v3.3.1 ([9d4bc6c](https://github.com/pixelastic/firost/commit/9d4bc6ce10b5519fb7ce81a35d16001d19ddd4a4))
+* **deps:** update dependency golgoth to v0.6.2 ([e905331](https://github.com/pixelastic/firost/commit/e905331bd55bf7cfc02357e0ab54c4e9c7bd3768))
+* **deps:** update dependency golgoth to v0.6.3 ([3c3ced4](https://github.com/pixelastic/firost/commit/3c3ced40c62f0b46cd4403e0b7724de65ab31823))
+* **deps:** update dependency inquirer to v7.0.1 ([ed8d5f7](https://github.com/pixelastic/firost/commit/ed8d5f73c9f8a55cbedc99fd2ca8fad7072aa2c5))
+* **deps:** update dependency nanoid to v2.1.8 ([2d873f8](https://github.com/pixelastic/firost/commit/2d873f8ca26c82128175907f7e0aeb215609cb69))
+
+
+### Features
+
+* **deps:** Update deps ([df3bcf9](https://github.com/pixelastic/firost/commit/df3bcf9de8b7217bf6cc3a54188bf037745c8b55))
+
 ## [0.19.3](https://github.com/pixelastic/firost/compare/0.19.2...0.19.3) (2019-11-29)
 
 
