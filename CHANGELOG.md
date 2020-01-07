@@ -1,3 +1,14 @@
+# [0.21.0](https://github.com/pixelastic/firost/compare/0.20.0...0.21.0) (2020-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globby to v10.0.2 ([bee14a2](https://github.com/pixelastic/firost/commit/bee14a2d90a14d134969f8000ecf5c33756fc355))
+* **deps:** update dependency inquirer to v7.0.2 ([5b27bc8](https://github.com/pixelastic/firost/commit/5b27bc8190c7af89413d01e2c335b2f86348a9e5))
+* **deps:** update dependency inquirer to v7.0.3 ([05c30da](https://github.com/pixelastic/firost/commit/05c30da59f5236426de13a72175685dcdc56608d))
+* **deps:** update dependency nanoid to v2.1.9 ([d5f2459](https://github.com/pixelastic/firost/commit/d5f245913e8e96409e8fbf3d494ef1aeeaba211b))
+* **watch:** Fix watch glob negation ([9f02480](https://github.com/pixelastic/firost/commit/9f024803ce052ffa60b6d3db3a74790f49d4eb52))
+
 # [0.20.0](https://github.com/pixelastic/firost/compare/0.19.4...0.20.0) (2020-01-03)
 
 ## [0.19.4](https://github.com/pixelastic/firost/compare/0.19.3...0.19.4) (2020-01-03)
