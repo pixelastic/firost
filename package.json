@@ -9,19 +9,19 @@
     "eventemitter2": "6.0.0",
     "execa": "4.0.0",
     "fs-extra": "8.1.0",
-    "globby": "10.0.1",
+    "globby": "10.0.2",
     "golgoth": "0.6.4",
-    "inquirer": "7.0.1",
+    "inquirer": "7.0.3",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
-    "nanoid": "2.1.8",
+    "nanoid": "2.1.9",
     "ora": "4.0.3",
     "shelljs": "0.8.3",
     "which": "2.0.2"
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "0.10.9",
+    "aberlaas": "0.11.0",
     "get-port": "5.1.0"
   },
   "files": [
