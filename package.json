@@ -25,12 +25,12 @@
     "get-port": "5.1.1"
   },
   "files": [
-    "build/"
+    "lib/"
   ],
   "homepage": "https://github.com/pixelastic/firost#readme",
   "keywords": [],
   "license": "ISC",
-  "main": "build/index.js",
+  "main": "lib/main.js",
   "name": "firost",
   "repository": {
     "type": "git",

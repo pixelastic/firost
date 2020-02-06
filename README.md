@@ -32,7 +32,7 @@ await firost.download('http://www.example.com/file.jpg', './example.jpg');
 Empty the content of a directory
 
 ```js
-await firost.emptyDir('./foo/bar')
+await firost.emptyDir('./foo/bar');
 ```
 
 ### `exists(path)`
@@ -40,7 +40,7 @@ await firost.emptyDir('./foo/bar')
 Check if a file/directory exists
 
 ```js
-await firost.exists('./foo/bar/file.ext')
+await firost.exists('./foo/bar/file.ext');
 ```
 
 ### `glob(pattern, options = {})`
@@ -53,7 +53,9 @@ argument.
 
 ```js
 const paths = await firost.glob(['./src/**/*.css', '!./src/**/_*.css']);
-const noHiddenFiles = await firost.glob(['./lib/**/*.js'], { hiddenFiles: false });
+const noHiddenFiles = await firost.glob(['./lib/**/*.js'], {
+  hiddenFiles: false,
+});
 const noDirectories = await firost.glob(['./lib'], { directories: false });
 ```
 
@@ -132,7 +134,9 @@ await firost.remove('*.back.html');
 Converts an URL into a filepath suitable for writing the file to disk.
 
 ```js
-const filepath = firost.urlToFilepath('http://www.example.com/path/file.html?foo=bar');
+const filepath = firost.urlToFilepath(
+  'http://www.example.com/path/file.html?foo=bar'
+);
 // http/www.example.com/path/file_foo-bar.html
 ```
 
@@ -144,7 +148,11 @@ Watch for file change, and run specified callback with path to changed files.
 function doSomething(filepath, type) {
   console.info(`File ${filepath} was just ${type}`);
 }
-const watcher = await firost.watch('./path/to/files/*.jpg', doSomething, 'my-watcher');
+const watcher = await firost.watch(
+  './path/to/files/*.jpg',
+  doSomething,
+  'my-watcher'
+);
 
 // To remove the watcher:
 await unwatch('my-watch');
@@ -169,7 +177,10 @@ Write data to a JSON file on disk. Keys will be ordered alphabetically, for
 easier diffing of the file.
 
 ```js
-const records = [{ name: 'foo', value: 2 }, { value: 3, name: 'bar' }];
+const records = [
+  { name: 'foo', value: 2 },
+  { value: 3, name: 'bar' },
+];
 await firost.writeJson(records, './records/records.json');
 ```
 
@@ -234,6 +245,15 @@ const mood = await firost.prompt('How do you feel?');
 Run a shell command just like in the terminal, but also allows access to
 `stdout`, `stderr` and exit `code`.
 
+#### Options
+
+| name     | default value | description                                                                                 |
+| -------- | ------------- | ------------------------------------------------------------------------------------------- |
+| `shell`  | `false`       | Set to `true` to enable shell-specific feature (like &&, >, etc)                            |
+| `stdout` | `true`        | Set to false to silence stdout                                                              |
+| `stderr` | `true`        | Set to false to silence stderr                                                              |
+| `stdin`  | `false`       | Set to true to allow user to input keyboard keys. This sets `stdout` and `stderr` to `true` |
+
 ```javascript
 const { stdout } = await run('echo foo'); // foo
 const { stderr } = await run('>&2 echo bar', { shell: true }); // foo
@@ -288,7 +308,7 @@ Returns the path to an executable on the system. Returns `false` if none is
 found.
 
 ```js
-if (!await firost.which('convert')) {
+if (!(await firost.which('convert'))) {
   console.info('You need to install ImageMagick');
 }
 ```
@@ -329,7 +349,7 @@ throw firost.error('E_ERROR', 'This failed');
 Shared event emitter to listen and emit events
 
 ```js
-firost.pulse.on('custom', (data) => {
+firost.pulse.on('custom', data => {
   console.info(data);
 });
 firost.pulse.emit('custom', 'Hello');
@@ -344,12 +364,14 @@ reloading the latest version on disk, bypassing the singleton cache.
 
 ```js
 const module = firost.require('./path/to/module.js');
-const updatedModule = firost.require('./path/to/module.js', { forceReload: true });
+const updatedModule = firost.require('./path/to/module.js', {
+  forceReload: true,
+});
 ```
 
 ### `uuid()`
 
-Returns a unique id that could be used in URL of filepaths.
+Returns a unique ID that could be used in URL of filepaths.
 
 ```js
 console.info(firost.uuid());
