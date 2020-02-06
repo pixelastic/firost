@@ -1,8 +1,23 @@
 {
-  "extends": [
-    "config:js-lib",
-    "aberlaas",
-    "aberlaas:automergeSilently",
-    "aberlaas:scheduleAtAnyTime"
+  "extends": ["config:js-lib", "aberlaas"],
+  "packageRules": [
+    {
+      "groupName": "dependencies",
+      "packagePatterns": [".*"],
+      "schedule": ["after 1am and before 9:30am"]
+    },
+    {
+      "groupName": "tooling",
+      "packageNames": [
+        "aberlaas",
+        "callirhoe",
+        "firost",
+        "golgoth",
+        "norska",
+        "pietro",
+        "sov"
+      ],
+      "schedule": ["after 1am and before 9:30am"]
+    }
   ]
 }
