@@ -37,18 +37,10 @@
     "url": "git+https://github.com/pixelastic/firost.git"
   },
   "scripts": {
-    "build": "./scripts/build",
-    "build:watch": "./scripts/build-watch",
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
-    "lint:css": "./scripts/lint-css",
-    "lint:css:fix": "./scripts/lint-css-fix",
     "lint:fix": "./scripts/lint-fix",
-    "lint:js": "./scripts/lint-js",
-    "lint:js:fix": "./scripts/lint-js-fix",
-    "lint:json": "./scripts/lint-json",
-    "lint:json:fix": "./scripts/lint-json-fix",
     "release": "./scripts/release",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
