@@ -10,7 +10,7 @@
     "execa": "4.0.0",
     "fs-extra": "8.1.0",
     "globby": "10.0.2",
-    "golgoth": "1.0.4",
+    "golgoth": "1.1.1",
     "inquirer": "7.0.4",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
@@ -21,7 +21,7 @@
   },
   "description": "Async glob, read and write files",
   "devDependencies": {
-    "aberlaas": "1.0.2",
+    "aberlaas": "1.1.0",
     "get-port": "5.1.1"
   },
   "files": [
