@@ -13,7 +13,7 @@
     "fs-extra": "8.1.0",
     "globby": "11.0.0",
     "golgoth": "1.1.1",
-    "inquirer": "7.0.6",
+    "inquirer": "7.1.0",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
     "nanoid": "2.1.11",
