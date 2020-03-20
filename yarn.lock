@@ -3360,10 +3360,10 @@ eventemitter2@6.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.0.0.tgz#218eb512c3603c5341724b6af7b686a1aa5ab8f5"
   integrity sha512-ZuNWHD7S7IoikyEmx35vPU8H1W0L+oi644+4mSTg7nwXvBQpIwQL7DPjYUF0VMB0jPkNMo3MqD07E7MYrkFmjQ==
 
-eventemitter2@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.1.0.tgz#1c3e6dfb8b4dfb9a91c70b4567d76f2adfe1845a"
-  integrity sha512-Pt/lucPmq9sYhN7ao6xp5KVdtJQDstr693I/uIcgih7w5TYJ3fwKCGgNu/AZnWvxb1BPKfkGNa1EwuQupWDUJA==
+eventemitter2@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.2.0.tgz#2e0fc04ce0b624b15d4ecb7267058dd78ecd56ca"
+  integrity sha512-r7nubIr3OyrCtrbzjktfwv/VTEH8j/oqvUlnh+x2uSVg6030m8IY+cyK8E9E95nU4brvz8+3Bj1MAn499VcspA==
 
 exec-sh@^0.3.2:
   version "0.3.4"
