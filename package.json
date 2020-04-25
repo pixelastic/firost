@@ -18,7 +18,7 @@
     "json-stable-stringify": "1.0.1",
     "nanoid": "2.1.11",
     "ora": "4.0.4",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.4",
     "which": "2.0.2"
   },
   "description": "Async glob, read and write files",
