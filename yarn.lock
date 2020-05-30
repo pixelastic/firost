@@ -3509,10 +3509,10 @@ eventemitter2@6.2.1:
   resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.2.1.tgz#cec423117a8ce45c471092d0bb01a0aff1ed5e47"
   integrity sha512-38fV8WMnn95y1ugsY8Iu25hhFTHYSqR+JkDVNSuKmi5/sF79Zt+EpA0N6yCGv/PSCZhIRZlyaIBY3q8ed7ZikA==
 
-eventemitter2@6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.4.1.tgz#7fb2dd95f9f7c3c615e848d8a91a18a65feb51b3"
-  integrity sha512-x4TgZ3j6tfLGzAJ4MD7M7qTdAiDlfKdssgFENVpW0csJKdlXTpE27SWUDEDb5eNS/HBWQtiDFPKiO6oHokYDqg==
+eventemitter2@6.4.2:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.4.2.tgz#f31f8b99d45245f0edbc5b00797830ff3b388970"
+  integrity sha512-r/Pwupa5RIzxIHbEKCkNXqpEQIIT4uQDxmP4G/Lug/NokVUWj0joz/WzWl3OxRpC5kDrH/WdiUJoR+IrwvXJEw==
 
 exec-sh@^0.3.2:
   version "0.3.4"
@@ -6628,7 +6628,6 @@ normalize-url@^4.1.0:
 
 np@pixelastic/np#feat/no-2fa:
   version "6.2.0"
-  uid c3ab2e3b053c7da0ce40a572ca1616273ac080f8
   resolved "https://codeload.github.com/pixelastic/np/tar.gz/c3ab2e3b053c7da0ce40a572ca1616273ac080f8"
   dependencies:
     "@samverschueren/stream-to-observable" "^0.3.0"
