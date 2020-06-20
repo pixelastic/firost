@@ -302,6 +302,15 @@ Wait for a specific number of milliseconds
 await firost.sleep(100); // Wait for 100 ms
 ```
 
+### `tmpDirectory()`
+
+Returns a random temporary folder.
+
+```js
+const directory = tmpDirectory();
+await write("random content", `${directory}/tmp.txt`);
+```
+
 ### `which(command)`
 
 Returns the path to an executable on the system. Returns `false` if none is
