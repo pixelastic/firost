@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 set -e
 
-aberlaas ci "$@"
+aberlaas ci "$@" --auto-release

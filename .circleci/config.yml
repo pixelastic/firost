@@ -21,6 +21,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - add_ssh_keys
       - *restore_cache
       - *yarn_install
       - *save_cache
