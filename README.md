@@ -10,13 +10,22 @@ works well with `async`/`await`.
 
 These methods help in finding, reading, moving and writing files on disk.
 
+### `absolute(filepath)`
+
+Converts any filepath to an absolute path, resolving `~/` to home.
+
+```js
+absolute('../path/to/file/oops/../.') // /absolute/path/to/file
+absolute('~/.npmrc') // /home/tim/.npmrc
+```
+
 ### `copy(source, destination)`
 
 Copy file(s)
 
 ```js
-await firost.copy('index.html', './dist/index.html');
-await firost.copy('./foo/*.html', './dist');
+await copy('index.html', './dist/index.html');
+await copy('./foo/*.html', './dist');
 ```
 
 ### `download(url, path)`
@@ -24,7 +33,7 @@ await firost.copy('./foo/*.html', './dist');
 Download a file to specific path on disk
 
 ```js
-await firost.download('http://www.example.com/file.jpg', './example.jpg');
+await download('http://www.example.com/file.jpg', './example.jpg');
 ```
 
 ### `emptyDir(path)`
@@ -32,7 +41,7 @@ await firost.download('http://www.example.com/file.jpg', './example.jpg');
 Empty the content of a directory
 
 ```js
-await firost.emptyDir('./foo/bar');
+await emptyDir('./foo/bar');
 ```
 
 ### `exists(path)`
@@ -40,7 +49,7 @@ await firost.emptyDir('./foo/bar');
 Check if a file/directory exists
 
 ```js
-await firost.exists('./foo/bar/file.ext');
+await exists('./foo/bar/file.ext');
 ```
 
 ### `glob(pattern, options = {})`
@@ -52,11 +61,11 @@ by passing `hiddenFiles: false` or `directories: false` to the `options`
 argument.
 
 ```js
-const paths = await firost.glob(['./src/**/*.css', '!./src/**/_*.css']);
-const noHiddenFiles = await firost.glob(['./lib/**/*.js'], {
+const paths = await glob(['./src/**/*.css', '!./src/**/_*.css']);
+const noHiddenFiles = await glob(['./lib/**/*.js'], {
   hiddenFiles: false,
 });
-const noDirectories = await firost.glob(['./lib'], { directories: false });
+const noDirectories = await glob(['./lib'], { directories: false });
 ```
 
 ### `isDirectory(path)`
@@ -64,7 +73,7 @@ const noDirectories = await firost.glob(['./lib'], { directories: false });
 Checks if the given path is a directory
 
 ```js
-if (await firost.isDirectory('./dist')) {
+if (await isDirectory('./dist')) {
   console.info('Website created');
 }
 ```
@@ -74,7 +83,7 @@ if (await firost.isDirectory('./dist')) {
 Checks if the given path is a file
 
 ```js
-if (await firost.isFile('./package.json')) {
+if (await isFile('./package.json')) {
   console.info('File exists');
 }
 ```
@@ -84,7 +93,7 @@ if (await firost.isFile('./package.json')) {
 Creates a set of nested directories if they don't yet exist.
 
 ```js
-await firost.mkdirp('./dist/css');
+await mkdirp('./dist/css');
 ```
 
 ### `move(source, destination)`
@@ -92,8 +101,8 @@ await firost.mkdirp('./dist/css');
 Move file(s)
 
 ```js
-await firost.move('index.html', 'index.back.html');
-await firost.move('./*.html', './dist');
+await move('index.html', 'index.back.html');
+await move('./*.html', './dist');
 ```
 
 ### `read(path)`
@@ -101,7 +110,7 @@ await firost.move('./*.html', './dist');
 Returns the textual content of a file located at the specified filepath.
 
 ```js
-const content = await firost.read('./src/css/style.css');
+const content = await read('./src/css/style.css');
 ```
 
 ### `readJson(path)`
@@ -109,7 +118,7 @@ const content = await firost.read('./src/css/style.css');
 Returns the content of a JSON file as a JavaScript object.
 
 ```js
-const data = await firost.readJson('./records.json');
+const data = await readJson('./records.json');
 ```
 
 ### `readJsonUrl(url)`
@@ -117,7 +126,7 @@ const data = await firost.readJson('./records.json');
 Returns the content of a JSON URL as a JavaScript object.
 
 ```js
-const data = await firost.readJsonUrl('http://www.example.com/data.json');
+const data = await readJsonUrl('http://www.example.com/data.json');
 ```
 
 ### `remove(target)`
@@ -125,8 +134,8 @@ const data = await firost.readJsonUrl('http://www.example.com/data.json');
 Remove file(s)
 
 ```js
-await firost.remove('index.back.html');
-await firost.remove('*.back.html');
+await remove('index.back.html');
+await remove('*.back.html');
 ```
 
 ### `urlToFilepath(url)`
@@ -134,7 +143,7 @@ await firost.remove('*.back.html');
 Converts an URL into a filepath suitable for writing the file to disk.
 
 ```js
-const filepath = firost.urlToFilepath(
+const filepath = urlToFilepath(
   'http://www.example.com/path/file.html?foo=bar'
 );
 // http/www.example.com/path/file_foo-bar.html
@@ -148,7 +157,7 @@ Watch for file change, and run specified callback with path to changed files.
 function doSomething(filepath, type) {
   console.info(`File ${filepath} was just ${type}`);
 }
-const watcher = await firost.watch(
+const watcher = await watch(
   './path/to/files/*.jpg',
   doSomething,
   'my-watcher'
@@ -168,7 +177,7 @@ await waitForWatchers();
 Write content to a file on disk.
 
 ```js
-await firost.write('This is my content', './dist/content.txt');
+await write('This is my content', './dist/content.txt');
 ```
 
 ### `writeJson(data, destination)`
@@ -181,7 +190,7 @@ const records = [
   { name: 'foo', value: 2 },
   { value: 3, name: 'bar' },
 ];
-await firost.writeJson(records, './records/records.json');
+await writeJson(records, './records/records.json');
 ```
 
 ## Shell methods
@@ -193,7 +202,7 @@ These methods help abstracting some common CLI tasks
 Stop the current process with specified `exitCode`. Similar to `process.exit`.
 
 ```js
-firost.exit(1);
+exit(1);
 ```
 
 ### `consoleInfo`
@@ -201,7 +210,7 @@ firost.exit(1);
 Display an information message
 
 ```js
-firost.consoleInfo('Info');
+consoleInfo('Info');
 // • Info
 ```
 
@@ -210,7 +219,7 @@ firost.consoleInfo('Info');
 Display a warning message
 
 ```js
-firost.consoleWarn('Warning');
+consoleWarn('Warning');
 // ⚠ Warning
 ```
 
@@ -219,7 +228,7 @@ firost.consoleWarn('Warning');
 Display an error message
 
 ```js
-firost.consoleInfo('Error');
+consoleInfo('Error');
 // ✘ Error
 ```
 
@@ -228,7 +237,7 @@ firost.consoleInfo('Error');
 Display an success message
 
 ```js
-firost.consoleSuccess('Success');
+consoleSuccess('Success');
 // ✔ Success
 ```
 
@@ -237,7 +246,7 @@ firost.consoleSuccess('Success');
 Interactively ask user a question
 
 ```js
-const mood = await firost.prompt('How do you feel?');
+const mood = await prompt('How do you feel?');
 ```
 
 ### `run(command)`
@@ -270,7 +279,7 @@ try {
 Creates a spinner with optional max number of elements.
 
 ```js
-const progress = firost.spinner(10);
+const progress = spinner(10);
 
 progress.tick('Doing task 1');
 progress.success('All tasks done');
@@ -286,7 +295,7 @@ Run the given command in a shell. Returns `stdout`, throws with `stderr` and
 
 ```js
 try {
-  const result = await firost.shell('git checkout -b master');
+  const result = await shell('git checkout -b master');
   console.info('Created branch master');
 } catch (err) {
   console.error(err.message);
@@ -299,7 +308,7 @@ try {
 Wait for a specific number of milliseconds
 
 ```js
-await firost.sleep(100); // Wait for 100 ms
+await sleep(100); // Wait for 100 ms
 ```
 
 ### `tmpDirectory()`
@@ -317,7 +326,7 @@ Returns the path to an executable on the system. Returns `false` if none is
 found.
 
 ```js
-if (!(await firost.which('convert'))) {
+if (!(await which('convert'))) {
   console.info('You need to install ImageMagick');
 }
 ```
@@ -329,20 +338,20 @@ if (!(await firost.which('convert'))) {
 Shared singleton to used a proxy cache.
 
 ```js
-firost.cache.write('foo', 42);
-firost.cache.read('foo'); // 42
-firost.cache.has('foo'); // true
-firost.cache.has('nope'); // false
+cache.write('foo', 42);
+cache.read('foo'); // 42
+cache.has('foo'); // true
+cache.has('nope'); // false
 
-firost.cache.write('key', { foo: ['one', 'two'], bar: { three: 3 } });
-firost.cache.read('key.foo'); // ['one', 'two'];
-firost.cache.read('key.bar.three'); // 3
+cache.write('key', { foo: ['one', 'two'], bar: { three: 3 } });
+cache.read('key.foo'); // ['one', 'two'];
+cache.read('key.bar.three'); // 3
 
-firost.cache.clear('key.foo');
-firost.cache.has('key.foo'); // false
+cache.clear('key.foo');
+cache.has('key.foo'); // false
 
-firost.cache.clearAll();
-firost.cache.has('key'); // false
+cache.clearAll();
+cache.has('key'); // false
 ```
 
 ### `error`
@@ -350,7 +359,7 @@ firost.cache.has('key'); // false
 Returns an `Error` with both a `.code` and a `.message`
 
 ```js
-throw firost.error('E_ERROR', 'This failed');
+throw error('E_ERROR', 'This failed');
 ```
 
 ### `pulse`
@@ -358,18 +367,17 @@ throw firost.error('E_ERROR', 'This failed');
 Shared event emitter to listen and emit events
 
 ```js
-firost.pulse.on('custom', data => {
+pulse.on('custom', data => {
   console.info(data);
 });
-firost.pulse.emit('custom', 'Hello');
+pulse.emit('custom', 'Hello');
 // Hello
 ```
 
 ### `require(id)`
 
-Alternative to the default `require()` call that works with `module.exports` and
-`export default` syntax. Pass `forceReload: true` as an option to force
-reloading the latest version on disk, bypassing the singleton cache.
+Alternative to the default `require()`. Pass `forceReload: true` as an option to
+force reloading the latest version on disk, bypassing the singleton cache.
 
 ```js
 const module = firost.require('./path/to/module.js');
@@ -383,6 +391,6 @@ const updatedModule = firost.require('./path/to/module.js', {
 Returns a unique ID that could be used in URL of filepaths.
 
 ```js
-console.info(firost.uuid());
+console.info(uuid());
 // V1StGXR8_Z5jdHi6B-myT
 ```
