@@ -1066,10 +1066,10 @@ abab@^2.0.3:
   resolved "https://registry.npmjs.org/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
-aberlaas@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.10.0.tgz#ecd9394b0cf75b66cc9ada11c0f4b731e0b900eb"
-  integrity sha512-e9cW8L0r9es175ZEricxS5sCDjl/0yQQJpwMRgfCraL2nfyTtywI771/zmUXaYrsSHg/PZfGSO2aUs8Gf+oQXA==
+aberlaas@1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.10.1.tgz#444fde92b03fdfe0ced7780b1220a112234fb837"
+  integrity sha512-6EdutNmWnTysSoqfamUaYd2ECV3HYZ4/HqAHSOnSjoDT/oOCyap8hMguYhmpdPFddZskxA2EPZmZe4sXccJZMA==
   dependencies:
     "@octokit/rest" "18.0.0"
     ci-info "2.0.0"
