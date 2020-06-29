@@ -140,12 +140,15 @@ await remove('*.back.html');
 
 ### `root()`
 
-Returns the absolute path to the current project root (where the package.json
-is)
+Returns the project root path of any file. Default to the file calling the
+method
 
 ```js
-const root = await root();
+await root();
 // /home/tim/projects/firost
+
+await root('~/projects/aberlaas/lib/main.js');
+// /home/tim/projects/aberlaas/
 ```
 
 ### `urlToFilepath(url)`
