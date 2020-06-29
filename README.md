@@ -144,10 +144,10 @@ Returns the project root path of any file. Default to the file calling the
 method
 
 ```js
-await root();
+root();
 // /home/tim/projects/firost
 
-await root('~/projects/aberlaas/lib/main.js');
+root('~/projects/aberlaas/lib/main.js');
 // /home/tim/projects/aberlaas/
 ```
 
