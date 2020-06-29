@@ -138,6 +138,16 @@ await remove('index.back.html');
 await remove('*.back.html');
 ```
 
+### `root()`
+
+Returns the absolute path to the current project root (where the package.json
+is)
+
+```js
+const root = await root();
+// /home/tim/projects/firost
+```
+
 ### `urlToFilepath(url)`
 
 Converts an URL into a filepath suitable for writing the file to disk.
@@ -147,6 +157,10 @@ const filepath = urlToFilepath(
   'http://www.example.com/path/file.html?foo=bar'
 );
 // http/www.example.com/path/file_foo-bar.html
+
+// Also works with relative utls
+const filepath = urlToFilepath('path/file.html?foo=bar');
+// path/file_foo-bar.html
 ```
 
 ### `watch(pattern, callback, {watcherName})`
