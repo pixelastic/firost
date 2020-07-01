@@ -19,6 +19,8 @@
     "ora": "4.0.4",
     "pkg-dir": "4.2.0",
     "shelljs": "0.8.4",
+    "std-mocks": "1.0.1",
+    "strip-ansi": "6.0.0",
     "tempy": "0.5.0",
     "untildify": "4.0.0",
     "which": "2.0.2"

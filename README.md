@@ -371,6 +371,20 @@ cache.clearAll();
 cache.has('key'); // false
 ```
 
+### `captureOutput`
+
+Silence all output of the specified code, and return it instead
+
+```js
+const actual = await captureOutput(async () => {
+  console.info("This will not get displayed");
+  await run('echo Test');
+  await run('./no-existing-script.sh');
+});
+// actual.stdout: ["This will not get displayed", "Test"]
+// actual.stderr: ["Command does not exist"]
+```
+
 ### `error`
 
 Returns an `Error` with both a `.code` and a `.message`
