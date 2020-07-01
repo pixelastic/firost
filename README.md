@@ -52,6 +52,15 @@ Check if a file/directory exists
 await exists('./foo/bar/file.ext');
 ```
 
+### `gitRoot()`
+
+Returns the path of the closest directory holding a .git folder.
+
+```js
+gitRoot(); // /home/tim/projects/firost
+gitRoot('~/projects/aberlaas/lib/main.js'); // /home/tim/projects/aberlaas/
+```
+
 ### `glob(pattern, options = {})`
 
 Returns an array of filepaths matching the specified glob pattern.
@@ -105,6 +114,16 @@ await move('index.html', 'index.back.html');
 await move('./*.html', './dist');
 ```
 
+### `packageRoot()`
+
+Returns the path of the closest directory holding a package.json file.
+
+```js
+packageRoot(); // /home/tim/projects/firost
+packageRoot('~/projects/aberlaas/lib/main.js'); // /home/tim/projects/aberlaas/
+```
+
+
 ### `read(path)`
 
 Returns the textual content of a file located at the specified filepath.
@@ -136,19 +155,6 @@ Remove file(s)
 ```js
 await remove('index.back.html');
 await remove('*.back.html');
-```
-
-### `root()`
-
-Returns the project root path of any file. Default to the file calling the
-method
-
-```js
-root();
-// /home/tim/projects/firost
-
-root('~/projects/aberlaas/lib/main.js');
-// /home/tim/projects/aberlaas/
 ```
 
 ### `urlToFilepath(url)`
@@ -330,11 +336,11 @@ await sleep(100); // Wait for 100 ms
 
 ### `tmpDirectory()`
 
-Returns a random temporary folder.
+Returns a random temporary folder, optionally scoped.
 
 ```js
-const directory = tmpDirectory();
-await write("random content", `${directory}/tmp.txt`);
+tmpDirectory(); // /tmp/{some-random-uuid}
+tmpDirectory('firost/scope/'); // /tmp/firost/scope/{some-random-uuid}
 ```
 
 ### `which(command)`
