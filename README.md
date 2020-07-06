@@ -399,6 +399,15 @@ Returns an `Error` with both a `.code` and a `.message`
 throw error('E_ERROR', 'This failed');
 ```
 
+### `normalizeUrl`
+
+Normalize a URL
+
+```js
+normalizeUrl('http://www.there.com/index.html?sort=asc&name=firost');
+// http://www.there.com/?name=firost&sort=asc
+```
+
 ### `pulse`
 
 Shared event emitter to listen and emit events

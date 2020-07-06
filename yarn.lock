@@ -5162,6 +5162,11 @@ normalize-selector@^0.2.0:
   resolved "https://registry.npmjs.org/normalize-selector/-/normalize-selector-0.2.0.tgz#d0b145eb691189c63a78d201dc4fdb1293ef0c03"
   integrity sha1-0LFF62kRicY6eNIB3E/bEpPvDAM=
 
+normalize-url@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-5.0.0.tgz#f46c9dc20670495e4e18fbd1b4396e41d199f63c"
+  integrity sha512-bAEm2fx8Dq/a35Z6PIRkkBBJvR56BbEJvhpNtvCZ4W9FyORSna77fn+xtYFjqk5JpBS+fMnAOG/wFgkQBmB7hw==
+
 normalize-url@^4.1.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.4.0.tgz#20d1831a8620e4453697b64c63e489b9b71f8ead"
