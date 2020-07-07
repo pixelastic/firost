@@ -1066,21 +1066,21 @@ abab@^2.0.3:
   resolved "https://registry.npmjs.org/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
-aberlaas@1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.10.1.tgz#444fde92b03fdfe0ced7780b1220a112234fb837"
-  integrity sha512-6EdutNmWnTysSoqfamUaYd2ECV3HYZ4/HqAHSOnSjoDT/oOCyap8hMguYhmpdPFddZskxA2EPZmZe4sXccJZMA==
+aberlaas@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.11.0.tgz#24b955b7bce1466450e6d0f801530d0c9f1583b9"
+  integrity sha512-FR5My1kfVzqZ9uIeuukfeGKBTkr7aUjWZBxiD+FjBUA6v1XAd17jqZg5PhsHmK8FDa01wRuGPZz6M1jDDi7Grw==
   dependencies:
     "@octokit/rest" "18.0.0"
     ci-info "2.0.0"
     dedent "0.7.0"
-    eslint "7.3.1"
+    eslint "7.4.0"
     eslint-config-prettier "6.11.0"
-    eslint-plugin-jest "23.17.1"
-    eslint-plugin-jsdoc "28.5.1"
+    eslint-plugin-jest "23.18.0"
+    eslint-plugin-jsdoc "28.6.1"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.1.4"
-    firost "1.7.2"
+    firost "1.11.0"
     golgoth "1.3.0"
     husky "4.2.5"
     jasmine-fail-fast "2.0.1"
@@ -2396,17 +2396,17 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-jest@23.17.1:
-  version "23.17.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-23.17.1.tgz#c0f39ba78e0f33b7ee1ce4ec92b773e39026ea3f"
-  integrity sha512-/o36fw67qNbJGWbSBIBMfseMsNP/d88WUHAGHCi1xFwsNB3XXZGdvxbOw49j3iQz6MCW/yw8OeOsuQhi6mM5ZA==
+eslint-plugin-jest@23.18.0:
+  version "23.18.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.0.tgz#4813eacb181820ed13c5505f400956d176b25af8"
+  integrity sha512-wLPM/Rm1SGhxrFQ2TKM/BYsYPhn7ch6ZEK92S2o/vGkAAnDXM0I4nTIo745RIX+VlCRMFgBuJEax6XfTHMdeKg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-jsdoc@28.5.1:
-  version "28.5.1"
-  resolved "https://registry.npmjs.org/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-28.5.1.tgz#5a95ee8705af389ba2062a1036be6077b5e62f3f"
-  integrity sha512-1XSWu8UnGwqO8mX3XKGofffL83VRt00ptq0m5OrTLFDN3At4x+/pJ8YHJONKhGC35TtjskcS9/RR6F9pjQ8c+w==
+eslint-plugin-jsdoc@28.6.1:
+  version "28.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-28.6.1.tgz#c9e9da59d0d3cef4fb45ffb91c0acde43af4e418"
+  integrity sha512-Z3y7hcNPDuhL339D1KOf9SY8pMAxYxhaG4QLtu3KVn20k/hNF1u6WQv44wvuSCb6OfPJ4say37RUlSNqIjR+mw==
   dependencies:
     comment-parser "^0.7.5"
     debug "^4.1.1"
@@ -2468,10 +2468,10 @@ eslint-visitor-keys@^1.2.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
   integrity sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==
 
-eslint@7.3.1:
-  version "7.3.1"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-7.3.1.tgz#76392bd7e44468d046149ba128d1566c59acbe19"
-  integrity sha512-cQC/xj9bhWUcyi/RuMbRtC3I0eW8MH0jhRELSvpKYkWep3C6YZ2OkvcvJVUeO6gcunABmzptbXBuDoXsjHmfTA==
+eslint@7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.4.0.tgz#4e35a2697e6c1972f9d6ef2b690ad319f80f206f"
+  integrity sha512-gU+lxhlPHu45H3JkEGgYhWhkR9wLHHEXC9FbWFnTlEkbKyZKWgWRLgf61E8zWmBuI6g5xKBph9ltg3NtZMVF8g==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -2834,25 +2834,29 @@ find-versions@^3.2.0:
   dependencies:
     semver-regex "^2.0.0"
 
-firost@1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-1.7.2.tgz#f48c09c6caaac5bdbbf523510ee5fde99672404b"
-  integrity sha512-wGJOnuuaN75OnKLCCJyAmhnsldfhVHCQcf3uvEtQ/gT632qTIGCDI71IaYzV0Dae4dJXXAuqo0kkcT7ol6tA4g==
+firost@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-1.11.0.tgz#2e06333c21a51d92ac3b85bc1de6606236c50268"
+  integrity sha512-acYFkO9r7pWVpoMyp5IXFey9paPbBQuHPiIrUN0Z4NLyofTjfBQVidIQsXwNMsGt8x2n67JhSNxA6C+6yEEAqA==
   dependencies:
     callsites "3.1.0"
     chokidar "3.4.0"
     clear-module "4.1.1"
     eventemitter2 "6.4.3"
     execa "4.0.2"
+    find-up "4.1.0"
     fs-extra "9.0.1"
     globby "11.0.1"
     golgoth "1.3.0"
-    inquirer "7.2.0"
+    inquirer "7.3.0"
     is-glob "4.0.1"
     json-stable-stringify "1.0.1"
     nanoid "3.1.10"
+    normalize-url "5.0.0"
     ora "4.0.4"
     shelljs "0.8.4"
+    std-mocks "1.0.1"
+    strip-ansi "6.0.0"
     tempy "0.5.0"
     untildify "4.0.0"
     which "2.0.2"
@@ -3425,25 +3429,6 @@ inquirer-autosubmit-prompt@^0.2.0:
     chalk "^2.4.1"
     inquirer "^6.2.1"
     rxjs "^6.3.3"
-
-inquirer@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.2.0.tgz#63ce99d823090de7eb420e4bb05e6f3449aa389a"
-  integrity sha512-E0c4rPwr9ByePfNlTIB8z51kK1s2n6jrHuJeEHENl/sbq2G/S1auvibgEwNR4uSyiU+PiYHqSwsgGiXjG8p5ZQ==
-  dependencies:
-    ansi-escapes "^4.2.1"
-    chalk "^3.0.0"
-    cli-cursor "^3.1.0"
-    cli-width "^2.0.0"
-    external-editor "^3.0.3"
-    figures "^3.0.0"
-    lodash "^4.17.15"
-    mute-stream "0.0.8"
-    run-async "^2.4.0"
-    rxjs "^6.5.3"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-    through "^2.3.6"
 
 inquirer@7.3.0:
   version "7.3.0"
