@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "callsites": "3.1.0",
-    "chokidar": "3.4.1",
+    "chokidar": "3.4.2",
     "clear-module": "4.1.1",
     "eventemitter2": "6.4.3",
     "execa": "4.0.3",
@@ -18,7 +18,7 @@
     "json-stable-stringify": "1.0.1",
     "nanoid": "3.1.12",
     "normalize-url": "5.1.0",
-    "ora": "4.0.5",
+    "ora": "4.1.0",
     "shelljs": "0.8.4",
     "std-mocks": "1.0.1",
     "strip-ansi": "6.0.0",
