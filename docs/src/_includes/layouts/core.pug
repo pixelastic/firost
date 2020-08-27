@@ -1,0 +1,29 @@
+include /_includes/mixins.pug
+
+block meta
+  //- This block is empty on purpose; so each page can override the meta object
+
+doctype html
+html(lang='en')
+  +norska_head
+
+body.bg-gray-1.lato
+  include /_includes/header
+  .container.mx-auto.flex.pt-10.pb-3.px-1.md_px-2
+    .w-25p
+      .px-4.py-2
+        each part in data.navigation
+          .bold.gray-7.text-4=part.name
+          ul.mb-1
+            each link in part.links
+              li
+                a.text-2.block.ml-01.my-01.pl-02.gray-7.hover_green-5.border-l-01.border-transparent.hover_border-gray-4(href=`${url.pathToRoot}${link}/`)=link
+
+    .flex-grow.bg-white.border-001.border-gray-4.p-3
+      h1.gray-9.text-6.border-b-01.border-green-5=meta.title
+      .prose.prose-xl.pt-5
+        block content
+
+  include /_includes/footer
+
++norska_scripts

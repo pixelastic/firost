@@ -1,0 +1,58 @@
+{
+  "author": "Tim Carry (@pixelastic)",
+  "bugs": {
+    "url": "https://github.com/pixelastic/firost/issues"
+  },
+  "dependencies": {
+    "callsites": "3.1.0",
+    "chokidar": "3.4.2",
+    "clear-module": "4.1.1",
+    "eventemitter2": "6.4.3",
+    "execa": "4.0.3",
+    "find-up": "4.1.0",
+    "fs-extra": "9.0.1",
+    "globby": "11.0.1",
+    "golgoth": "1.4.0",
+    "inquirer": "7.3.3",
+    "is-glob": "4.0.1",
+    "json-stable-stringify": "1.0.1",
+    "nanoid": "3.1.12",
+    "normalize-url": "5.1.0",
+    "ora": "4.1.1",
+    "std-mocks": "1.0.1",
+    "strip-ansi": "6.0.0",
+    "tempy": "0.6.0",
+    "untildify": "4.0.0",
+    "which": "2.0.2"
+  },
+  "description": "Async glob, read and write files",
+  "devDependencies": {
+    "get-port": "5.1.1"
+  },
+  "files": [
+    "*.js"
+  ],
+  "homepage": "https://projects.pixelastic.com/firost/",
+  "keywords": [
+    "shell",
+    "filesystem",
+    "copy",
+    "move",
+    "delete"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "firost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelastic/firost.git"
+  },
+  "scripts": {
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  },
+  "version": "1.12.0"
+}

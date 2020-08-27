@@ -1,0 +1,68 @@
+.prose {
+  a {
+    @apply green underline underline-transparent transition-colors;
+    &:hover {
+      @apply underline-green;
+    }
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li {
+    code {
+      &:before,
+      &:after {
+        @apply hidden;
+      }
+      @apply bg-gray-3 red-7 px-02 py-01 rounded no-bold;
+    }
+  }
+  pre {
+    @apply bg-gray-9 p-2 gray-1 lh-2;
+  }
+}
+
+.hljs {
+  .hljs-attr {
+    @apply green-5;
+  }
+  .hljs-built_in {
+    @apply yellow;
+  }
+  .hljs-comment {
+    @apply gray-6;
+  }
+  .hljs-keyword {
+    @apply green;
+  }
+  .hljs-meta {
+    @apply orange;
+  }
+  .hljs-number {
+    @apply blue-5 bold;
+  }
+  .hljs-tag {
+    @apply green;
+  }
+  .hljs-string {
+    @apply blue-5;
+  }
+  .hljs-subst {
+    @apply yellow-7;
+  }
+  &.language-html {
+    .hljs-attr {
+      @apply red-5;
+    }
+  }
+  &.language-shell {
+    @apply blue-6;
+    .bash {
+      @apply gray-4;
+    }
+  }
+}

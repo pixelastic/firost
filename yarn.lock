@@ -2288,6 +2288,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+docs@latest:
+  version "0.3.2-canary.0"
+  resolved "https://registry.npmjs.org/docs/-/docs-0.3.2-canary.0.tgz#995f15543f220485c5ffed4748b1a546882a0cc9"
+  integrity sha512-jkGIXsVKFcs8SXpqJuIPZJvwAuHqNwlatDSFLhMXLQDqsvQp+IK7JAdbdJvrypJrdXUnWJTntur3s4qfh6JQCQ==
+
 doctrine@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"

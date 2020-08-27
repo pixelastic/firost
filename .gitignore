@@ -8,6 +8,7 @@ build/
 dist/
 node_modules/
 tmp/
+.netlify/
 # Files
 Thumbs.db
 npm-debug.log
