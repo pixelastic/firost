@@ -48,11 +48,11 @@
     "url": "git+https://github.com/pixelastic/firost.git"
   },
   "scripts": {
-    "lint": "../scripts/lib-lint",
-    "__lint:fix": "./scripts/lint-fix",
+    "lint": "../scripts/lib/lint",
+    "lint:fix": "./scripts/lib/lint-fix",
     "__release": "./scripts/release",
-    "__test": "./scripts/test",
-    "__test:watch": "./scripts/test-watch"
+    "test": "../scripts/lib/test",
+    "test:watch": "../scripts/lib/test-watch"
   },
   "version": "2.0.3"
 }

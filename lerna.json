@@ -1,5 +1,5 @@
 {
-  "packages": ["lib/", "docs/"],
+  "packages": ["lib", "docs"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "2.0.3"

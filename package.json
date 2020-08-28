@@ -3,8 +3,8 @@
   "name": "firost-monorepo",
   "description": "firost top level monorepo",
   "workspaces": [
-    "lib/",
-    "docs/"
+    "lib",
+    "docs"
   ],
   "devDependencies": {
     "aberlaas": "1.13.0",
@@ -14,15 +14,14 @@
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
   "scripts": {
-    "lib:lint": "./scripts/lib-lint",
-    "__lint": "./scripts/lint",
-    "__lint:fix": "./scripts/lint-fix",
-    "__test": "./lib/scripts/test",
-    "__test:watch": "./lib/scripts/test-watch",
-    "__build": "./docs/scripts/build",
-    "__build:prod": "./docs/scripts/build-prod",
-    "__cms": "./docs/scripts/cms",
-    "__serve": "./docs/scripts/serve",
+    "test": "./scripts/lib/test",
+    "test-watch": "./scripts/lib/test-watch",
+    "build": "./scripts/docs/build",
+    "build:prod": "./scripts/docs/build-prod",
+    "cms": "./scripts/docs/cms",
+    "serve": "./scripts/docs/serve",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
     "__husky:precommit": "./scripts/husky-precommit",
     "__release": "./lib/scripts/release",
     "__ci": "./scripts/ci"
