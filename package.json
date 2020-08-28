@@ -24,6 +24,6 @@
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
     "husky:precommit": "./scripts/husky-precommit",
-    "__ci": "./scripts/ci"
+    "ci": "./scripts/ci"
   }
 }
