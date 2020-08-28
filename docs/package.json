@@ -8,12 +8,12 @@
   "name": "firost-docs",
   "private": true,
   "scripts": {
-    "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
-    "build": "./scripts/build",
-    "build:prod": "./scripts/build-prod",
-    "cms": "./scripts/cms",
-    "serve": "./scripts/serve"
+    "lint": "../scripts/docs/lint",
+    "lint:fix": "../scripts/docs/lint-fix",
+    "build": "../scripts/docs/build",
+    "build:prod": "../scripts/docs/build-prod",
+    "cms": "../scripts/docs/cms",
+    "serve": "../scripts/docs/serve"
   },
   "version": "2.0.5"
 }
