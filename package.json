@@ -14,16 +14,17 @@
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
   "scripts": {
-    "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
-    "test": "./lib/scripts/test",
-    "test:watch": "./lib/scripts/test-watch",
-    "build": "./docs/scripts/build",
-    "build:prod": "./docs/scripts/build-prod",
-    "cms": "./docs/scripts/cms",
-    "serve": "./docs/scripts/serve",
-    "husky:precommit": "./scripts/husky-precommit",
-    "release": "./lib/scripts/release",
-    "ci": "./scripts/ci"
+    "lib:lint": "./scripts/lib-lint",
+    "__lint": "./scripts/lint",
+    "__lint:fix": "./scripts/lint-fix",
+    "__test": "./lib/scripts/test",
+    "__test:watch": "./lib/scripts/test-watch",
+    "__build": "./docs/scripts/build",
+    "__build:prod": "./docs/scripts/build-prod",
+    "__cms": "./docs/scripts/cms",
+    "__serve": "./docs/scripts/serve",
+    "__husky:precommit": "./scripts/husky-precommit",
+    "__release": "./lib/scripts/release",
+    "__ci": "./scripts/ci"
   }
 }

@@ -5,7 +5,7 @@
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
-  "name": "docs",
+  "name": "firost-docs",
   "private": true,
   "scripts": {
     "lint": "./scripts/lint",
