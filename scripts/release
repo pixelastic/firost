@@ -2,4 +2,5 @@
 set -e
 cd "$(dirname "$0")/.."
 
-aberlaas lint --fix "$@"
+yarn run test
+lerna publish --yes "$@"

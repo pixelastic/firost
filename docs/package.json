@@ -2,11 +2,10 @@
   "dependencies": {
     "norska": "0.16.0"
   },
-  "devDependencies": {},
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
-  "name": "docs",
+  "name": "firost-docs",
   "private": true,
   "scripts": {
     "lint": "./scripts/lint",
@@ -16,5 +15,5 @@
     "cms": "./scripts/cms",
     "serve": "./scripts/serve"
   },
-  "version": "latest"
+  "version": "2.0.5"
 }
