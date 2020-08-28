@@ -54,5 +54,5 @@
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
   },
-  "version": "2.0.4"
+  "version": "2.0.5"
 }
