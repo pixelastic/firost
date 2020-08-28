@@ -1,14 +1,14 @@
 {
   "private": true,
   "name": "firost-monorepo",
-  "version": "2.0.2",
+  "description": "firost top level monorepo",
   "workspaces": [
-    "lib",
-    "docs"
+    "lib/",
+    "docs/"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "aberlaas": "1.13.0"
+    "aberlaas": "1.13.0",
+    "lerna": "^3.22.1"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
