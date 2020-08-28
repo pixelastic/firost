@@ -22,7 +22,7 @@
     "serve": "./scripts/docs/serve",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
-    "__husky:precommit": "./scripts/husky-precommit",
+    "husky:precommit": "./scripts/husky-precommit",
     "__release": "./lib/scripts/release",
     "__ci": "./scripts/ci"
   }

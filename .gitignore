@@ -15,4 +15,5 @@ npm-debug.log
 yalc.lock
 yarn-error.log
 *~
+lerna-debug.log
 
