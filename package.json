@@ -15,7 +15,7 @@
   "keywords": [],
   "scripts": {
     "test": "./scripts/lib/test",
-    "test-watch": "./scripts/lib/test-watch",
+    "test:watch": "./scripts/lib/test-watch",
     "build": "./scripts/docs/build",
     "build:prod": "./scripts/docs/build-prod",
     "cms": "./scripts/docs/cms",
