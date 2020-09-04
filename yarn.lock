@@ -11122,10 +11122,10 @@ norska-helper@^1.0.0:
     firost "2.0.5"
     golgoth "1.4.0"
 
-norska-html@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.0.2.tgz#41626ad5303fc657699ae666e9accd51bbcc698c"
-  integrity sha512-jEAXTRexOMmqukSrYJiaiT9rq3FLa61UpQyFQ8DF9fkkp3XL9LWuP3tzEbHeMY7+g9fLnsEbCdqcr2P2V/0viA==
+norska-html@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.0.3.tgz#eb8a24cafc0d1bb9c9b0d22732d217032f0146b7"
+  integrity sha512-9AWFIK7mJBvvujgyPPIetzpWigp961jcgxYJjZIY7RlYJ66wqdlZ9+2jYQile4+457mwtACduf/D2lTtkQZBhA==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "2.0.5"
@@ -11200,17 +11200,17 @@ norska-theme-default@^1.0.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.0.1.tgz#6abc0cd6a720604f7535e0d41405f76e9545cae0"
   integrity sha512-zv4QE0vWhoFeNywQi7/c20YDqFQwIthqqJs1pT1FW+wfoZ3xz0tD7DqILRIxPnFa6VvdilHYFkuMk/xbrn+3+A==
 
-norska-theme-docs@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.2.tgz#d0058ba9937e91f537b3d2dd21918ee8efed3b1a"
-  integrity sha512-LxDBWoo0mlBjM4SDEs2U/jC/y3OkKZWaGxNR+iL4RZAsw1BQvRAWJk4XvgiJddaOeZIM88auh/5E4oZCtSCu9g==
+norska-theme-docs@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.3.tgz#098617a77e4c578e6454575a57118469e0481bbd"
+  integrity sha512-ryMeYfYHM+CDnHBC2o4Ole7nzkMiK2PYzbeqLo3rbSbVTt/1mLWXJa5Cu890m24HtZC61F/TiG4jMGjKqQgl4w==
   dependencies:
     firost "2.0.5"
 
-norska@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/norska/-/norska-1.0.2.tgz#b9a0ba0808a2d1d334337bd4537c87f5124a4ec3"
-  integrity sha512-mcBX3Y9Qrob/6YKoZa4uGq/6++7C1TFwy/JURmOiy750tEXneto1kW6369sl9/NuPDmis3fFO9vCOM2TO1aSsw==
+norska@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/norska/-/norska-1.0.3.tgz#d7bc9bd73bb2fb881ce9fa8169a88b009c8dc49c"
+  integrity sha512-OFR1ISaB2/ZGpnINuX+0gLdDTEojrbZxappbHQ9ve3cU9TT6nb1zxNBNzrSPfJOSwKzd+wyaEJcU5b9nMfWPPQ==
   dependencies:
     firost "2.0.5"
     golgoth "1.4.0"
@@ -11222,7 +11222,7 @@ norska@1.0.2:
     norska-css "^1.0.2"
     norska-frontend "^1.0.0"
     norska-helper "^1.0.0"
-    norska-html "^1.0.2"
+    norska-html "^1.0.3"
     norska-image-proxy "^1.0.0"
     norska-init "^1.0.2"
     norska-js "^1.0.2"
