@@ -10666,10 +10666,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-cli@2.61.0:
-  version "2.61.0"
-  resolved "https://registry.npmjs.org/netlify-cli/-/netlify-cli-2.61.0.tgz#12619ddbb55746d0e78f6f16557d97f2a5ae5964"
-  integrity sha512-IGB8m/Cb0LB84K9wXSv3KbGJ29RzPTRt8CfHdH6mBMW5hWk3TfCGIIXl1xjqVR7am4ZxbGlKUcDDiMGGwF+/JQ==
+netlify-cli@2.61.1:
+  version "2.61.1"
+  resolved "https://registry.npmjs.org/netlify-cli/-/netlify-cli-2.61.1.tgz#07afe53f41672b05f3d4bf475ae6363b0d9213a4"
+  integrity sha512-EGmrAxeJXDSlGbXz4BYwztHZC1AVslm2JqSGqiGSslLFbf3NLy0Upa2dXrqUKgMX5XOsxy/FCp68bQeevn88bg==
   dependencies:
     "@netlify/build" "^3.1.10"
     "@netlify/config" "^2.0.9"
@@ -11122,10 +11122,10 @@ norska-helper@^1.0.0:
     firost "2.0.5"
     golgoth "1.4.0"
 
-norska-html@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.0.3.tgz#eb8a24cafc0d1bb9c9b0d22732d217032f0146b7"
-  integrity sha512-9AWFIK7mJBvvujgyPPIetzpWigp961jcgxYJjZIY7RlYJ66wqdlZ9+2jYQile4+457mwtACduf/D2lTtkQZBhA==
+norska-html@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.0.4.tgz#2477eb4b1b2414e365446bbec7d883dfd1f22d78"
+  integrity sha512-FMuXQYeLPeKgvO5aA5s/cbb3eCp42WA4raXp6iDSlFQIHvntM9eD5sRJgwYtJuZig+c/VGuQ7WShv724AMWaYA==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "2.0.5"
@@ -11149,15 +11149,15 @@ norska-image-proxy@^1.0.0:
   resolved "https://registry.npmjs.org/norska-image-proxy/-/norska-image-proxy-1.0.0.tgz#3bd6edf10bccb6a4484acd774a67f2aeb9070643"
   integrity sha512-MHU/VfoUlZ3GkbcanRus0LAfoNjTkKA94ubj5+UXEgQ+Ba3ou3lAk2eGmHOCUCx4VYFS1QQRTstJ4LLt9GQsXw==
 
-norska-init@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/norska-init/-/norska-init-1.0.2.tgz#423b33b565c5b9d407b748f3b6a7a1cd2c8860b2"
-  integrity sha512-iiH5GPl2QBeuVSy1ZNFA+Z70QUfClfHDd6eCUrJpfsNjzJrLjw78n8kyfkzUVq6hyIJQNfZDRGcFwALRSOGrQw==
+norska-init@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/norska-init/-/norska-init-1.0.4.tgz#5f8b0dbc2c7672a13c654a56d8ee8cf03cb5d06e"
+  integrity sha512-d0NbUJlnxDKRkc1EGas1wUh0kMHcYXRko/iR5ISaCe6gUr1NzzcTQzzpV0TO7uwyn4iAyLqXn8HmFc4ON7KEFA==
   dependencies:
     firost "2.0.5"
     golgoth "1.4.0"
     norska-config "^1.0.2"
-    norska-netlify "^1.0.2"
+    norska-netlify "^1.0.4"
 
 norska-js@^1.0.2:
   version "1.0.2"
@@ -11171,16 +11171,16 @@ norska-js@^1.0.2:
     pug-loader "^2.4.0"
     webpack "4.44.1"
 
-norska-netlify@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-1.0.2.tgz#1aae732dc5c924f5023439170c389aea9c0ac41a"
-  integrity sha512-3+rWmybt8yk/+0nLMjAm1OM6tgnU+Q2hVj7hnCOReoq/QKxjuFQVP7dQUHsrWiQgzIhxoHNqTDFTYVodbfT9zQ==
+norska-netlify@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-1.0.4.tgz#2ff9f02f7f4110711d7e6e5a0c323b3f08dc0a9b"
+  integrity sha512-D3p4WIwFGa0Kl75W/7FJ0dHAmY40QVou1/FfcdVlZPOvgk+m3yulm9m4Yc5t9qiwXweryvIPdXFjOGRXnPmkdg==
   dependencies:
     firost "2.0.5"
     golgoth "1.4.0"
     multimatch "4.0.0"
     netlify "4.3.13"
-    netlify-cli "2.61.0"
+    netlify-cli "2.61.1"
     norska-config "^1.0.2"
     norska-helper "^1.0.0"
 
@@ -11200,17 +11200,18 @@ norska-theme-default@^1.0.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.0.1.tgz#6abc0cd6a720604f7535e0d41405f76e9545cae0"
   integrity sha512-zv4QE0vWhoFeNywQi7/c20YDqFQwIthqqJs1pT1FW+wfoZ3xz0tD7DqILRIxPnFa6VvdilHYFkuMk/xbrn+3+A==
 
-norska-theme-docs@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.3.tgz#098617a77e4c578e6454575a57118469e0481bbd"
-  integrity sha512-ryMeYfYHM+CDnHBC2o4Ole7nzkMiK2PYzbeqLo3rbSbVTt/1mLWXJa5Cu890m24HtZC61F/TiG4jMGjKqQgl4w==
+norska-theme-docs@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.4.tgz#48ebe774acaeadd93ed7aa617c0e7e879900e1b0"
+  integrity sha512-Usy+UU4TsVjFav3HjKwuL32PxUOr96wwCDWKMZnOj9LhbSnht8iB4yYJY26zNmMygnhNX+IM4BpXR3ej8ZPByg==
   dependencies:
     firost "2.0.5"
+    golgoth "1.4.0"
 
-norska@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/norska/-/norska-1.0.3.tgz#d7bc9bd73bb2fb881ce9fa8169a88b009c8dc49c"
-  integrity sha512-OFR1ISaB2/ZGpnINuX+0gLdDTEojrbZxappbHQ9ve3cU9TT6nb1zxNBNzrSPfJOSwKzd+wyaEJcU5b9nMfWPPQ==
+norska@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/norska/-/norska-1.0.4.tgz#06739a3d2407b9d02500a4ed30ecfbb557f28371"
+  integrity sha512-mounw6e4k3YxMnWCt9Qwmgrt1tDSuZLVtuwL+mLWAO00z9y/ph13rIxkjD/NEb86tea4NzlQWXSX2Irt6SVjeg==
   dependencies:
     firost "2.0.5"
     golgoth "1.4.0"
@@ -11222,11 +11223,11 @@ norska@1.0.3:
     norska-css "^1.0.2"
     norska-frontend "^1.0.0"
     norska-helper "^1.0.0"
-    norska-html "^1.0.3"
+    norska-html "^1.0.4"
     norska-image-proxy "^1.0.0"
-    norska-init "^1.0.2"
+    norska-init "^1.0.4"
     norska-js "^1.0.2"
-    norska-netlify "^1.0.2"
+    norska-netlify "^1.0.4"
     norska-revv "^1.0.2"
 
 np@6.4.0:
