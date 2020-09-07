@@ -11200,11 +11200,12 @@ norska-theme-default@^1.0.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.0.1.tgz#6abc0cd6a720604f7535e0d41405f76e9545cae0"
   integrity sha512-zv4QE0vWhoFeNywQi7/c20YDqFQwIthqqJs1pT1FW+wfoZ3xz0tD7DqILRIxPnFa6VvdilHYFkuMk/xbrn+3+A==
 
-norska-theme-docs@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.4.tgz#48ebe774acaeadd93ed7aa617c0e7e879900e1b0"
-  integrity sha512-Usy+UU4TsVjFav3HjKwuL32PxUOr96wwCDWKMZnOj9LhbSnht8iB4yYJY26zNmMygnhNX+IM4BpXR3ej8ZPByg==
+norska-theme-docs@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.0.6.tgz#85ea52f690a09f3019efc0f379cb1ef03aa3dc74"
+  integrity sha512-mjFPGZhquHdzV9XUWetzVeOMoVwFFlQVB+qWClLRXdj0/PmNJcriFgkO7Q8KGwrEIWZRZK/V8GRT72o49J4SOA==
   dependencies:
+    aberlaas "1.13.0"
     firost "2.0.5"
     golgoth "1.4.0"
 
