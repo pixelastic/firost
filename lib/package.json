@@ -43,10 +43,7 @@
   "license": "MIT",
   "main": "main.js",
   "name": "firost",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pixelastic/firost.git"
-  },
+  "repository": "pixelastic/firost",
   "scripts": {
     "lint": "../scripts/lib/lint",
     "lint:fix": "../scripts/lib/lint-fix",
