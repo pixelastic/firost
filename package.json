@@ -25,5 +25,9 @@
     "release": "./scripts/release",
     "husky:precommit": "./scripts/husky-precommit",
     "ci": "./scripts/ci"
+  },
+  "dependencies": {
+    "find-up": "5.0.0",
+    "ora": "5.1.0"
   }
 }
