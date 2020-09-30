@@ -17,11 +17,11 @@
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
     "nanoid": "3.1.12",
-    "normalize-url": "5.1.0",
+    "normalize-url": "5.2.1",
     "ora": "4.1.1",
     "std-mocks": "1.0.1",
     "strip-ansi": "6.0.0",
-    "tempy": "0.6.0",
+    "tempy": "0.7.1",
     "untildify": "4.0.0",
     "which": "2.0.2"
   },
