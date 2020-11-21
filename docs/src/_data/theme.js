@@ -43,4 +43,8 @@ module.exports = {
       links: ['consoleError', 'consoleInfo', 'consoleSuccess', 'consoleWarn'],
     },
   ],
+  docSearch: {
+    apiKey: '068537f2f0092021a76033dfeef83f33',
+    indexName: 'pixelastic_firost',
+  },
 };
