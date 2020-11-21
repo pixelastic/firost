@@ -12702,10 +12702,10 @@ norska-theme-default@^1.2.0:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-1.2.0.tgz#79a3b9e41e90247cd45d6cd2f3e0707ad1f0698c"
   integrity sha512-rVF0fGILXgkzSmGV2NfhVqedaQX3SpFs+t4ixo97DkASRWXLPzMCr4Qgg67FaNj/p+YrMLhKTYE6c0jt9K1b+g==
 
-norska-theme-docs@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.2.1.tgz#7830bb43d946358f02ae9185d52dcf638d6085dd"
-  integrity sha512-ZsNCwuYb7kvJGRMyYYv8XVSKK660pARU08GYvNn6TK+yK/Kmp+yXZWTaIT1AkkgYbA+Rji7SFjqqpjZ5wGYxWg==
+norska-theme-docs@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-1.2.2.tgz#344673cfde021c85c363cb9834318b21340184e6"
+  integrity sha512-cGcXv+LxdsH4XuyDdZHAFBehY4BSXp0Bts6dUWYnqih/rbbxmmMZfEZcHDUbt3y0zBQLSn3xBH4ZlTvA+tp4cg==
   dependencies:
     firost "2.0.6"
     parse-github-repo-url "1.4.1"
@@ -16352,10 +16352,10 @@ temp-write@^3.4.0:
     temp-dir "^1.0.0"
     uuid "^3.0.1"
 
-tempy@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.npmjs.org/tempy/-/tempy-0.7.1.tgz#5a654e6dbd1747cdd561efb112350b55cd9c1d46"
-  integrity sha512-vXPxwOyaNVi9nyczO16mxmHGpl6ASC5/TVhRRHpqeYHvKQm58EaWNvZXxAhR0lYYnBOQFjXjhzeLsaXdjxLjRg==
+tempy@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/tempy/-/tempy-1.0.0.tgz#4f192b3ee3328a2684d0e3fc5c491425395aab65"
+  integrity sha512-eLXG5B1G0mRPHmgH2WydPl5v4jH35qEn3y/rA/aahKhIa91Pn119SsU7n7v/433gtT9ONzC8ISvNHIh2JSTm0w==
   dependencies:
     del "^6.0.0"
     is-stream "^2.0.0"
