@@ -21,7 +21,7 @@
     "ora": "5.1.0",
     "std-mocks": "1.0.1",
     "strip-ansi": "6.0.0",
-    "tempy": "0.7.1",
+    "tempy": "1.0.0",
     "untildify": "4.0.0",
     "which": "2.0.2"
   },
