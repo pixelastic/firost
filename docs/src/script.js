@@ -1,3 +1,4 @@
-// Lazy loading of images when in viewport
-const lazyload = require('norska/frontend/lazyload');
-lazyload.init();
+const theme = require('norska/theme');
+(async () => {
+  await theme.init();
+})();
