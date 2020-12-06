@@ -1,7 +1,13 @@
 # Build website
 [build]
   command = "yarn run build:prod"
-  publish = "./docs/dist/"
+  publish = "docs/dist/"
+
+# Custom 404
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
 
 # Terry Pratchett homage
 [[headers]]
