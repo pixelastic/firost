@@ -1,8 +1,15 @@
 ---
-title: await emptyDir(filepath)
+title: emptyDir
 ---
 
-Empty the content of `filepath`, but keep the directory.
+<div class="lead">
+  Delete every files and sub folders of a specific directory, but keep the
+  directory. This is an alternative to <code> remove</code> which will not keep the
+  directory.
+</div>
+
+`await emptyDir(filepath)`
+
 
 ## Examples
 

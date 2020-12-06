@@ -1,10 +1,14 @@
 ---
-title: await copy(source, destination)
+title: copy
 ---
 
-Copy `source` file(s) to `destination`.
+<div class="lead">
+  Copy one or multiple files. <code>source</code> can accepts both literal strings as
+  filepath, or glob patterns. You can also pass arrays to copy several files at
+  once.
+</div>
 
-`source` can be one file, an array of files or a glob pattern.
+`await copy(source, destination)`
 
 ## Examples
 
@@ -21,10 +25,10 @@ await copy('./src/*.html', './dist');
 
 ## Notes
 
-If `destination` already exists, it will be overwritten. If you'd like to
-avoid that, you should check if `destination` [exists](/exists) first.
+This method is clever enough to understand your intent. For example, when
+copying a file to a directory, it will put the file inside the directory, but
+when copying a file to another file it will replace the destination.
 
-Errors are thrown when the following invalid operations are performed:
-- `source` does not exist
-- Overwriting a file with a directory
-- Copying multiple inputs to the same destination file
+It will also throw errors instead of performing potentially dangerous operations
+like overwriting a file with a directory, or copying multiple files to the same
+destination file.

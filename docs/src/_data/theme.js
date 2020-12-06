@@ -9,6 +9,7 @@ module.exports = {
         'isDirectory',
         'isFile',
         'mkdirp',
+        'move',
         'read',
         'remove',
         'write',

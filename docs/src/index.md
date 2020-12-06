@@ -1,15 +1,13 @@
 ---
-title: firost, a toolbox for command-line scripts
+title: firost
 ---
 
-I write a lot of command-line scripts in JavaScript, and most of them requires
-the same methods: reading and writing files (especially `.json`), creating
-directory structures, running binary commands and parsing their output, handling
-errors, etc.
-
-All those seemingly simple tasks have their share of pitfalls and gotchas.
-Instead of having to deal with them on each new project, I packaged higher-level
-methods into `firost`.
+<div class="lead">
+  When writing command-line tools in JavaScript, you end up doing the same
+  common tasks over and over again: reading and writing files, running binary
+  commands, querying JSON APIs, etc. Firost contains higher-level functions to
+  make this work easier and less error-prone.
+</div>
 
 ## Installation
 

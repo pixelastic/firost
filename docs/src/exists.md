@@ -1,8 +1,14 @@
 ---
-title: await exists(filepath)
+title: exists
 ---
 
-Returns `true` if `filepath` exists.
+<div class="lead">
+  Check if a given filepath exists. It tests for both files and directories, and
+  auto-expands the <code>~</code> home folder.
+</div>
+
+`await exists(filepath)`
+
 
 ## Examples
 

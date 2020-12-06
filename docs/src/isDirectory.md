@@ -1,8 +1,14 @@
 ---
-title: await isDirectory(filepath)
+title: isDirectory
 ---
 
-Returns `true` if `filepath` is a directory.
+<div class="lead">
+  Check if a filepath point to a directory. Returns <code>false</code> if the
+  filepath does not exist or is a file.
+</div>
+
+`await isDirectory(filepath)`
+
 
 ## Examples
 

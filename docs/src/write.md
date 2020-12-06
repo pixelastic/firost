@@ -1,8 +1,16 @@
 ---
-title: await write(content, filepath)
+title: write
 ---
 
-Write `content` to `filepath`.
+<div class="lead">
+  Write any string to a file on disk. If a file with the same name already
+  exists, it will be replaced. Files and directories that don't exist will be
+  created.
+</div>
+
+`await write(content, filepath)`
+
+
 
 ## Examples
 
@@ -12,4 +20,5 @@ await write('This is my content', './dist/content.txt');
 
 ## Notes
 
-Files and directories will be created if they don't exist.
+This method is intended for writing strings. You might trigger unintended
+behavior if you attempt to write content expected as binary.
