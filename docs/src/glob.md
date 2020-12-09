@@ -1,8 +1,13 @@
 ---
-title: await glob(pattern[, options])
+title: await glob
 ---
 
-Returns an array of filepaths matching the glob `pattern`.
+<div class="lead">
+  Given a glob or array of glob patterns (like <code>*.css</code> or
+  <code>**/*.css</code>), will return an array of matching files on disk.
+</div>
+
+`await glob(pattern[, options])`
 
 
 ## Examples
@@ -21,14 +26,6 @@ const files = await glob([
 
 ## Notes
 
-### Hidden files
+Set `options.hiddenFiles` to `false` to not match hidden files.
 
-Hidden files and folders (like `.git/` or `.eslintrc.js`) are returned by
-default.
-
-Set `options.hiddenFiles` to `false` to disable this behavior.
-
-### Directories
-
-Patterns like `**/*` will return both files and directories. If you're not
-interested in directories, set `options.directories` to `false`.
+Set `options.directories` to `false` to match only files, and not directories.

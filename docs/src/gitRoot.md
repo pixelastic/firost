@@ -1,11 +1,13 @@
 ---
-title: gitRoot(filepath)
+title: gitRoot
 ---
 
-Returns the git repository root path of the specified `filepath`.
+<div class="lead">
+  Returns the git root path of the specified filename. If no filename is given,
+  will return the git root of the current file.
+</div>
 
-If no `filepath` is specified, will return the git root of the script calling
-the method.
+`gitRoot(filepath)`
 
 
 ## Examples

@@ -1,10 +1,14 @@
 ---
-title: absolute(filepath)
+title: absolute
 ---
 
-Returns `filepath` as a normalized absolute path.
+<div class="lead">
+  Convert a relative filepath into an absolute one. Useful for normalizing
+  <code>..</code> and <code>~/</code>.
+</div>
 
-Handles `./`, `../` and `~/` segments.
+`absolute(filepath)`
+
 
 ## Examples
 
