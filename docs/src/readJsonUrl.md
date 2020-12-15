@@ -1,8 +1,13 @@
 ---
-title: await readJsonUrl(url[, options])
+title: readJsonUrl
 ---
 
-Returns the content of the JSON url `url` as a JavaScript object.
+<div class="lead">
+  Read a remote url to a `.json` file and return it as a JavaScript
+  object.
+</div>
+
+`await readJsonUrl(url[, options])`
 
 ## Examples
 
