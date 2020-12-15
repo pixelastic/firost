@@ -1,5 +1,5 @@
 {
-  "description": "Toolbox to download, write, watch, copy files in node",
+  "description": "When writing command-line tools in JavaScript, you end up doing the same common tasks over and over again: reading and writing files, running binary commands, querying JSON APIs, etc. Firost contains higher-level functions to make this work easier and less error-prone.",
   "title": "firost",
   "productionUrl": "https://projects.pixelastic.com/firost/",
   "twitter": "pixelastic"
