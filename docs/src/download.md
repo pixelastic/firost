@@ -1,8 +1,12 @@
 ---
-title: await download(url, destination)
+title: download
 ---
 
-Download the file located at `url` and save it on disk at `destination`.
+<div class="lead">
+  Download any file from the web, and save it on disk.
+</div>
+
+`await download(url, destination)`
 
 ## Examples
 

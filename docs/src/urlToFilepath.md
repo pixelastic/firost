@@ -1,8 +1,13 @@
 ---
-title: urlToFilepath(url[, options])
+title: urlToFilepath
 ---
 
-Converts `url` into a filepath.
+<div class="lead">
+  Transform any url into a strong suitable for a filepath. Useful when you want
+  to download files on disk with a deterministic path
+</div>
+
+`urlToFilepath(url[, options])`
 
 ## Examples
 
@@ -14,8 +19,6 @@ urlToFilepath(
 ```
 
 ## Notes
-
-### Extension
 
 You can overwrite the file extension by setting `options.extension`.
 

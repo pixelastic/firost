@@ -1,8 +1,13 @@
 ---
-title: normalizeUrl(url)
+title: normalizeUrl
 ---
 
-Normalize `url` into a deterministic format.
+<div class="lead">
+  Normalize any URL for easy comparison. This will alphabetically sort query
+  parameters and remove useless `/index.html` for example.
+</div>
+
+`normalizeUrl(url)`
 
 ## Examples
 
@@ -12,11 +17,3 @@ normalizeUrl(
 );
 // https://projects.pixelastic.com/firost/?name=tim&version=1
 ```
-
-## Notes
-
-In details this will:
-
-- Remove any `/index.html` from trailing directories
-- Always add a trailing slash to directories
-- Sort query parameters alphabetically
