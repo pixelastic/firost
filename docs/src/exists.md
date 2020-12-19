@@ -15,9 +15,13 @@ title: exists
 ```js
 await exists('~/') // true
 await exists('~/nope.txt') // false
+
+await exists('~/empty.txt') // true
+await exists('~/empty.txt', { ignoreEmptyFiles: true }) // false
 ```
 
-## Note
+## Options
 
-For convenience, this method is also available as `exist` (without the trailing
-`s`).
+You can pass `ignoreEmptyFiles: true` to count empty files the same as if the
+file didn't exist.
+
