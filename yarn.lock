@@ -4618,9 +4618,9 @@ bl@^1.0.0:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
-bl@^4.0.1:
+bl@^4.0.1, bl@^4.0.3:
   version "4.0.3"
-  resolved "https://registry.npmjs.org/bl/-/bl-4.0.3.tgz#12d6287adc29080e22a705e5764b2a9522cdc489"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-4.0.3.tgz#12d6287adc29080e22a705e5764b2a9522cdc489"
   integrity sha512-fs4G6/Hu4/EE+F75J8DuN/0IpQqNjAdC7aEQv7Qt8MHGUH7Ckv2MwTEEeN9QehD0pfIDkMI1bkHYkKy7xHyKIg==
   dependencies:
     buffer "^5.5.0"
@@ -5418,6 +5418,11 @@ cli-spinners@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.2.0.tgz#e8b988d9206c692302d8ee834e7a85c0144d8f77"
   integrity sha512-tgU3fKwzYjiLEQgPMD9Jt+JjHVL9kW93FiIMX/l7rivvOD4/LL0Mf7gda3+4U2KJBloybwgj5KEoQgGRioMiKQ==
+
+cli-spinners@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.5.0.tgz#12763e47251bf951cb75c201dfa58ff1bcb2d047"
+  integrity sha512-PC+AmIuK04E6aeSs/pUccSujsTzBhu4HzC2dL+CfJB/Jcc2qTRbEwZQDfIUpt2Xl8BodYBEq8w4fc0kU2I9DjQ==
 
 cli-truncate@^0.2.1:
   version "0.2.1"
@@ -7947,6 +7952,32 @@ firost@2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/firost/-/firost-2.1.0.tgz#057ca09da42c0b651722a3facbc476a6575c5321"
   integrity sha512-JGaGNDa0UBs7wLF0asp3AXthKMuGnJM1r/DYqe3ZN5hmxEdJcGRDJGVxQpClBhvaVnmrz3DZcVflCp8ydIdz4g==
+  dependencies:
+    callsites "3.1.0"
+    chokidar "3.4.3"
+    clear-module "4.1.1"
+    eventemitter2 "6.4.3"
+    execa "4.1.0"
+    find-up "5.0.0"
+    fs-extra "9.0.1"
+    globby "11.0.1"
+    golgoth "2.0.0"
+    inquirer "7.3.3"
+    is-glob "4.0.1"
+    json-stable-stringify "1.0.1"
+    nanoid "3.1.20"
+    normalize-url "5.3.0"
+    ora "5.1.0"
+    std-mocks "1.0.1"
+    strip-ansi "6.0.0"
+    tempy "1.0.0"
+    untildify "4.0.0"
+    which "2.0.2"
+
+firost@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-2.2.0.tgz#95fc17d8b7bdc64a2a8c59fb2ff3de56a664e7eb"
+  integrity sha512-/W7yqTDq5pTYZ+uP8pxqOeBFypA8/6rJ9CC61t/6fsgC5kZLsU0zK+D4yTpsnLpI29a1/oPC9Ia8Pi/tfAcKLA==
   dependencies:
     callsites "3.1.0"
     chokidar "3.4.3"
@@ -12837,15 +12868,15 @@ norska-image-proxy@^1.5.2:
   resolved "https://registry.yarnpkg.com/norska-image-proxy/-/norska-image-proxy-1.5.2.tgz#d981d9b748980ab055b6bbc996cc2f6dd8e425a4"
   integrity sha512-kQdXrpTgOObZdnPXtPUxA6PK4IjdZtJ/Qs/ubI0GZUwNqAgSIJS8Dm0eXO607QJxK2aZeq6kLkBoFxaaXUWvcw==
 
-norska-init@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/norska-init/-/norska-init-1.7.0.tgz#e35ca47f7fb48cc10a474c259aa1e390ec3befb4"
-  integrity sha512-9cnWV4/YaUKC0mDFPAAiD8F/pxjdIOaOViXURpyLIzj1gstiZmkxbEN8smJVs2RR1YitSS5JmOU6QDgar+Tqsg==
+norska-init@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-1.8.0.tgz#aeaabb9a9aafac49d99654a503bc1f3b249ee968"
+  integrity sha512-yVrLroaktPlNgJuPAPjaHCFu8zZNBfqw8K/eKCWT83/adm3qVgEwu1d2oo/IwY79ygQ9cHHDi7g42wYXaw/wRw==
   dependencies:
     firost "2.2.0"
     golgoth "2.0.0"
     norska-config "^1.7.0"
-    norska-netlify "^1.7.0"
+    norska-netlify "^1.8.0"
 
 norska-js@^1.7.0:
   version "1.7.0"
@@ -12859,10 +12890,10 @@ norska-js@^1.7.0:
     pug-loader "^2.4.0"
     webpack "4.44.2"
 
-norska-netlify@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-1.7.0.tgz#486001ebfe04ac39d226c1ff98f0e9ae8adf74df"
-  integrity sha512-xuM2ow07g/EySFIWAwYSO4STZg4cqe1pE9oCFLdVndRJkOyMJq5iWYHt/GNO71WtgbuISFYrsPP5auv86ipOGw==
+norska-netlify@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/norska-netlify/-/norska-netlify-1.8.0.tgz#baded19e70b4acc2097a6e8fe9127aafc668969e"
+  integrity sha512-U41Venom8VZx5VXhQIhd8jjfPw8JDr2hybdYcz0WvTqjBdw4VuslAD7fxBqNZDWic5TyujREIG39JsIi3vmikw==
   dependencies:
     firost "2.2.0"
     golgoth "2.0.0"
@@ -12896,10 +12927,10 @@ norska-theme-docs@1.4.0:
     firost "2.2.0"
     parse-github-repo-url "1.4.1"
 
-norska@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/norska/-/norska-1.7.0.tgz#88ca2a570ae1d59a2941cca8918583b9e16983f4"
-  integrity sha512-i1gEeFep/fof+X78jIbGmOHnZD96TgKdLQObBiOdku7ctMNCXTwHyNjuZs/3sa1hlxSwx5I8pwuJU+ujIsobrw==
+norska@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-1.8.0.tgz#e2b78836d26f5e3f69827f7af63438e1097dc84e"
+  integrity sha512-jLiplgOyuIAdoFaG90XZPyZo0674Iqj8VqcKE5zpfQf2wqNF1W7wGJXNrEeZ5OUpP5cQ0nNXvXoyf/nKP6kjHQ==
   dependencies:
     firost "2.2.0"
     golgoth "2.0.0"
@@ -12913,9 +12944,9 @@ norska@1.7.0:
     norska-helper "^1.6.1"
     norska-html "^1.7.0"
     norska-image-proxy "^1.5.2"
-    norska-init "^1.7.0"
+    norska-init "^1.8.0"
     norska-js "^1.7.0"
-    norska-netlify "^1.7.0"
+    norska-netlify "^1.8.0"
     norska-revv "^1.7.0"
 
 np@6.5.0:
@@ -13304,6 +13335,20 @@ ora@5.1.0:
     is-interactive "^1.0.0"
     log-symbols "^4.0.0"
     mute-stream "0.0.8"
+    strip-ansi "^6.0.0"
+    wcwidth "^1.0.1"
+
+ora@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-5.2.0.tgz#de10bfd2d15514384af45f3fa9d9b1aaf344fda1"
+  integrity sha512-+wG2v8TUU8EgzPHun1k/n45pXquQ9fHnbXVetl9rRgO6kjZszGGbraF3XPTIdgeA+s1lbRjSEftAnyT0w8ZMvQ==
+  dependencies:
+    bl "^4.0.3"
+    chalk "^4.1.0"
+    cli-cursor "^3.1.0"
+    cli-spinners "^2.5.0"
+    is-interactive "^1.0.0"
+    log-symbols "^4.0.0"
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
