@@ -31,3 +31,6 @@ urlToFilepath(
 );
 // https/projects.pixelastic.com/firost_version-1.html
 ```
+
+If the resulting filename is longer than 255 characters, it will be
+automatically reduced to avoid triggering `ENAMETOOLONG` erorrs.
