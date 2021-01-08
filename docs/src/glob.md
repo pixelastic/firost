@@ -9,19 +9,15 @@ title: await glob
 
 `await glob(pattern[, options])`
 
-
 ## Examples
 
 ```js
 // All css files in ./src
 const files = await glob('./src/**/*.css');
 
-// All .css files in ./src, except those 
+// All .css files in ./src, except those
 // starting with an underscore
-const files = await glob([
-  './src/**/*.css',
-  '!./src/**/_*.css'
-]);
+const files = await glob(['./src/**/*.css', '!./src/**/_*.css']);
 ```
 
 ## Notes
@@ -29,3 +25,8 @@ const files = await glob([
 Set `options.hiddenFiles` to `false` to not match hidden files.
 
 Set `options.directories` to `false` to match only files, and not directories.
+
+You can also pass any of [globby][1] or [fast-glob][2] options.
+
+[1]: https://github.com/sindresorhus/globby#options
+[2]: https://github.com/mrmlnc/fast-glob#options-3
