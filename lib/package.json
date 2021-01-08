@@ -11,7 +11,7 @@
     "execa": "5.0.0",
     "find-up": "5.0.0",
     "fs-extra": "9.0.1",
-    "globby": "11.0.1",
+    "globby": "11.0.2",
     "golgoth": "2.0.0",
     "inquirer": "7.3.3",
     "is-glob": "4.0.1",
