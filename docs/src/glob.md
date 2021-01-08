@@ -4,7 +4,8 @@ title: await glob
 
 <div class="lead">
   Given a glob or array of glob patterns (like <code>*.css</code> or
-  <code>**/*.css</code>), will return an array of matching files on disk.
+  <code>**/*.css</code>), will return an array of absolute paths to matching
+  files on disk
 </div>
 
 `await glob(pattern[, options])`
@@ -21,6 +22,8 @@ const files = await glob(['./src/**/*.css', '!./src/**/_*.css']);
 ```
 
 ## Notes
+
+Set `options.context` to define the root folder to use for globs.
 
 Set `options.hiddenFiles` to `false` to not match hidden files.
 
