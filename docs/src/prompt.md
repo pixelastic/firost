@@ -10,14 +10,11 @@ on `CTRL-C`, but does not end the process.
 ```js
 const mood = await prompt('How do you feel?');
 
-let shouldContinue = true;
 try {
   await prompt('Press Enter to continue, or CTRL-C to cancel');
 } catch (err) {
-  shouldContinue = false;
-}
-if (!shouldContinue) {
+  console.log("Skipping");
   return;
 }
-
+console.log('Continuing');
 ```
