@@ -10,7 +10,7 @@
     "eventemitter2": "6.4.3",
     "execa": "5.0.0",
     "find-up": "5.0.0",
-    "fs-extra": "9.0.1",
+    "fs-extra": "9.1.0",
     "globby": "11.0.2",
     "golgoth": "2.0.0",
     "inquirer": "7.3.3",
