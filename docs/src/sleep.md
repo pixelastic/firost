@@ -1,8 +1,12 @@
 ---
-title: await sleep(duration)
+title: sleep
 ---
 
-Halt the execution for `duration` milliseconds.
+<div class="lead">
+  Halt the execution for `duration` milliseconds.
+</div>
+
+`await sleep(duration)`
 
 ## Examples
 

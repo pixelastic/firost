@@ -3,7 +3,7 @@ title: urlToFilepath
 ---
 
 <div class="lead">
-  Transform any url into a strong suitable for a filepath. Useful when you want
+  Transform any url into a string suitable for a filepath. Useful when you want
   to download files on disk with a deterministic path
 </div>
 

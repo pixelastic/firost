@@ -1,9 +1,12 @@
 ---
-title: await unwatch(watcher)
+title: unwatch
 ---
 
-Stops a watcher created by [watch](/watch/).
+<div class="lead">
+  Stops a watcher created by [watch](/watch/).
+</div>
 
+`await unwatch(watcher)`
 
 ## Examples
 

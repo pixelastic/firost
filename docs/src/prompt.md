@@ -1,9 +1,13 @@
 ---
-title: await prompt(question)
+title: prompt
 ---
 
-Ask a question on the commandline, and return the input answer. Throws an error
-on `CTRL-C`, but does not end the process.
+<div class="lead">
+  Ask a question on the commandline, and return the input answer. Throws an error
+  on `CTRL-C`, but does not end the process.
+</div>
+
+`await prompt(question)`
 
 ## Examples
 

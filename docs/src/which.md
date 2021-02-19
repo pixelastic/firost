@@ -1,9 +1,13 @@
 ---
-title: await which(binary)
+title: which
 ---
 
-Returns the full path to `binary` if it exists and is executable. Returns
-`false` otherwise.
+<div class="lead">
+  Returns the full path to `binary` if it exists and is executable. Returns
+  `false` otherwise.
+</div>
+
+`await which(binary)`
 
 ## Examples
 

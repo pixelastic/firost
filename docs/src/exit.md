@@ -1,8 +1,12 @@
 ---
-title: exit(code)
+title: exit
 ---
 
-Stop the current process with `code` as the exit code
+<div class="lead">
+  Stop the current process with `code` as the exit code
+</div>
+
+`exit(code)`
 
 ## Examples
 

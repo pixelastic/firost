@@ -1,8 +1,12 @@
 ---
-title: uuid()
+title: uuid
 ---
 
-Returns a random unique ID.
+<div class="lead">
+  Returns a random unique ID.
+</div>
+
+`uuid()`
 
 ## Examples
 

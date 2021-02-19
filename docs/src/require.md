@@ -1,8 +1,12 @@
 ---
-title: require(module[, options])
+title: require
 ---
 
-Requires `module`.
+<div class="lead">
+  Requires `module`.
+</div>
+
+`require(module[, options])`
 
 ## Examples
 

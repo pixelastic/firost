@@ -1,8 +1,12 @@
 ---
-title: error(code, message)
+title: error
 ---
 
-Returns an `Error` with both a `.code` and a `.message` keys.
+<div class="lead">
+  Returns an `Error` with both a `.code` and a `.message` keys.
+</div>
+
+`error(code, message)`
 
 ## Examples
 

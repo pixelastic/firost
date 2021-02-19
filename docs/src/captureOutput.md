@@ -1,8 +1,12 @@
 ---
-title: await captureOutput(callback)
+title: captureOutput
 ---
 
-Silence all output of `callback` and return it instead.
+<div class="lead">
+  Silence all output of `callback` and return it instead.
+</div>
+
+`await captureOutput(callback)`
 
 ## Examples
 

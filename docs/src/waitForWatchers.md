@@ -1,9 +1,13 @@
 ---
-title: await waitForWatchers()
+title: waitForWatchers
 ---
 
-Wait just enough time for the [watchers](/watch/) to register any filesystem
-events.
+<div class="lead">
+  Wait just enough time for the [watchers](/watch/) to register any filesystem
+  events.
+</div>
+
+`await waitForWatchers()`
 
 ## Examples
 

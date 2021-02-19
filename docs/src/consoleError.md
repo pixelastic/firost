@@ -1,8 +1,12 @@
 ---
-title: consoleError(text)
+title: consoleError
 ---
 
-Display `text` as an error message
+<div class="lead">
+  Display `text` as an error message
+</div>
+
+`consoleError(text)`
 
 ## Examples
 

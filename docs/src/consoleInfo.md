@@ -1,8 +1,12 @@
 ---
-title: consoleInfo(text)
+title: consoleInfo
 ---
 
-Display `text` as an information message
+<div class="lead">
+  Display `text` as an information message
+</div>
+
+`consoleInfo(text)`
 
 ## Examples
 

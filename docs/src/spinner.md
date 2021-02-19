@@ -1,8 +1,12 @@
 ---
-title: spinner([max])
+title: spinner
 ---
 
-Create and control a visual spinner.
+<div class="lead">
+  Create and control a visual spinner.
+</div>
+
+`spinner([max])`
 
 ## Examples
 

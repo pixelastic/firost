@@ -1,8 +1,12 @@
 ---
-title: await watch(source, callback[, watcherId])
+title: watch
 ---
 
-Run `callback` whenever a `source` file changes.
+<div class="lead">
+  Run `callback` whenever a `source` file changes.
+</div>
+
+`await watch(source, callback[, watcherId])`
 
 `source` can be a file, an array of files or a glob pattern.
 

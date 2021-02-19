@@ -1,8 +1,13 @@
 ---
-title: await run(command[, options])
+title: run
 ---
 
-Run `command` and returns `{ stdout, stderr }`.
+<div class="lead">
+  Run `command` and returns `{ stdout, stderr }`.
+</div>
+
+`await run(command[, options])`
+
 
 ## Examples
 

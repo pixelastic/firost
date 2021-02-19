@@ -1,8 +1,12 @@
 ---
-title: consoleSuccess(text)
+title: consoleSuccess
 ---
 
-Display `text` as a success message
+<div class="lead">
+  Display `text` as a success message
+</div>
+
+`consoleSuccess(text)`
 
 ## Examples
 

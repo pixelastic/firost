@@ -1,8 +1,12 @@
 ---
-title: consoleWarn(text)
+title: consoleWarn
 ---
 
-Display `text` as a warning message
+<div class="lead">
+  Display `text` as a warning message
+</div>
+
+`consoleWarn(text)`
 
 ## Examples
 
