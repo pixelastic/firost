@@ -19,3 +19,7 @@ const content = await read('./src/css/style.css');
 
 Note that it will read the whole content before returning it, so might not be
 suitable for large files (in which case you might want to use streams instead).
+
+## readSync
+
+The `readSync` method is also available, that reads the file synchronously.
