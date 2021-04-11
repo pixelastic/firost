@@ -32,3 +32,8 @@ The cache can also be saved on disk so it can persists between runs. To enable
 this behavior, set the `options.diskCache` to any directory path. Responses will
 be saved on disk in this directory. To clear the cache, simply
 delete the directory.
+
+### Headers
+
+Additional HTTP headers can be passed to the [underlying got
+instance](https://github.com/sindresorhus/got#headers).
