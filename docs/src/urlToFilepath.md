@@ -33,4 +33,4 @@ urlToFilepath(
 ```
 
 If the resulting filename is longer than 255 characters, it will be
-automatically reduced to avoid triggering `ENAMETOOLONG` erorrs.
+automatically reduced to avoid triggering `ENAMETOOLONG` errors.

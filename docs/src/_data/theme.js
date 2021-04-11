@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       name: 'URLs',
-      links: ['download', 'normalizeUrl', 'urlToFilepath'],
+      links: ['readUrl', 'download', 'normalizeUrl', 'urlToFilepath'],
     },
     {
       name: 'JSON',
