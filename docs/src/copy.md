@@ -8,7 +8,7 @@ title: copy
   once.
 </div>
 
-`await copy(source, destination)`
+`await copy(source, destination[, options])`
 
 ## Examples
 
@@ -21,9 +21,20 @@ await copy('./src/alpha.html', './dist/beta.html');
 
 // Copy files by glob pattern
 await copy('./src/*.html', './dist');
+
+// Copy files referenced by a symlink
+await copy('./link', './real-file', { resolveSymlinks: true });
 ```
 
 ## Notes
+
+### Symlinks
+
+Symlinks will not be resolved by default. If you pass `options.resolveSymlinks`
+to `true`, then the actual file referenced by the symlink will be copied, not
+the symlink itself.
+
+### Error protection
 
 This method is clever enough to understand your intent. For example, when
 copying a file to a directory, it will put the file inside the directory, but
