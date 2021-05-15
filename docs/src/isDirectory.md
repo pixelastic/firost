@@ -17,3 +17,8 @@ if (await isDirectory('./dist')) {
   console.info('Directory exists');
 }
 ```
+
+## Note
+
+This follows symlinks, so if `filepath` is a link to a directory, it will return
+`true`. If `filepath` is a link to a file, it will return `false`.
