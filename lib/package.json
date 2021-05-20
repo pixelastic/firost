@@ -30,7 +30,9 @@
     "get-port": "5.1.1"
   },
   "files": [
-    "*.js"
+    "*.js",
+    "newFile/index.js",
+    "newFile/templates/*"
   ],
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [
