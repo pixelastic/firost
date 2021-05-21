@@ -3,7 +3,7 @@ title: consoleError
 ---
 
 <div class="lead">
-  Display `text` as an error message
+  Display <code>text</code> as an error message
 </div>
 
 `consoleError(text)`

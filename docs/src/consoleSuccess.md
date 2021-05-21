@@ -3,7 +3,7 @@ title: consoleSuccess
 ---
 
 <div class="lead">
-  Display `text` as a success message
+  Display <code>text</code> as a success message
 </div>
 
 `consoleSuccess(text)`

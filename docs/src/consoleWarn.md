@@ -3,7 +3,7 @@ title: consoleWarn
 ---
 
 <div class="lead">
-  Display `text` as a warning message
+  Display <code>text</code> as a warning message
 </div>
 
 `consoleWarn(text)`

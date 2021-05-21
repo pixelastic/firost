@@ -3,7 +3,7 @@ title: unwatchAll
 ---
 
 <div class="lead">
-  Stops all watchers created by [watch](/watch/).
+  Stops all watchers created by <a href="/watch">watch</a>.
 </div>
 
 `await unwatchAll()`

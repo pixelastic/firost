@@ -3,7 +3,7 @@ title: error
 ---
 
 <div class="lead">
-  Returns an `Error` with both a `.code` and a `.message` keys.
+  Returns an <code>Error</code> with both a <code>.code</code> and a <code>.message</code> keys.
 </div>
 
 `error(code, message)`

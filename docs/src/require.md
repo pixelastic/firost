@@ -3,7 +3,7 @@ title: require
 ---
 
 <div class="lead">
-  Requires `module`.
+  Requires <code>module</code>.
 </div>
 
 `require(module[, options])`

@@ -3,7 +3,7 @@ title: readJson
 ---
 
 <div class="lead">
-  Read the content of a local `.json` file and return it as a JavaScript
+  Read the content of a local <code>.json</code> file and return it as a JavaScript
   object.
 </div>
 

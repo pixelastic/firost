@@ -3,7 +3,7 @@ title: watch
 ---
 
 <div class="lead">
-  Run `callback` whenever a `source` file changes.
+  Run <code>callback</code> whenever a <code>source</code> file changes.
 </div>
 
 `await watch(source, callback[, watcherId])`

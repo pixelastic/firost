@@ -3,7 +3,7 @@ title: sleep
 ---
 
 <div class="lead">
-  Halt the execution for `duration` milliseconds.
+  Halt the execution for <code>duration</code> milliseconds.
 </div>
 
 `await sleep(duration)`

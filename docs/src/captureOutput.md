@@ -3,7 +3,7 @@ title: captureOutput
 ---
 
 <div class="lead">
-  Silence all output of `callback` and return it instead.
+  Silence all output of <code>callback</code> and return it instead.
 </div>
 
 `await captureOutput(callback)`

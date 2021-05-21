@@ -16,7 +16,7 @@
     "inquirer": "7.3.3",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
-    "nanoid": "3.1.22",
+    "nanoid": "3.1.23",
     "normalize-url": "5.3.0",
     "ora": "5.4.0",
     "std-mocks": "1.0.1",

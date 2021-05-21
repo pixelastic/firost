@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "norska": "1.16.0",
-    "norska-theme-docs": "2.1.0"
+    "norska": "2.2.0",
+    "norska-theme-docs": "3.0.0"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",

@@ -3,7 +3,7 @@ title: exit
 ---
 
 <div class="lead">
-  Stop the current process with `code` as the exit code
+  Stop the current process with <code>code</code> as the exit code
 </div>
 
 `exit(code)`

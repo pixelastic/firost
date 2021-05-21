@@ -3,8 +3,8 @@ title: which
 ---
 
 <div class="lead">
-  Returns the full path to `binary` if it exists and is executable. Returns
-  `false` otherwise.
+  Returns the full path to <code>binary</code> if it exists and is executable. Returns
+  <code>false</code> otherwise.
 </div>
 
 `await which(binary)`

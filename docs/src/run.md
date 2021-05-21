@@ -3,7 +3,7 @@ title: run
 ---
 
 <div class="lead">
-  Run `command` and returns `{ stdout, stderr }`.
+  Runs <code>command</code> and returns <code>{ stdout, stderr }</code>.
 </div>
 
 `await run(command[, options])`

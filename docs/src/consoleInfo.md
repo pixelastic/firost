@@ -3,7 +3,7 @@ title: consoleInfo
 ---
 
 <div class="lead">
-  Display `text` as an information message
+  Display <code>text</code> as an information message
 </div>
 
 `consoleInfo(text)`

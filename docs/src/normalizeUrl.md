@@ -4,7 +4,7 @@ title: normalizeUrl
 
 <div class="lead">
   Normalize any URL for easy comparison. This will alphabetically sort query
-  parameters and remove useless `/index.html` for example.
+  parameters and remove useless <code>/index.html</code> for example.
 </div>
 
 `normalizeUrl(url)`

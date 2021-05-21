@@ -3,7 +3,7 @@ title: waitForWatchers
 ---
 
 <div class="lead">
-  Wait just enough time for the [watchers](/watch/) to register any filesystem
+  Wait just enough time for the <a href="/watch/">watchers</a> to register any filesystem
   events.
 </div>
 
