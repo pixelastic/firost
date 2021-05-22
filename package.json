@@ -7,7 +7,7 @@
     "docs"
   ],
   "devDependencies": {
-    "aberlaas": "1.18.1",
+    "aberlaas": "1.20.0",
     "lerna": "3.22.1"
   },
   "files": [],
