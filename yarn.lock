@@ -3838,10 +3838,10 @@ abbrev@1:
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.20.0.tgz#e2c9a502ab4fac701616edf6a420efb85df80d20"
-  integrity sha512-G5f5yujVzcklY40lFAWTjONxaUBDdBNKX7jyqkA6xBzN98XVTGS91s10O81Lz0hb44QwM1CGaVMOcjVdd/XGAA==
+aberlaas@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.22.0.tgz#b5794cbc726bfe05d66d2db798b88278337d757b"
+  integrity sha512-IY3P89xuLdiH56QBBlPV1/KqmQgPc4R5jq2pkvRAsXrWmTJxDXtcC9kIjK27YnN224dbWh+wCb93U+29gqQ7UQ==
   dependencies:
     "@octokit/rest" "18.5.3"
     ci-info "2.0.0"
@@ -3853,7 +3853,7 @@ aberlaas@1.20.0:
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.4.0"
     find-up "5.0.0"
-    firost "2.12.0"
+    firost "2.13.1"
     front-matter "4.0.2"
     golgoth "2.0.0"
     husky "4.3.8"
@@ -8003,10 +8003,10 @@ find-versions@^4.0.0:
   dependencies:
     semver-regex "^3.1.2"
 
-firost@2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-2.12.0.tgz#3575c57bc817c3b8039d3fa887a8a990e3efff7f"
-  integrity sha512-dqA5gMwqkscooKaE6yoo04e/cEyzcMw+z65/ESO5KSOQi4eHNgefwYpMNGoDCIjJlvwFGraXYaZiFaLUkaM59g==
+firost@2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-2.13.0.tgz#3c1e677db9ca0ffdbe28a9e5cb8a5c1c81ee2a75"
+  integrity sha512-7tIsDEDv3mKwCIaHh1XBtUnqu/Dpow97VbPt+0FCkdDXx413WhnJyuolCgms7to78PRyYyMhadtaYBDoqNTRzQ==
   dependencies:
     callsites "3.1.0"
     chokidar "3.5.1"
@@ -8017,11 +8017,11 @@ firost@2.12.0:
     fs-extra "10.0.0"
     globby "11.0.3"
     golgoth "2.0.0"
-    inquirer "7.3.3"
+    inquirer "8.1.0"
     is-glob "4.0.1"
     json-stable-stringify "1.0.1"
-    nanoid "3.1.22"
-    normalize-url "5.3.0"
+    nanoid "3.1.23"
+    normalize-url "6.0.0"
     ora "5.4.0"
     std-mocks "1.0.1"
     strip-ansi "6.0.0"
