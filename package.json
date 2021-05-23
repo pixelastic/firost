@@ -10,6 +10,9 @@
     "aberlaas": "1.22.1",
     "lerna": "4.0.0"
   },
+  "engines": {
+    "node": ">=14.17.0"
+  },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
