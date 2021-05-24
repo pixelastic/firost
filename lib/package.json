@@ -17,7 +17,7 @@
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
     "nanoid": "3.1.23",
-    "normalize-url": "6.0.0",
+    "normalize-url": "6.0.1",
     "ora": "5.4.0",
     "std-mocks": "1.0.1",
     "strip-ansi": "6.0.0",
