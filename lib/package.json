@@ -8,7 +8,7 @@
     "chokidar": "3.5.1",
     "clear-module": "4.1.1",
     "eventemitter2": "6.4.4",
-    "execa": "5.0.0",
+    "execa": "5.0.1",
     "find-up": "5.0.0",
     "fs-extra": "10.0.0",
     "globby": "11.0.3",
