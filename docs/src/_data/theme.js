@@ -23,11 +23,11 @@ module.exports = {
     },
     {
       name: 'URLs',
-      links: ['readUrl', 'download', 'normalizeUrl', 'urlToFilepath'],
+      links: ['download', 'isUrl', 'normalizeUrl', 'readUrl', 'urlToFilepath'],
     },
     {
       name: 'JSON',
-      links: ['writeJson', 'readJson', 'readJsonUrl'],
+      links: ['readJsonUrl', 'readJson', 'writeJson'],
     },
     {
       name: 'Commands',
