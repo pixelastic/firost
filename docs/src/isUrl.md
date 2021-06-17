@@ -3,7 +3,7 @@ title: isUrl
 ---
 
 <div class="lead">
-  Check if a string looks like a URL. 
+  Check if a string looks like a URL.
 </div>
 
 `isUrl(target)`
