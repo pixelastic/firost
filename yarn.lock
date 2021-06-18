@@ -8282,10 +8282,10 @@ find-versions@^4.0.0:
   dependencies:
     semver-regex "^3.1.2"
 
-firost@2.13.0:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-2.13.0.tgz#3c1e677db9ca0ffdbe28a9e5cb8a5c1c81ee2a75"
-  integrity sha512-7tIsDEDv3mKwCIaHh1XBtUnqu/Dpow97VbPt+0FCkdDXx413WhnJyuolCgms7to78PRyYyMhadtaYBDoqNTRzQ==
+firost@2.13.1:
+  version "2.13.1"
+  resolved "https://registry.npmjs.org/firost/-/firost-2.13.1.tgz#0471291f9a7944b3d7e581220427eac7a0387176"
+  integrity sha512-fqVa1vX35/zmgrbJb5+WJ1I1UFW1ah0zH2Xy/KCwBQ3Lp9urEJ1epQI4U8G7sZwkHGzg/mJpIdqn9PlNq6XHvA==
   dependencies:
     callsites "3.1.0"
     chokidar "3.5.1"
@@ -13268,12 +13268,12 @@ norska-theme-default@^2.4.0:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-2.4.0.tgz#ea5694408b3528beb55abf4a9823f1a12c1b3088"
   integrity sha512-HOFnd6l2y2f9DEPwhKo2h8uvXmCjIW7qT9SgLJAzqQARpQAncR8zPMbbShA4beZhhkfsHHtrnIDDd3YnJyMIpg==
 
-norska-theme-docs@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/norska-theme-docs/-/norska-theme-docs-4.0.0.tgz#a1c609686b4bb5e77f77799fc3030b554f039a16"
-  integrity sha512-/3fJ6nuWRQODbSgwh8MRkMg5DSpvKCZjhRjWUl65Ej79nPewRO4ufybU7xauzvCTA3EE1uSQU3ebLIdQZo27xQ==
+norska-theme-docs@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-5.0.1.tgz#20ba20f8512a1f6dffc00ea155bb5eee092cf7b6"
+  integrity sha512-9w5kWtjRBdXiB1CvLOqHKYqFys0XutOCm5wx/TaXcX018LWV5hcB4biHv71l8uQVUc1K/kVpColbhNyrmAC5nQ==
   dependencies:
-    firost "2.13.0"
+    firost "2.14.0"
     parse-github-repo-url "1.4.1"
 
 norska@2.4.0:
