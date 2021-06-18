@@ -3980,10 +3980,10 @@ abbrev@1:
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@1.23.1:
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.23.1.tgz#25de399c4bda0a01cb2f0994aa2e3a41ead75c95"
-  integrity sha512-Lsuo63BEFNihRQRQuHdA6LIvbDA+M0CssZsMPEd9i+2HhBm8trm9uBYXn0D1l2DGzbq9NCjOC70b37I7880a1Q==
+aberlaas@1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.24.0.tgz#9d752938de597dbe1e41afe0ffe299fb37c35075"
+  integrity sha512-lZd36Tm+NY9llHgRQOR7N7DJJHgKsljAtqytO9DSKQ8TGrCI0sHVR6xZOod8zWOueLrbQV0MUyZ1JUL7t1fMRg==
   dependencies:
     "@octokit/rest" "18.6.0"
     ci-info "3.2.0"
@@ -8281,32 +8281,6 @@ find-versions@^4.0.0:
   integrity sha512-wgpWy002tA+wgmO27buH/9KzyEOQnKsG/R0yrcjPT9BOFm0zRBVQbZ95nRGXWMywS8YR5knRbpohio0bcJABxQ==
   dependencies:
     semver-regex "^3.1.2"
-
-firost@2.13.1:
-  version "2.13.1"
-  resolved "https://registry.npmjs.org/firost/-/firost-2.13.1.tgz#0471291f9a7944b3d7e581220427eac7a0387176"
-  integrity sha512-fqVa1vX35/zmgrbJb5+WJ1I1UFW1ah0zH2Xy/KCwBQ3Lp9urEJ1epQI4U8G7sZwkHGzg/mJpIdqn9PlNq6XHvA==
-  dependencies:
-    callsites "3.1.0"
-    chokidar "3.5.1"
-    clear-module "4.1.1"
-    eventemitter2 "6.4.4"
-    execa "5.0.0"
-    find-up "5.0.0"
-    fs-extra "10.0.0"
-    globby "11.0.3"
-    golgoth "2.0.0"
-    inquirer "8.1.0"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "3.1.23"
-    normalize-url "6.0.0"
-    ora "5.4.0"
-    std-mocks "1.0.1"
-    strip-ansi "6.0.0"
-    tempy "1.0.1"
-    untildify "4.0.0"
-    which "2.0.2"
 
 firost@2.13.1:
   version "2.13.1"
