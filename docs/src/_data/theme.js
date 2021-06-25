@@ -10,6 +10,7 @@ module.exports = {
         'isFile',
         'isSymlink',
         'mkdirp',
+        'newFile',
         'move',
         'read',
         'remove',
