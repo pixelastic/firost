@@ -29,6 +29,8 @@ Set `options.hiddenFiles` to `false` to not match hidden files.
 
 Set `options.directories` to `false` to match only files, and not directories.
 
+Set `options.absolutePaths` to `false` to return relative paths instead of absolute ones.
+
 You can also pass any of [globby][1] or [fast-glob][2] options.
 
 [1]: https://github.com/sindresorhus/globby#options
