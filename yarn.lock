@@ -8432,6 +8432,32 @@ firost@2.14.0:
     untildify "4.0.0"
     which "2.0.2"
 
+firost@2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-2.14.1.tgz#df2cd8cb6385e5efb916824fb97e9c688db1a9c7"
+  integrity sha512-tG0Z2mfllWqRrMyNVZcBj7MRquXd73f43WJ81l1znO38t3b2Q/8kSnhaOzqf7kamltWP4a3X4Kpv9S96Kq7bTQ==
+  dependencies:
+    callsites "3.1.0"
+    chokidar "3.5.2"
+    clear-module "4.1.1"
+    eventemitter2 "6.4.4"
+    execa "5.1.1"
+    find-up "5.0.0"
+    fs-extra "10.0.0"
+    globby "11.0.4"
+    golgoth "2.0.0"
+    inquirer "8.1.1"
+    is-glob "4.0.1"
+    json-stable-stringify "1.0.1"
+    nanoid "3.1.23"
+    normalize-url "6.1.0"
+    ora "5.4.1"
+    std-mocks "1.0.1"
+    strip-ansi "6.0.0"
+    tempy "1.0.1"
+    untildify "4.0.0"
+    which "2.0.2"
+
 flat-cache@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.0.4.tgz#61b0338302b2fe9f957dcc32fc2a87f1c3048b11"
@@ -13344,12 +13370,12 @@ norska-theme-default@^2.4.1:
   resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-2.4.1.tgz#1218a73b49c73afb387ec311b84bc543abf1a220"
   integrity sha512-eSJhC2hmoSjD0K5CXYBn+KSlWPqp44O7RHumHChON4R7K93RcOJsPiLs9fBmguhBYqqW3lE9kTKje4zA2OJyEA==
 
-norska-theme-docs@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.npmjs.org/norska-theme-docs/-/norska-theme-docs-5.0.2.tgz#b5ee037e3efaf9965180422c3a045f3fff55a0f8"
-  integrity sha512-i1HmExob5ZeMnr40dQ5RImOVfQ8mg8QfM9LrK+FT9OKSOr3X82ZVd7M4E0QeVd34tDCDQeyR9QlAgyqqQ3104Q==
+norska-theme-docs@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/norska-theme-docs/-/norska-theme-docs-5.0.3.tgz#93ba8fcd28cb2231c7504fcc983865549f65529c"
+  integrity sha512-aJSkl7ugcHJDUCPxDXGUJk1QlZ2H9kB/zGqRi04Wq7tdJad/kTuNAjDtjo3TR65S3P43WF6s/lJlhbr8HwwtLw==
   dependencies:
-    firost "2.14.1"
+    firost "2.15.0"
     parse-github-repo-url "1.4.1"
 
 norska@2.4.2:
