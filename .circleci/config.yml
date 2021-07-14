@@ -1,33 +1,34 @@
 version: 2.1
 
-orbs:
-  node: circleci/node@4.5.1
-
-jobs:
-  ci-mac:
-    macos:
-      # xcode version defines the node version installed
-      # See: https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
-      xcode: 12.1.1 # This is node 15.1.0
-    steps:
-      - checkout
-      - node/install-packages:
-          pkg-manager: 'yarn'
-      - run: 'yarn run ci'
-
-  ci-linux:
+aliases:
+  - &defaults
     docker:
       - image: cimg/node:14.17.0
+  - &restore_cache
+    restore_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+  - &yarn_install
+    run: 'yarn install'
+  - &save_cache
+    save_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+      paths:
+        - ~/.cache/yarn
+
+jobs:
+  ci:
+    <<: *defaults
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: 'yarn'
+      # - add_ssh_keys # Uncomment to enable --autoRelease
+      - *restore_cache
+      - *yarn_install
+      - *save_cache
       - run: 'yarn run ci'
 
 workflows:
   version: 2
-  # On every commit: Build/Test/Lint
+  # On every commit
   commit:
     jobs:
-      - ci-linux
-      # - ci-mac
+      - ci
