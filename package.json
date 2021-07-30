@@ -7,7 +7,7 @@
     "docs"
   ],
   "devDependencies": {
-    "aberlaas": "1.24.1",
+    "aberlaas": "1.24.3",
     "lerna": "4.0.0"
   },
   "engines": {
