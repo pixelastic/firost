@@ -1,4 +1,4 @@
-const lintStagedConfig = require('aberlaas/lib/configs/lintstaged.js');
+const lintStagedConfig = require('aberlaas/configs/lintstaged.js');
 module.exports = {
   ...lintStagedConfig,
 };
