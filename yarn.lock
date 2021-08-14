@@ -4095,10 +4095,10 @@ abbrev@1:
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@1.24.6:
-  version "1.24.6"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.24.6.tgz#d64de69e80b30cc5441b07d4e7b30a830b32de1f"
-  integrity sha512-08HOz9XWMHvlRHDGaz7HabKUCe5Hsy60fBpe3u0DnjbNcibXBSJoVpdSVb7NjhpFHtuoSnGVQIIMDnMrZRSzAg==
+aberlaas@1.25.0:
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.25.0.tgz#25784f8efd506452edcf2d7227072973be040a0e"
+  integrity sha512-wE23pNsacBj70+K7QkVhgFxIZmoTVvOl9JO/e1JaYyHutora8dgtg75TfQ0k1IJZoC+PE/kms9WPsxP5dreCrA==
   dependencies:
     "@octokit/rest" "18.6.7"
     ci-info "3.2.0"
@@ -12734,6 +12734,11 @@ nanoid@3.1.23, nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
+
+nanoid@3.1.25:
+  version "3.1.25"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
+  integrity sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==
 
 nanomatch@^1.2.9:
   version "1.2.13"
