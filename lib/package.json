@@ -9,7 +9,7 @@
     "find-up": "5.0.0",
     "fs-extra": "10.0.0",
     "globby": "11.0.4",
-    "golgoth": "2.0.0",
+    "golgoth": "2.1.0",
     "inquirer": "8.1.2",
     "is-glob": "4.0.1",
     "json-stable-stringify": "1.0.1",
