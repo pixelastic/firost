@@ -6,7 +6,9 @@ title: env(name)
   Read an environment variable.
 </div>
 
-`env(name)`
+`env(name[, fallbackValue])`
+
+If the environment variable is not set, it will return `fallbackValue` instead.
 
 ## Examples
 
