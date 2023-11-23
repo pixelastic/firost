@@ -7,11 +7,8 @@
     "docs"
   ],
   "devDependencies": {
-    "aberlaas": "1.25.1",
+    "aberlaas": "1.26.0",
     "lerna": "4.0.0"
-  },
-  "engines": {
-    "node": ">=14.17.0"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",

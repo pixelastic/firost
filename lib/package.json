@@ -23,6 +23,9 @@
     "which": "2.0.2"
   },
   "description": "Async glob, read and write files",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "get-port": "5.1.1"
   },
