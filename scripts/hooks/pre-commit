@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# This script *should be* automatically triggered before each git commit.
+#
+# If it doesn't work, make sure your local git repo is configured to use
+# ./scripts/hooks as the base directory for git hooks.
+#
+# If not, run:
+# $ git config core.hooksPath scripts/hooks
+set -e
+
+yarn run aberlaas precommit

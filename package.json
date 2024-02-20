@@ -1,29 +1,36 @@
 {
-  "private": true,
   "name": "firost-monorepo",
-  "description": "firost top level monorepo",
+  "type": "module",
+  "private": true,
+  "description": "firost monorepo",
   "workspaces": [
     "lib",
     "docs"
   ],
   "devDependencies": {
-    "aberlaas": "1.26.0",
+    "aberlaas": "2.3.0",
     "lerna": "4.0.0"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
   "scripts": {
-    "test": "./scripts/lib/test",
-    "test:watch": "./scripts/lib/test-watch",
     "build": "./scripts/docs/build",
     "build:prod": "./scripts/docs/build-prod",
+    "ci": "./scripts/ci",
     "cms": "./scripts/docs/cms",
-    "serve": "./scripts/docs/serve",
     "lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
+    "lint:fix": "./scripts/lint --fix",
     "release": "./scripts/release",
-    "husky:precommit": "./scripts/husky-precommit",
-    "ci": "./scripts/ci"
-  }
+    "serve": "./scripts/docs/serve",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test --watch",
+    "g:lint": "./scripts/lint",
+    "g:lint:fix": "./scripts/lint --fix",
+    "g:test": "./scripts/test",
+    "g:test:watch": "./scripts/test --watch",
+    "g:ci": "./scripts/ci",
+    "g:release": "./scripts/release"
+  },
+  "packageManager": "yarn@4.0.2"
 }

@@ -1,4 +1,7 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -e
 
-aberlaas lint "$@"
+input=("$@")
+[[ ${#input[@]} == 0 ]] && input=("$INIT_CWD")
+
+aberlaas lint "${input[@]}"

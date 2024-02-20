@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+input=("$@")
+[[ ${#input[@]} == 0 ]] && input=("$INIT_CWD")
+
+aberlaas test "${input[@]}"

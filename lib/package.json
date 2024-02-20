@@ -1,5 +1,6 @@
 {
   "author": "Tim Carry (@pixelastic)",
+  "type": "module",
   "dependencies": {
     "callsites": "3.1.0",
     "chokidar": "3.6.0",
@@ -9,7 +10,7 @@
     "find-up": "5.0.0",
     "fs-extra": "10.1.0",
     "globby": "11.1.0",
-    "golgoth": "2.1.0",
+    "golgoth": "2.3.0",
     "inquirer": "8.2.6",
     "is-glob": "4.0.3",
     "json-stable-stringify": "1.1.1",
@@ -34,6 +35,9 @@
     "newFile/index.js",
     "newFile/templates/*"
   ],
+  "exports": {
+    ".": "./main.js"
+  },
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [
     "shell",
@@ -43,15 +47,15 @@
     "delete"
   ],
   "license": "MIT",
-  "main": "main.js",
   "name": "firost",
   "repository": "pixelastic/firost",
   "scripts": {
-    "lint": "../scripts/lib/lint",
-    "lint:fix": "../scripts/lib/lint-fix",
-    "release": "../scripts/release",
-    "test": "../scripts/lib/test",
-    "test:watch": "../scripts/lib/test-watch"
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint:fix",
+    "test": "yarn g:test",
+    "test:watch": "yarn g:test:watch",
+    "ci": "yarn g:ci",
+    "release": "yarn g:release"
   },
   "version": "3.1.0"
 }
