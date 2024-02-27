@@ -10034,6 +10034,7 @@ __metadata:
     nanoid: "npm:3.3.7"
     normalize-url: "npm:6.1.0"
     ora: "npm:5.4.1"
+    rev-hash: "npm:4.1.0"
     std-mocks: "npm:1.0.1"
     strip-ansi: "npm:6.0.1"
     temp-dir: "npm:2.0.0"
@@ -18808,6 +18809,13 @@ __metadata:
   version: 3.0.0
   resolution: "rev-hash@npm:3.0.0"
   checksum: 0630914b224403bd04333a2e57e773e062ce43b6466949fc3f26223801962a1718cc829e2dc8e245ea178b30419c43aa1131c8f35818511f08d9b2afb65d18d3
+  languageName: node
+  linkType: hard
+
+"rev-hash@npm:4.1.0":
+  version: 4.1.0
+  resolution: "rev-hash@npm:4.1.0"
+  checksum: d80800c96f3e60965f73c519a5de231fc2191eb7333015522282240ca94b6f93667767fe7a6f61ef1e8113578a957cf4ff9bb7db015bc7da096241a72a23d753
   languageName: node
   linkType: hard
 
