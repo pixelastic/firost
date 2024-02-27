@@ -1,4 +1,29 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`writeJson > should not sort the object keys with { sort: false } 1`] = `
+"{
+  "zoo": "bar",
+  "coo": "bar",
+  "moo": "bar",
+  "foo": "bar"
+}"
+`;
+
+exports[`writeJson > should pretty print the output 1`] = `
+"{
+  "bar": "baz",
+  "foo": "bar"
+}"
+`;
+
+exports[`writeJson > should sort the object keys, to ease diffing 1`] = `
+"{
+  "coo": "bar",
+  "foo": "bar",
+  "moo": "bar",
+  "zoo": "bar"
+}"
+`;
 
 exports[`writeJson should not sort the object keys with { sort: false } 1`] = `
 "{

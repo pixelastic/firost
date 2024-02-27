@@ -40,7 +40,7 @@ module.exports = {
     },
     {
       name: 'Utils',
-      links: ['captureOutput', 'require', 'sleep', 'uuid', 'error'],
+      links: ['captureOutput', 'import', 'dirname', 'sleep', 'uuid', 'error'],
     },
     {
       name: 'Console',
