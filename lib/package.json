@@ -50,12 +50,16 @@
   "name": "firost",
   "repository": "pixelastic/firost",
   "scripts": {
-    "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint:fix",
-    "test": "yarn g:test",
-    "test:watch": "yarn g:test:watch",
-    "ci": "yarn g:ci",
-    "release": "yarn g:release"
+    "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
+    "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
+    "cms": "ABERLAAS_CWD=$INIT_CWD yarn g:cms",
+    "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
+    "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
+    "test": "ABERLAAS_CWD=$INIT_CWD yarn g:test",
+    "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
+    "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
+    "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
+    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
   },
   "version": "3.1.0"
 }
