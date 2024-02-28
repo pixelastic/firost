@@ -4834,9 +4834,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aberlaas@npm:2.3.0":
-  version: 2.3.0
-  resolution: "aberlaas@npm:2.3.0"
+"aberlaas@npm:2.4.0":
+  version: 2.4.0
+  resolution: "aberlaas@npm:2.4.0"
   dependencies:
     "@octokit/rest": "npm:18.12.0"
     ci-info: "npm:3.9.0"
@@ -4866,7 +4866,7 @@ __metadata:
     yaml-lint: "npm:1.7.0"
   bin:
     aberlaas: bin/aberlaas.js
-  checksum: 92a63963ad78f0e79e3ab83be1d15a24985e9de61b2315e775d555ac405798c4febec816e2f69db49cb28b34ab320119cca7f61cda917197a252465aa3d582b4
+  checksum: 470415817a226717936cb248a5cab29b10eef682e565ce1b99c50d0a196754f9665d798cd46467714c2879ca1bb3102428a08e16834392915941dd1a706cf05f
   languageName: node
   linkType: hard
 
@@ -6495,6 +6495,25 @@ __metadata:
     fsevents:
       optional: true
   checksum: e7179a9dc4ce54c1ba660652319039b7ca0817a442dd05a45afcbdefcd4848b4276debfa9cf321798c2c567c6289da14dd48d9a1ee92056a7b526c554cffe129
+  languageName: node
+  linkType: hard
+
+"chokidar@npm:3.5.3":
+  version: 3.5.3
+  resolution: "chokidar@npm:3.5.3"
+  dependencies:
+    anymatch: "npm:~3.1.2"
+    braces: "npm:~3.0.2"
+    fsevents: "npm:~2.3.2"
+    glob-parent: "npm:~5.1.2"
+    is-binary-path: "npm:~2.1.0"
+    is-glob: "npm:~4.0.1"
+    normalize-path: "npm:~3.0.0"
+    readdirp: "npm:~3.6.0"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: 1076953093e0707c882a92c66c0f56ba6187831aa51bb4de878c1fec59ae611a3bf02898f190efec8e77a086b8df61c2b2a3ea324642a0558bdf8ee6c5dc9ca1
   languageName: node
   linkType: hard
 
@@ -9897,7 +9916,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "firost-monorepo@workspace:."
   dependencies:
-    aberlaas: "npm:2.3.0"
+    aberlaas: "npm:2.4.0"
     lerna: "npm:4.0.0"
   languageName: unknown
   linkType: soft
@@ -10014,7 +10033,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:3.1.0, firost@workspace:lib":
+"firost@npm:3.1.0":
+  version: 3.1.0
+  resolution: "firost@npm:3.1.0"
+  dependencies:
+    callsites: "npm:3.1.0"
+    chokidar: "npm:3.5.3"
+    clear-module: "npm:4.1.2"
+    eventemitter2: "npm:6.4.9"
+    execa: "npm:5.1.1"
+    find-up: "npm:5.0.0"
+    fs-extra: "npm:10.1.0"
+    globby: "npm:11.1.0"
+    golgoth: "npm:2.1.0"
+    inquirer: "npm:8.2.6"
+    is-glob: "npm:4.0.3"
+    json-stable-stringify: "npm:1.1.0"
+    nanoid: "npm:3.3.7"
+    normalize-url: "npm:6.1.0"
+    ora: "npm:5.4.1"
+    std-mocks: "npm:1.0.1"
+    strip-ansi: "npm:6.0.1"
+    temp-dir: "npm:2.0.0"
+    untildify: "npm:4.0.0"
+    which: "npm:2.0.2"
+  checksum: 955eb739769572d23c309353d1f91988759d1806411a1e9420a61ffb8f4c9b46828627355806d997ee071bded5792c4ef46cdbe2db35d91d0490e73fb48fee33
+  languageName: node
+  linkType: hard
+
+"firost@workspace:lib":
   version: 0.0.0-use.local
   resolution: "firost@workspace:lib"
   dependencies:
@@ -13001,6 +13048,18 @@ __metadata:
   dependencies:
     jsonify: "npm:~0.0.0"
   checksum: 3127db54f6507096645411ad9e15abd6091b8a94d675321d5c28ecefe3ddabd07a255d12f27e140dd8af3eb07198c81e4d9a29a14f1f9342546a3e94881bb4f6
+  languageName: node
+  linkType: hard
+
+"json-stable-stringify@npm:1.1.0":
+  version: 1.1.0
+  resolution: "json-stable-stringify@npm:1.1.0"
+  dependencies:
+    call-bind: "npm:^1.0.5"
+    isarray: "npm:^2.0.5"
+    jsonify: "npm:^0.0.1"
+    object-keys: "npm:^1.1.1"
+  checksum: 8888ac86dbf55c1d494bdf40705171c30884686911c37383d3aab777754bf5c1d60dc7a4dfd67f32ba37b184da5c99948a382f1c2912895a35453002e253314b
   languageName: node
   linkType: hard
 
