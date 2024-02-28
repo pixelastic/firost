@@ -40,6 +40,7 @@
   "exports": {
     ".": "./main.js"
   },
+  "main": "./main.js",
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [
     "shell",
