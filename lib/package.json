@@ -33,6 +33,7 @@
   },
   "files": [
     "*.js",
+    "watch/*.js",
     "newFile/index.js",
     "newFile/templates/*"
   ],
