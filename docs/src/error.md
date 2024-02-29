@@ -16,3 +16,14 @@ throw firost.error(
   'You must gather your party before venturing forth'
 );
 ```
+
+## Notes
+
+Can be imported either as `error`, or as `firostError` for convenience.
+
+```js
+import { error as firostError } from 'firost';
+// or
+import { firostError } from 'firost';
+```
+

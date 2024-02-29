@@ -16,7 +16,3 @@ title: mkdirp
 ```js
 await mkdirp('./dist/css');
 ```
-
-## Aliases
-
-Also available under the alias `ensureDir`
