@@ -32,5 +32,5 @@
     "g:ci": "./scripts/ci",
     "g:release": "./scripts/release"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.1.1"
 }
