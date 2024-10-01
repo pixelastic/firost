@@ -1,5 +1,6 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -e
-cd "$(dirname "$0")/.."
+
+echo "node $(node --version), yarn $(yarn --version)"
 
 aberlaas ci "$@"
