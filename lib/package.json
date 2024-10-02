@@ -1,6 +1,33 @@
 {
+  "private": false,
+  "name": "firost",
+  "version": "3.5.0",
   "author": "Tim Carry (@pixelastic)",
+  "description": "Async glob, read and write files",
+  "keywords": [
+    "shell",
+    "filesystem",
+    "copy",
+    "move",
+    "delete"
+  ],
+  "repository": "pixelastic/firost",
+  "homepage": "https://projects.pixelastic.com/firost/",
   "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "files": [
+    "*.js",
+    "watch/*.js",
+    "newFile/index.js",
+    "newFile/templates/*"
+  ],
+  "exports": {
+    ".": "./main.js"
+  },
+  "main": "./main.js",
   "dependencies": {
     "callsites": "3.1.0",
     "chokidar": "3.6.0",
@@ -24,34 +51,9 @@
     "untildify": "4.0.0",
     "which": "2.0.2"
   },
-  "description": "Async glob, read and write files",
-  "engines": {
-    "node": ">=18"
-  },
   "devDependencies": {
     "get-port": "5.1.1"
   },
-  "files": [
-    "*.js",
-    "watch/*.js",
-    "newFile/index.js",
-    "newFile/templates/*"
-  ],
-  "exports": {
-    ".": "./main.js"
-  },
-  "main": "./main.js",
-  "homepage": "https://projects.pixelastic.com/firost/",
-  "keywords": [
-    "shell",
-    "filesystem",
-    "copy",
-    "move",
-    "delete"
-  ],
-  "license": "MIT",
-  "name": "firost",
-  "repository": "pixelastic/firost",
   "scripts": {
     "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
     "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
@@ -63,6 +65,5 @@
     "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
     "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
     "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
-  },
-  "version": "3.5.0"
+  }
 }
