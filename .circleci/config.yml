@@ -7,6 +7,12 @@ aliases:
   - &restore_cache
     restore_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
+  - run:
+    name: Enable Corepack
+    command: corepack enable --install-directory="/home/circleci/bin"
+  - run:
+    name: Install dependencies
+    command: yarn set version 4.5.0
   - &yarn_install
     run: 'yarn install'
   - &save_cache
