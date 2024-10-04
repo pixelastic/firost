@@ -10115,7 +10115,7 @@ __metadata:
     eventemitter2: "npm:6.4.9"
     execa: "npm:5.1.1"
     find-up: "npm:7.0.0"
-    fs-extra: "npm:10.1.0"
+    fs-extra: "npm:11.2.0"
     get-port: "npm:5.1.1"
     globby: "npm:11.1.0"
     golgoth: "npm:2.4.0"
@@ -10354,6 +10354,17 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 5f579466e7109719d162a9249abbeffe7f426eb133ea486e020b89bc6d67a741134076bf439983f2eb79276ceaf6bd7b7c1e43c3fd67fe889863e69072fb0a5e
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:11.2.0":
+  version: 11.2.0
+  resolution: "fs-extra@npm:11.2.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: d77a9a9efe60532d2e790e938c81a02c1b24904ef7a3efb3990b835514465ba720e99a6ea56fd5e2db53b4695319b644d76d5a0e9988a2beef80aa7b1da63398
   languageName: node
   linkType: hard
 
