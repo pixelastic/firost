@@ -10164,9 +10164,9 @@ __metadata:
     ora: "npm:8.1.0"
     rev-hash: "npm:4.1.0"
     std-mocks: "npm:2.0.0"
-    strip-ansi: "npm:6.0.1"
+    strip-ansi: "npm:7.1.0"
     temp-dir: "npm:3.0.0"
-    untildify: "npm:4.0.0"
+    untildify: "npm:5.0.0"
     which: "npm:5.0.0"
   languageName: unknown
   linkType: soft
@@ -20295,6 +20295,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-ansi@npm:7.1.0, strip-ansi@npm:^7.0.1, strip-ansi@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "strip-ansi@npm:7.1.0"
+  dependencies:
+    ansi-regex: "npm:^6.0.1"
+  checksum: a198c3762e8832505328cbf9e8c8381de14a4fa50a4f9b2160138158ea88c0f5549fb50cb13c651c3088f47e63a108b34622ec18c0499b6c8c3a5ddf6b305ac4
+  languageName: node
+  linkType: hard
+
 "strip-ansi@npm:^0.3.0":
   version: 0.3.0
   resolution: "strip-ansi@npm:0.3.0"
@@ -20330,15 +20339,6 @@ __metadata:
   dependencies:
     ansi-regex: "npm:^4.1.0"
   checksum: de4658c8a097ce3b15955bc6008f67c0790f85748bdc025b7bc8c52c7aee94bc4f9e50624516150ed173c3db72d851826cd57e7a85fe4e4bb6dbbebd5d297fdf
-  languageName: node
-  linkType: hard
-
-"strip-ansi@npm:^7.0.1, strip-ansi@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "strip-ansi@npm:7.1.0"
-  dependencies:
-    ansi-regex: "npm:^6.0.1"
-  checksum: a198c3762e8832505328cbf9e8c8381de14a4fa50a4f9b2160138158ea88c0f5549fb50cb13c651c3088f47e63a108b34622ec18c0499b6c8c3a5ddf6b305ac4
   languageName: node
   linkType: hard
 
@@ -21703,6 +21703,13 @@ __metadata:
   version: 4.0.0
   resolution: "untildify@npm:4.0.0"
   checksum: d758e624c707d49f76f7511d75d09a8eda7f2020d231ec52b67ff4896bcf7013be3f9522d8375f57e586e9a2e827f5641c7e06ee46ab9c435fc2b2b2e9de517a
+  languageName: node
+  linkType: hard
+
+"untildify@npm:5.0.0":
+  version: 5.0.0
+  resolution: "untildify@npm:5.0.0"
+  checksum: fefc6cccb3586a7b41ce684c08b2ccf125e50c65ff3cae69b1c5732b72c5bea7e400e1d95b3fa665e7cd6807ee0badf2dc63ced977aef11a097fe6a4a95e33a5
   languageName: node
   linkType: hard
 
