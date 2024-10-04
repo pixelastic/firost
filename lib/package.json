@@ -1,5 +1,4 @@
 {
-  "private": false,
   "name": "firost",
   "version": "3.5.0",
   "author": "Tim Carry (@pixelastic)",
@@ -20,9 +19,11 @@
   },
   "files": [
     "*.js",
-    "watch/*.js",
+    "gitRoot/*.js",
     "newFile/index.js",
-    "newFile/templates/*"
+    "newFile/templates/*",
+    "packageRoot/*.js",
+    "watch/*.js"
   ],
   "exports": {
     ".": "./main.js"
