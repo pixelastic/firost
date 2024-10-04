@@ -8,9 +8,11 @@ aliases:
     restore_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
   - &install_yarn
-    run: |
-      corepack enable --install-directory="/home/circleci/bin"
-      yarn set version 4.5.0
+    run:
+      name: 'Install correct yarn version'
+      command: |
+        corepack enable --install-directory="/home/circleci/bin"
+        yarn set version 4.5.0
   - &install_dependencies
     run: 'yarn install'
   - &save_cache
