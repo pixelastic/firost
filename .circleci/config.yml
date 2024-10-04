@@ -7,13 +7,11 @@ aliases:
   - &restore_cache
     restore_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
-  - run:
-    name: Enable Corepack
-    command: corepack enable --install-directory="/home/circleci/bin"
-  - run:
-    name: Install dependencies
-    command: yarn set version 4.5.0
-  - &yarn_install
+  - &install_yarn
+    run: |
+      corepack enable --install-directory="/home/circleci/bin"
+      yarn set version 4.5.0
+  - &install_dependencies
     run: 'yarn install'
   - &save_cache
     save_cache:
@@ -28,7 +26,8 @@ jobs:
       - checkout
       # - add_ssh_keys # Uncomment to enable --autoRelease
       - *restore_cache
-      - *yarn_install
+      - *install_yarn
+      - *install_dependencies
       - *save_cache
       - run: 'yarn run ci'
 
