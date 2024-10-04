@@ -48,7 +48,7 @@
     "rev-hash": "4.1.0",
     "std-mocks": "2.0.0",
     "strip-ansi": "6.0.1",
-    "temp-dir": "2.0.0",
+    "temp-dir": "3.0.0",
     "untildify": "4.0.0",
     "which": "5.0.0"
   },

@@ -10165,7 +10165,7 @@ __metadata:
     rev-hash: "npm:4.1.0"
     std-mocks: "npm:2.0.0"
     strip-ansi: "npm:6.0.1"
-    temp-dir: "npm:2.0.0"
+    temp-dir: "npm:3.0.0"
     untildify: "npm:4.0.0"
     which: "npm:5.0.0"
   languageName: unknown
@@ -20746,6 +20746,13 @@ __metadata:
   version: 2.0.0
   resolution: "temp-dir@npm:2.0.0"
   checksum: b1df969e3f3f7903f3426861887ed76ba3b495f63f6d0c8e1ce22588679d9384d336df6064210fda14e640ed422e2a17d5c40d901f60e161c99482d723f4d309
+  languageName: node
+  linkType: hard
+
+"temp-dir@npm:3.0.0":
+  version: 3.0.0
+  resolution: "temp-dir@npm:3.0.0"
+  checksum: a86978a400984cd5f315b77ebf3fe53bb58c61f192278cafcb1f3fb32d584a21dc8e08b93171d7874b7cc972234d3455c467306cc1bfc4524b622e5ad3bfd671
   languageName: node
   linkType: hard
 
