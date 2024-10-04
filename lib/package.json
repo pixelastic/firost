@@ -46,7 +46,7 @@
     "normalize-url": "8.0.1",
     "ora": "8.1.0",
     "rev-hash": "4.1.0",
-    "std-mocks": "1.0.1",
+    "std-mocks": "2.0.0",
     "strip-ansi": "6.0.1",
     "temp-dir": "2.0.0",
     "untildify": "4.0.0",

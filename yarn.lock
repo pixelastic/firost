@@ -10163,7 +10163,7 @@ __metadata:
     normalize-url: "npm:8.0.1"
     ora: "npm:8.1.0"
     rev-hash: "npm:4.1.0"
-    std-mocks: "npm:1.0.1"
+    std-mocks: "npm:2.0.0"
     strip-ansi: "npm:6.0.1"
     temp-dir: "npm:2.0.0"
     untildify: "npm:4.0.0"
@@ -20102,6 +20102,13 @@ __metadata:
   dependencies:
     lodash: "npm:^4.11.1"
   checksum: 7fb38254636c2af9b8a7a00a47e82e04e2ea7aba7c34ee8315344737be8551e0d48b1707a5ec3ec5dcd93e5b80ca1f14a5ae93a6332c363c596f56798524de08
+  languageName: node
+  linkType: hard
+
+"std-mocks@npm:2.0.0":
+  version: 2.0.0
+  resolution: "std-mocks@npm:2.0.0"
+  checksum: 52baff7106f72f409ca41b1de60aed2ffcc72422143d9b80aebe877df6b9189c63b2ebb76faf4e338765b04a0835a8884d368257f440ccf98a6e50ceca4e3458
   languageName: node
   linkType: hard
 
