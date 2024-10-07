@@ -32,7 +32,6 @@
   "dependencies": {
     "callsites": "4.2.0",
     "chokidar": "4.0.1",
-    "clear-module": "4.1.2",
     "eventemitter2": "6.4.9",
     "execa": "5.1.1",
     "find-up": "7.0.0",
@@ -42,6 +41,7 @@
     "inquirer": "8.2.6",
     "is-glob": "4.0.3",
     "json-stable-stringify": "1.1.1",
+    "multimatch": "7.0.0",
     "nanoid": "5.0.7",
     "normalize-url": "8.0.1",
     "ora": "8.1.0",

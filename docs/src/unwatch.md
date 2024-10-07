@@ -15,7 +15,7 @@ title: unwatch
 const watcher = await watch('./src/*.css', () => {});
 await unwatch(watcher);
 
-// Using the watcher id
+// Using the watcher name
 await watch('./src/*.css', () => {}, 'cssWatcher');
 await unwatch('cssWatcher');
 ```
