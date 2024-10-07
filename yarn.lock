@@ -4890,9 +4890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aberlaas@npm:2.8.0":
-  version: 2.8.0
-  resolution: "aberlaas@npm:2.8.0"
+"aberlaas@npm:2.9.0":
+  version: 2.9.0
+  resolution: "aberlaas@npm:2.9.0"
   dependencies:
     "@octokit/rest": "npm:18.12.0"
     ci-info: "npm:3.9.0"
@@ -4922,7 +4922,7 @@ __metadata:
     yaml-lint: "npm:1.7.0"
   bin:
     aberlaas: bin/aberlaas.js
-  checksum: 10c0/69e3c4f4aa368a2eb95a16906e5bd0b49e1beb8a0ffdfd34b96fc675f67c4c47b515bbfc4f88de8e085c49edf818cadd1a8caba6cc325141710eb8f0b2101141
+  checksum: 10c0/a326fa1e00270e3eaca36c42a3fc86266a6f453683ef23d5d5a73ac7885eacd42cd47aa0921d4aa03259bbb702df866ec4683a5d462f7fa594bc5cb4efa72563
   languageName: node
   linkType: hard
 
@@ -10019,7 +10019,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "firost-monorepo@workspace:."
   dependencies:
-    aberlaas: "npm:2.8.0"
+    aberlaas: "npm:2.9.0"
     lerna: "npm:4.0.0"
   languageName: unknown
   linkType: soft
