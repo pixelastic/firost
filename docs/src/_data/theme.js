@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Filepath',
-      links: ['absolute', 'gitRoot', 'glob', 'here', 'packageRoot', 'tmpDirectory'],
+      links: ['absolute', 'dirname', 'gitRoot', 'glob', 'here', 'packageRoot', 'tmpDirectory'],
     },
     {
       name: 'URLs',
@@ -40,7 +40,7 @@ module.exports = {
     },
     {
       name: 'Utils',
-      links: ['captureOutput', 'import', 'dirname', 'sleep', 'uuid', 'error'],
+      links: ['callstack', 'captureOutput', 'import', 'sleep', 'uuid', 'error'],
     },
     {
       name: 'Console',
