@@ -18,12 +18,13 @@
     "node": ">=18.18.0"
   },
   "files": [
-    "*.js",
     "gitRoot/*.js",
     "newFile/index.js",
     "newFile/templates/*",
     "packageRoot/*.js",
-    "watch/*.js"
+    "watch/helper/*.js",
+    "watch/*.js",
+    "*.js"
   ],
   "exports": {
     ".": "./main.js"
