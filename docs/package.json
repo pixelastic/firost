@@ -16,5 +16,5 @@
     "cms": "../scripts/docs/cms",
     "serve": "../scripts/docs/serve"
   },
-  "version": "4.0.1"
+  "version": "4.1.0"
 }
