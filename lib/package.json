@@ -31,6 +31,7 @@
   },
   "main": "./main.js",
   "dependencies": {
+    "@inquirer/prompts": "7.0.0",
     "callsites": "4.2.0",
     "chokidar": "4.0.1",
     "eventemitter2": "6.4.9",
@@ -39,7 +40,6 @@
     "fs-extra": "11.2.0",
     "globby": "14.0.2",
     "golgoth": "2.4.0",
-    "inquirer": "8.2.6",
     "is-glob": "4.0.3",
     "json-stable-stringify": "1.1.1",
     "multimatch": "7.0.0",
