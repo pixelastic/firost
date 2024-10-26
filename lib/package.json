@@ -31,7 +31,7 @@
   },
   "main": "./main.js",
   "dependencies": {
-    "@inquirer/prompts": "7.0.0",
+    "@inquirer/prompts": "7.0.1",
     "callsites": "4.2.0",
     "chokidar": "4.0.1",
     "eventemitter2": "6.4.9",
