@@ -45,7 +45,7 @@
     "multimatch": "7.0.0",
     "nanoid": "5.0.8",
     "normalize-url": "8.0.1",
-    "ora": "8.1.0",
+    "ora": "8.1.1",
     "rev-hash": "4.1.0",
     "std-mocks": "2.0.0",
     "strip-ansi": "7.1.0",
