@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Filepath',
-      links: ['absolute', 'dirname', 'gitRoot', 'glob', 'here', 'packageRoot', 'tmpDirectory'],
+      links: ['absolute', 'caller', 'dirname', 'gitRoot', 'glob', 'here', 'packageRoot', 'tmpDirectory'],
     },
     {
       name: 'URLs',
