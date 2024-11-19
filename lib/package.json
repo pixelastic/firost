@@ -13,6 +13,7 @@
   "repository": "pixelastic/firost",
   "homepage": "https://projects.pixelastic.com/firost/",
   "type": "module",
+  "sideEffects": false,
   "license": "MIT",
   "engines": {
     "node": ">=18.18.0"
