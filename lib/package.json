@@ -40,7 +40,7 @@
     "find-up": "7.0.0",
     "fs-extra": "11.2.0",
     "globby": "14.0.2",
-    "golgoth": "2.4.0",
+    "golgoth": "3.0.0",
     "is-glob": "4.0.3",
     "json-stable-stringify": "1.1.1",
     "multimatch": "7.0.0",
