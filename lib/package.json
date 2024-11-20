@@ -35,6 +35,7 @@
     "@inquirer/prompts": "7.2.1",
     "callsites": "4.2.0",
     "chokidar": "4.0.3",
+    "empathic": "1.0.0",
     "eventemitter2": "6.4.9",
     "execa": "5.1.1",
     "find-up": "7.0.0",
