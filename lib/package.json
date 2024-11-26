@@ -44,7 +44,7 @@
     "is-glob": "4.0.3",
     "json-stable-stringify": "1.1.1",
     "multimatch": "7.0.0",
-    "nanoid": "5.0.8",
+    "nanoid": "5.0.9",
     "normalize-url": "8.0.1",
     "ora": "8.1.1",
     "rev-hash": "4.1.0",
