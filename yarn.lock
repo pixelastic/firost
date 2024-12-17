@@ -7255,6 +7255,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chokidar@npm:4.0.2":
+  version: 4.0.2
+  resolution: "chokidar@npm:4.0.2"
+  dependencies:
+    readdirp: "npm:^4.0.1"
+  checksum: 10c0/562a3456d529ce9e16f9a6447f86a3e82a816200fed473fa0b6f84b447ce29f96210c92874a8d5e619a0b453d92a352e93252baa214e376a9a08489e96337c65
+  languageName: node
+  linkType: hard
+
 "chownr@npm:^1.1.1, chownr@npm:^1.1.4":
   version: 1.1.4
   resolution: "chownr@npm:1.1.4"
@@ -11016,7 +11025,7 @@ __metadata:
   dependencies:
     "@inquirer/prompts": "npm:7.2.0"
     callsites: "npm:4.2.0"
-    chokidar: "npm:4.0.1"
+    chokidar: "npm:4.0.2"
     eventemitter2: "npm:6.4.9"
     execa: "npm:5.1.1"
     find-up: "npm:7.0.0"
