@@ -34,7 +34,7 @@
   "dependencies": {
     "@inquirer/prompts": "7.2.0",
     "callsites": "4.2.0",
-    "chokidar": "4.0.2",
+    "chokidar": "4.0.3",
     "eventemitter2": "6.4.9",
     "execa": "5.1.1",
     "find-up": "7.0.0",
@@ -42,7 +42,7 @@
     "globby": "14.0.2",
     "golgoth": "3.0.0",
     "is-glob": "4.0.3",
-    "json-stable-stringify": "1.1.1",
+    "json-stable-stringify": "1.2.0",
     "multimatch": "7.0.0",
     "nanoid": "5.0.9",
     "normalize-url": "8.0.1",
