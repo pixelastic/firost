@@ -37,7 +37,7 @@
     "chokidar": "4.0.3",
     "empathic": "1.0.0",
     "eventemitter2": "6.4.9",
-    "execa": "5.1.1",
+    "execa": "9.5.2",
     "fs-extra": "11.2.0",
     "globby": "14.0.2",
     "golgoth": "3.0.0",
