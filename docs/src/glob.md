@@ -23,7 +23,7 @@ const files = await glob(['./src/**/*.css', '!./src/**/_*.css']);
 
 ## Notes
 
-Set `options.context` to define the root folder to use for globs.
+Set `options.cwd` to define the root folder to use for globs.
 
 Set `options.hiddenFiles` to `false` to not match hidden files.
 
