@@ -40,7 +40,16 @@ module.exports = {
     },
     {
       name: 'Utils',
-      links: ['cache', 'callstack', 'captureOutput', 'hash', 'import', 'sleep', 'uuid', 'error'],
+      links: [
+        'cache',
+        'callstack',
+        'captureOutput',
+        'firostError'
+        'firostImport',
+        'hash',
+        'sleep',
+        'uuid',
+      ],
     },
     {
       name: 'Console',
