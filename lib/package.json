@@ -23,7 +23,7 @@
     "newFile/index.js",
     "newFile/templates/*",
     "packageRoot/*.js",
-    "watch/helper/*.js",
+    "watch/helpers/*.js",
     "watch/*.js",
     "*.js"
   ],
