@@ -9,7 +9,7 @@
   ],
   "devDependencies": {
     "aberlaas": "2.14.0",
-    "lerna": "4.0.0"
+    "lerna": "8.2.0"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
