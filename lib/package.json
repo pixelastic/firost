@@ -32,7 +32,7 @@
   },
   "main": "./main.js",
   "dependencies": {
-    "@inquirer/prompts": "7.3.2",
+    "@inquirer/prompts": "7.3.3",
     "callsites": "4.2.0",
     "chokidar": "4.0.3",
     "empathic": "1.0.0",
