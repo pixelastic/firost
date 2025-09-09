@@ -49,7 +49,7 @@
     "ora": "8.2.0",
     "rev-hash": "4.1.0",
     "std-mocks": "2.0.0",
-    "strip-ansi": "7.1.0",
+    "strip-ansi": "7.1.2",
     "temp-dir": "3.0.0",
     "untildify": "5.0.0",
     "which": "5.0.0"
