@@ -11322,7 +11322,7 @@ __metadata:
     json-stable-stringify: "npm:1.3.0"
     multimatch: "npm:7.0.0"
     nanoid: "npm:5.1.5"
-    normalize-url: "npm:8.0.2"
+    normalize-url: "npm:8.1.0"
     ora: "npm:8.2.0"
     rev-hash: "npm:4.1.0"
     std-mocks: "npm:2.0.0"
@@ -17014,10 +17014,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-url@npm:8.0.2":
-  version: 8.0.2
-  resolution: "normalize-url@npm:8.0.2"
-  checksum: 10c0/1c62eee6ce184ad4a463ff2984ce5e440a5058c9dd7c5ef80c0a7696bbb1d3638534e266afb14ef9678dfa07fb6c980ef4cde990c80eeee55900c378b7970584
+"normalize-url@npm:8.1.0":
+  version: 8.1.0
+  resolution: "normalize-url@npm:8.1.0"
+  checksum: 10c0/e9b68db5f0264ce74fc083e2120b4a40fb3248e5dceec5f795bddcee0311b3613f858c9a65f258614fac2776b8e9957023bea8fe7299db1496b3cd1c75976cfe
   languageName: node
   linkType: hard
 
