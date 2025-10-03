@@ -1,6 +1,6 @@
 {
   "name": "firost",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "author": "Tim Carry (@pixelastic)",
   "description": "Async glob, read and write files",
   "keywords": [
