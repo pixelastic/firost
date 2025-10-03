@@ -32,4 +32,5 @@ Files and directories will be created if they don't exist. If `prettier` is
 installed, your config will be applied to the file as well.
 
 You can pass `sort: false` as option to prevent the alphabetical sorting of
-keys.
+keys. You can also pass `sort: ['key1', 'key2', ...]` to define a custom key 
+order, with remaining keys appended alphabetically at the end.
