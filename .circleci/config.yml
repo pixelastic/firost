@@ -3,7 +3,7 @@ version: 2.1
 aliases:
   - &defaults
     docker:
-      - image: cimg/node:18.18.0
+      - image: cimg/node:22.18.0
   - &restore_cache
     restore_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
@@ -12,7 +12,7 @@ aliases:
       name: 'Installing correct yarn version'
       command: |
         corepack enable --install-directory="/home/circleci/bin"
-        yarn set version 4.5.0
+        yarn set version 4.10.3
   - &install_dependencies
     run:
       name: 'Installing dependencies'
@@ -28,7 +28,6 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      # - add_ssh_keys # Uncomment to enable --autoRelease
       - *restore_cache
       - *install_yarn
       - *install_dependencies
