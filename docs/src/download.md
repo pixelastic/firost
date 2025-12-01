@@ -12,7 +12,11 @@ title: download
 
 ```js
 await download(
-  'https://i.ytimg.com/vi/oHg5SJYRHA0/hqdefault.jpg', 
+  'https://i.ytimg.com/vi/oHg5SJYRHA0/hqdefault.jpg',
   './cover.jpg'
 );
 ```
+
+## Notes
+
+Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
