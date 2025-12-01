@@ -28,3 +28,7 @@ await emptyDir('./project/dist');
 //    ├── dist
 //    └── package.json
 ```
+
+## Notes
+
+Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

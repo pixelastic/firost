@@ -18,7 +18,9 @@ if (await isSymlink('./bin/command')) {
 }
 ```
 
-## Note
+## Notes
 
 By design, this method will return `true` for broken symlinks (where the destination does
 not exist).
+
+Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
