@@ -21,6 +21,16 @@ const files = await glob('./src/**/*.css');
 const files = await glob(['./src/**/*.css', '!./src/**/_*.css']);
 ```
 
+## Differences with `absolute()` and `resolve()`
+
+Firost provides three levels of filepath processing:
+
+- **[`absolute()`](./absolute)**: Converts a single filepath to an absolute path (synchronous)
+- **[`resolve()`](./resolve)**: Converts one or multiple filepaths to an array of absolute paths (synchronous, no glob expansion)
+- **`glob()`**: Expands patterns and returns matching files (asynchronous, checks existence)
+
+Use `glob()` when you need to match files using patterns and verify they exist on disk.
+
 ## Notes
 
 Set `options.cwd` to define the root folder to use for globs.

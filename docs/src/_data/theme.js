@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Filepath',
-      links: ['absolute', 'caller', 'dirname', 'gitRoot', 'glob', 'here', 'packageRoot', 'tmpDirectory'],
+      links: ['absolute', 'caller', 'dirname', 'gitRoot', 'glob', 'here', 'packageRoot', 'resolve', 'tmpDirectory'],
     },
     {
       name: 'URLs',
@@ -44,7 +44,7 @@ module.exports = {
         'cache',
         'callstack',
         'captureOutput',
-        'firostError'
+        'firostError',
         'firostImport',
         'hash',
         'sleep',
