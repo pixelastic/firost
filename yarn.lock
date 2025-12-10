@@ -11595,7 +11595,6 @@ __metadata:
   resolution: "firost@workspace:lib"
   dependencies:
     "@inquirer/prompts": "npm:7.10.1"
-    callsites: "npm:4.2.0"
     chokidar: "npm:4.0.3"
     empathic: "npm:1.1.0"
     eventemitter2: "npm:6.4.9"
