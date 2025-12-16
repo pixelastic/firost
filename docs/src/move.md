@@ -34,3 +34,5 @@ It will also throw errors instead of performing potentially dangerous operations
 like overwriting a file with a directory, or copying multiple files to the same
 destination file.
 
+Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
+

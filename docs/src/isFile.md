@@ -22,3 +22,5 @@ if (await isFile('./package.json')) {
 
 This follows symlinks, so if `filepath` is a link to a file, it will return
 `true`. If `filepath` is a link to a directory, it will return `false`.
+
+Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

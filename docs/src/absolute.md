@@ -43,13 +43,3 @@ absolute('<packageRoot>', 'package.json');
 // The current working directory (as expressed by process.cwd)
 absolute('<cwd>');
 ```
-
-## Differences with `resolve()` and `glob()`
-
-Firost provides three levels of filepath processing:
-
-- **`absolute()`**: Converts a single filepath to an absolute path (synchronous)
-- **[`resolve()`](./resolve)**: Converts one or multiple filepaths to an array of absolute paths (synchronous, no glob expansion)
-- **[`glob()`](./glob)**: Expands patterns and returns matching files (asynchronous, checks existence)
-
-Use `absolute()` when you need to normalize a single filepath.
