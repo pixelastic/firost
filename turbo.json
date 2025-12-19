@@ -2,7 +2,7 @@
   "$schema": "https://turborepo.com/schema.json",
   "ui": "tui",
   "tasks": {
-    "test-direct": {
+    "test:direct": {
       "cache": true
     },
     "lint": {

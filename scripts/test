@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-turbo run test-direct "$@"
+turbo run test:direct "$@"

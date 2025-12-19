@@ -24,9 +24,8 @@
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/lib/release",
     "serve": "./scripts/docs/serve",
-    "test": "./scripts/test-turbo",
-    "test-direct": "./scripts/test-direct",
-    "test-turbo": "./scripts/test-turbo",
+    "test": "./scripts/test",
+    "test:direct": "./scripts/test-direct",
     "test:watch": "./scripts/lib/test-watch",
     "g:build": "./scripts/docs/build",
     "g:build:prod": "./scripts/docs/build-prod",
@@ -36,9 +35,8 @@
     "g:lint:fix": "./scripts/lint-fix",
     "g:release": "./scripts/lib/release",
     "g:serve": "./scripts/docs/serve",
-    "g:test": "./scripts/test-turbo",
-    "g:test-direct": "./scripts/test-direct",
-    "g:test-turbo": "./scripts/test-turbo",
+    "g:test": "./scripts/test",
+    "g:test:direct": "./scripts/test-direct",
     "g:test:watch": "./scripts/lib/test-watch"
   },
   "packageManager": "yarn@4.12.0"
