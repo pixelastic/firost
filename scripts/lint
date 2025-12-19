@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-turbo run lint:direct "$@"
+turbo run lint:direct --continue "$@"

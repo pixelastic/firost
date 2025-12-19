@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
 set -e
 
-aberlaas lint "${@:-$INIT_CWD}"
+# When run from root, only lint root-level files and scripts/ (not workspace packages)
+# When run from a package or with arguments, lint that specific directory
+CWD="${INIT_CWD:-$(pwd)}"
+
+if [ $# -eq 0 ] && [ "$CWD" = "/home/tim/local/www/projects/firost" ]; then
+  aberlaas lint scripts/ *.js *.json *.yml *.yaml
+else
+  aberlaas lint "${@:-$CWD}"
+fi
