@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 set -e
 
-yarn run test
-lerna publish --yes "$@"
+echo "❌ Error: Lerna has been removed from this project."
+echo ""
+echo "Publishing is not yet configured. Next steps:"
+echo "  1. Install Changesets: yarn add -D @changesets/cli"
+echo "  2. Initialize: yarn changeset init"
+echo "  3. Configure Changesets for publishing"
+echo ""
+echo "See: https://github.com/changesets/changesets"
+exit 1

@@ -12,7 +12,6 @@ tmp/
 
 # Files
 Thumbs.db
-lerna-debug.log
 npm-debug.log
 yarn-error.log
 *~
