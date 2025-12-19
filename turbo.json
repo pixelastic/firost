@@ -5,10 +5,10 @@
     "test:direct": {
       "cache": true
     },
-    "lint": {
+    "lint:direct": {
       "cache": true
     },
-    "lint:fix": {
+    "lint:fix:direct": {
       "cache": false
     }
   }

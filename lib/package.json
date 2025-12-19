@@ -65,6 +65,8 @@
     "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
     "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
     "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
-    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
+    "lint:direct": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:direct",
+    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix",
+    "lint:fix:direct": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix:direct"
   }
 }

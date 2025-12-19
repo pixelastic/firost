@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-aberlaas lint --fix "${@:-$INIT_CWD}"
+turbo run lint:fix:direct "$@"
