@@ -8,6 +8,7 @@ dist/
 node_modules/
 tmp/
 .claude/
+.turbo/
 
 # Files
 Thumbs.db
