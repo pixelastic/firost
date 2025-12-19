@@ -29,6 +29,8 @@
     "test": "./scripts/test",
     "test:direct": "./scripts/test-direct",
     "test:watch": "./scripts/lib/test-watch",
+    "g:aberlaas": "aberlaas",
+    "g:turbo": "turbo",
     "g:build": "./scripts/docs/build",
     "g:build:prod": "./scripts/docs/build-prod",
     "g:cms": "./scripts/docs/cms",

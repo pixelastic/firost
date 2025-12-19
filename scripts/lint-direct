@@ -6,7 +6,7 @@ set -e
 CWD="${INIT_CWD:-$(pwd)}"
 
 if [ $# -eq 0 ] && [ "$CWD" = "/home/tim/local/www/projects/firost" ]; then
-  aberlaas lint scripts/ *.js *.json *.yml *.yaml
+  yarn g:aberlaas lint scripts/ *.js *.json *.yml *.yaml
 else
-  aberlaas lint "${@:-$CWD}"
+  yarn g:aberlaas lint "${@:-$CWD}"
 fi

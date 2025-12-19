@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-aberlaas test "$@"
+yarn g:aberlaas test "$@"

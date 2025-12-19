@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-turbo run lint:fix:direct --continue "$@"
+yarn g:turbo run lint:fix:direct --continue "$@"
