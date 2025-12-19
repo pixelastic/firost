@@ -61,6 +61,8 @@
     "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
     "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
     "test": "ABERLAAS_CWD=$INIT_CWD yarn g:test",
+    "test-direct": "ABERLAAS_CWD=$INIT_CWD yarn g:test-direct",
+    "test-turbo": "ABERLAAS_CWD=$INIT_CWD yarn g:test-turbo",
     "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
     "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
     "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",

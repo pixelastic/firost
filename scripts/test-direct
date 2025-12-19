@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+
+aberlaas test --type=direct "$@"
