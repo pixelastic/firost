@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-yarn g:turbo run lint:fix:root lint:fix:direct --continue "$@"

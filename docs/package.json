@@ -9,12 +9,12 @@
   "name": "firost-docs",
   "private": true,
   "scripts": {
-    "lint": "../scripts/docs/lint",
-    "lint:fix": "../scripts/docs/lint-fix",
-    "build": "../scripts/docs/build",
-    "build:prod": "../scripts/docs/build-prod",
-    "cms": "../scripts/docs/cms",
-    "serve": "../scripts/docs/serve"
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint --fix",
+    "build": "yarn g:build",
+    "build:prod": "yarn g:build:prod",
+    "cms": "yarn g:cms",
+    "serve": "yarn g:serve"
   },
   "version": "5.2.0"
 }

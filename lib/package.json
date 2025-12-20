@@ -55,18 +55,15 @@
     "get-port": "7.1.0"
   },
   "scripts": {
-    "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
-    "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
-    "cms": "ABERLAAS_CWD=$INIT_CWD yarn g:cms",
-    "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
-    "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
-    "test": "yarn g:test --filter=firost",
-    "test:direct": "yarn g:test:direct",
+    "build": "yarn g:build",
+    "build:prod": "yarn g:build:prod",
+    "cms": "yarn g:cms",
+    "serve": "yarn g:serve",
+    "release": "yarn g:release",
+    "test": "yarn g:test",
     "test:watch": "yarn g:test:watch",
     "compress": "yarn g:compress",
-    "lint": "yarn g:lint --filter=firost",
-    "lint:direct": "yarn g:lint:direct",
-    "lint:fix": "yarn g:lint:fix --filter=firost",
-    "lint:fix:direct": "yarn g:lint:fix:direct"
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint --fix"
   }
 }

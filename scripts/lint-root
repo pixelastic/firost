@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-# Lint only root-level files and scripts/ directory
-yarn g:aberlaas lint scripts/ *.js *.json *.yml *.yaml "$@"

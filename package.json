@@ -8,8 +8,7 @@
     "docs"
   ],
   "devDependencies": {
-    "aberlaas": "2.19.0",
-    "turbo": "2.6.3"
+    "aberlaas": "2.19.0"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/firost/",
@@ -21,30 +20,20 @@
     "cms": "./scripts/docs/cms",
     "compress": "./scripts/compress",
     "lint": "./scripts/lint",
-    "lint:root": "./scripts/lint-root",
-    "lint:direct": "./scripts/lint-direct",
-    "lint:fix": "./scripts/lint-fix",
-    "lint:fix:root": "./scripts/lint-fix-root",
-    "lint:fix:direct": "./scripts/lint-fix-direct",
+    "lint:fix": "./scripts/lint --fix",
     "release": "./scripts/lib/release",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
-    "test:direct": "./scripts/test-direct",
     "test:watch": "./scripts/lib/test-watch",
     "g:aberlaas": "aberlaas",
-    "g:turbo": "turbo",
     "g:build": "./scripts/docs/build",
     "g:build:prod": "./scripts/docs/build-prod",
     "g:cms": "./scripts/docs/cms",
     "g:compress": "./scripts/compress",
     "g:lint": "./scripts/lint",
-    "g:lint:direct": "./scripts/lint-direct",
-    "g:lint:fix": "./scripts/lint-fix",
-    "g:lint:fix:direct": "./scripts/lint-fix-direct",
     "g:release": "./scripts/lib/release",
     "g:serve": "./scripts/docs/serve",
     "g:test": "./scripts/test",
-    "g:test:direct": "./scripts/test-direct",
     "g:test:watch": "./scripts/lib/test-watch"
   },
   "packageManager": "yarn@4.12.0"
