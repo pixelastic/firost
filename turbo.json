@@ -2,7 +2,7 @@
   "$schema": "https://turborepo.com/schema.json",
   "ui": "tui",
   "tasks": {
-    "//#lint:direct": {
+    "//#lint:root": {
       "cache": true,
       "outputLogs": "full"
     },
@@ -10,11 +10,14 @@
       "cache": true,
       "outputLogs": "full"
     },
-    "test:direct": {
-      "cache": true
+    "//#lint:fix:root": {
+      "cache": false
     },
     "lint:fix:direct": {
       "cache": false
+    },
+    "test:direct": {
+      "cache": true
     }
   }
 }

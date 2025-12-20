@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+# Lint and fix only root-level files and scripts/ directory
+yarn g:aberlaas lint --fix scripts/ *.js *.json *.yml *.yaml "$@"

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-yarn g:turbo run lint:direct --continue "$@"
+# Specifically run lint:root if we run it from root
+scripts=(lint:direct)
+[[ "$INIT_CWD" == "$(pwd)" ]] && scripts+=(lint:root)
+
+yarn g:turbo run "${scripts[@]}" --continue "$@"

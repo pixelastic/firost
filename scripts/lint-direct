@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-# When run from root, only lint root-level files and scripts/ (not workspace packages)
-# When run from a package or with arguments, lint that specific directory
-CWD="${INIT_CWD:-$(pwd)}"
-
-if [ $# -eq 0 ] && [ "$CWD" = "/home/tim/local/www/projects/firost" ]; then
-  yarn g:aberlaas lint scripts/ *.js *.json *.yml *.yaml
-else
-  yarn g:aberlaas lint "${@:-$CWD}"
-fi
+yarn g:aberlaas lint "${@:-$INIT_CWD}"
