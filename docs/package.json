@@ -1,20 +1,24 @@
 {
+  "name": "firost-docs",
+  "private": true,
+  "version": "5.2.0",
+  "keywords": [],
+  "homepage": "https://projects.pixelastic.com/firost/",
+  "files": [],
   "dependencies": {
     "norska": "3.0.0",
     "norska-theme-docs": "5.0.3"
   },
-  "files": [],
-  "homepage": "https://projects.pixelastic.com/firost/",
-  "keywords": [],
-  "name": "firost-docs",
-  "private": true,
   "scripts": {
-    "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint --fix",
     "build": "yarn g:build",
     "build:prod": "yarn g:build:prod",
     "cms": "yarn g:cms",
-    "serve": "yarn g:serve"
-  },
-  "version": "5.2.0"
+    "compress": "yarn g:compress",
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint:fix",
+    "release": "yarn g:release",
+    "serve": "yarn g:serve",
+    "test": "yarn lib:test",
+    "test:watch": "yarn lib:test:watch"
+  }
 }
