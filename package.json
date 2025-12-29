@@ -3,7 +3,10 @@
   "type": "module",
   "private": true,
   "description": "firost monorepo",
-  "workspaces": ["lib", "docs"],
+  "workspaces": [
+    "lib",
+    "docs"
+  ],
   "devDependencies": {
     "aberlaas": "2.19.0"
   },
@@ -27,6 +30,7 @@
     "g:cms": "./scripts/docs/cms",
     "g:compress": "./scripts/compress",
     "g:lint": "./scripts/lint",
+    "g:lint:fix": "./scripts/lint-fix",
     "g:release": "./scripts/lib/release",
     "g:serve": "./scripts/docs/serve",
     "g:test": "./scripts/test",

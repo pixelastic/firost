@@ -1,0 +1,61 @@
+#!/usr/bin/env zsh
+root=$PWD
+lib=$root/lib
+docs=$root/docs
+
+function setup() {
+  cd $1 || exit
+  echo "PWD: $PWD"
+}
+
+function teardown() {
+  echo "PWD: $PWD"
+  echo $name
+  echo "OK?"
+  read
+}
+
+#==== ROOT
+setup $root
+
+name="root: should lint all files"
+yarn run lint
+teardown
+
+name="root: should only lint JSON"
+yarn run lint --json
+teardown
+
+name="root: should only lint relative file"
+yarn run lint ./lib/test-lint-error.js
+teardown
+
+name="root: should only lint absolute file"
+yarn run lint $root/lib/test-lint-error.js
+teardown
+
+#==== LIB
+setup $lib
+
+name="./lib: should lint only lib files"
+yarn run lint
+teardown
+
+name="./lib: should only lint JSON"
+yarn run lint --json
+teardown
+
+name="./lib: should only lint relative file in ./lib"
+yarn run lint ./test-lint-error.js
+teardown
+
+name="./lib: should only lint absolute file in root"
+yarn run lint $root/test-lint-error.js
+teardown
+
+#==== DOCS
+setup $docs
+
+name="./docs: should do nothing"
+yarn run lint
+teardown

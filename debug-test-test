@@ -1,0 +1,53 @@
+#!/usr/bin/env zsh
+root=$PWD
+lib=$root/lib
+docs=$root/docs
+
+function setup() {
+  cd $1 || exit
+  echo "PWD: $PWD"
+}
+
+function teardown() {
+  echo "PWD: $PWD"
+  echo $name
+  echo "OK?"
+  read
+}
+
+#==== ROOT
+setup $root
+
+name="root: should run all tests"
+yarn run test
+teardown
+
+name="root: run relative test"
+yarn run test ./lib/__tests__/hash.js
+teardown
+
+name="root: run absolute test"
+yarn run test $root/lib/__tests__/hash.js
+teardown
+
+#==== LIB
+setup $lib
+
+name="./lib: should run all tests"
+yarn run test
+teardown
+
+name="./lib: run relative test"
+yarn run test ./__tests__/hash.js
+teardown
+
+name="./lib: run absolute test"
+yarn run test $lib/__tests__/hash.js
+teardown
+
+#==== DOCS
+setup $docs
+
+name="./docs: should run all tests"
+yarn run test
+teardown
