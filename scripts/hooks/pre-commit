@@ -8,4 +8,4 @@
 # $ git config core.hooksPath scripts/hooks
 set -e
 
-yarn run aberlaas precommit
+./node_modules/.bin/aberlaas precommit

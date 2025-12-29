@@ -3,4 +3,4 @@ set -e
 
 echo "node $(node --version), yarn $(yarn --version)"
 
-aberlaas ci "$@"
+./node_modules/.bin/aberlaas ci "$@"
