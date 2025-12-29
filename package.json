@@ -25,7 +25,6 @@
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/lib/test-watch",
-    "g:build": "./scripts/docs/build",
     "g:build:prod": "./scripts/docs/build-prod",
     "g:cms": "./scripts/docs/cms",
     "g:compress": "./scripts/compress",
