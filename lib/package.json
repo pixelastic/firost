@@ -3,13 +3,7 @@
   "version": "5.3.0",
   "author": "Tim Carry (@pixelastic)",
   "description": "Async glob, read and write files",
-  "keywords": [
-    "shell",
-    "filesystem",
-    "copy",
-    "move",
-    "delete"
-  ],
+  "keywords": ["shell", "filesystem", "copy", "move", "delete"],
   "repository": "pixelastic/firost",
   "homepage": "https://projects.pixelastic.com/firost/",
   "type": "module",
@@ -58,12 +52,12 @@
     "build": "yarn g:build",
     "build:prod": "yarn g:build:prod",
     "cms": "yarn g:cms",
-    "serve": "yarn g:serve",
-    "release": "yarn g:release",
-    "test": "yarn g:test",
-    "test:watch": "yarn g:test:watch",
     "compress": "yarn g:compress",
     "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint --fix"
+    "lint:fix": "yarn g:lint:fix",
+    "release": "yarn g:release",
+    "serve": "yarn g:serve",
+    "test": "yarn g:test",
+    "test:watch": "yarn g:test:watch"
   }
 }

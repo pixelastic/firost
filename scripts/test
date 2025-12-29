@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-exec yarn g:aberlaas test "$@"
+node_modules/.bin/aberlaas test "$@"

@@ -1,17 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-# Determine target directory
-# If called from a package, use that directory
-# If called from root, use root
-target_dir="${INIT_CWD:=$(pwd)}"
-
-# Change to target directory and run aberlaas
-cd "$target_dir"
-
-# If no arguments, pass "." to lint current directory only
-if [[ $# -eq 0 ]]; then
-  exec yarn g:aberlaas lint "."
-else
-  exec yarn g:aberlaas lint "$@"
-fi
+node_modules/.bin/aberlaas lint "$@"
