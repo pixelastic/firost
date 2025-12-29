@@ -1,15 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-# Determine target directory
-target_dir="${INIT_CWD:=$(pwd)}"
-
-# Change to target directory and run aberlaas
-cd "$target_dir"
-
-# If no arguments, pass "." to test current directory only
-if [[ $# -eq 0 ]]; then
-  exec yarn g:aberlaas test "."
-else
-  exec yarn g:aberlaas test "$@"
-fi
+exec yarn g:aberlaas test "$@"
