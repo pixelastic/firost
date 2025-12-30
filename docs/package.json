@@ -10,15 +10,15 @@
     "norska-theme-docs": "5.0.3"
   },
   "scripts": {
-    "build": "yarn g:build",
-    "build:prod": "yarn g:build:prod",
-    "cms": "yarn g:cms",
-    "compress": "yarn g:compress",
-    "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint:fix",
-    "release": "yarn g:release",
-    "serve": "yarn g:serve",
-    "test": "yarn lib:test",
-    "test:watch": "yarn lib:test:watch"
+    "build": "cd ../ && ./scripts/build",
+    "build:prod": "cd ../ && ./scripts/build-prod",
+    "cms": "cd ../ && ./scripts/cms",
+    "compress": "cd ../ && ./scripts/compress",
+    "lint": "cd ../ && ./scripts/lint",
+    "lint:fix": "cd ../ && ./scripts/lint-fix",
+    "release": "cd ../ && ./scripts/release",
+    "serve": "cd ../ && ./scripts/serve",
+    "test": "cd ../lib && yarn run test",
+    "test:watch": "cd ../lib && yarn run test:watch"
   }
 }

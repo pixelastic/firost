@@ -24,18 +24,7 @@
     "release": "./scripts/lib/release",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
-    "test:watch": "./scripts/lib/test-watch",
-    "g:build:prod": "./scripts/docs/build-prod",
-    "g:cms": "./scripts/docs/cms",
-    "g:compress": "./scripts/compress",
-    "g:lint": "./scripts/lint",
-    "g:lint:fix": "./scripts/lint-fix",
-    "g:release": "./scripts/lib/release",
-    "g:serve": "./scripts/docs/serve",
-    "g:test": "./scripts/test",
-    "g:test:watch": "./scripts/lib/test-watch",
-    "lib:test": "cd ./lib && yarn g:test",
-    "lib:test:watch": "cd ./lib && yarn g:test:watch"
+    "test:watch": "./scripts/lib/test-watch"
   },
   "packageManager": "yarn@4.12.0"
 }
