@@ -14,17 +14,17 @@
   "homepage": "https://projects.pixelastic.com/firost/",
   "keywords": [],
   "scripts": {
-    "build": "./scripts/docs/build",
-    "build:prod": "./scripts/docs/build-prod",
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
     "cms": "./scripts/docs/cms",
     "compress": "./scripts/compress",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
-    "release": "./scripts/lib/release",
+    "release": "./scripts/release",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
-    "test:watch": "./scripts/lib/test-watch"
+    "test:watch": "./scripts/test-watch"
   },
   "packageManager": "yarn@4.12.0"
 }
