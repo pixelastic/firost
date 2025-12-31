@@ -23,15 +23,14 @@ const files = await glob(['./src/**/*.css', '!./src/**/_*.css']);
 
 ## Notes
 
-Set `options.cwd` to define the root folder to use for globs.
+If you pass relative patterns, you need to set `options.cwd` to define the reference folder.
 
 Set `options.hiddenFiles` to `false` to not match hidden files.
 
 Set `options.directories` to `false` to match only files, and not directories.
 
-Set `options.absolutePaths` to `false` to return relative paths instead of absolute ones.
-
-You can also pass any of [globby][1] or [fast-glob][2] options.
+Set `options.absolutePaths` to `false` to return relative paths instead of
+absolute ones (you need to also pass `options.cwd` for it to work).
 
 Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
 
