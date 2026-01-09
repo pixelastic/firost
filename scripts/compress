@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-./node_modules/.bin/aberlaas compress "${@:-$INIT_CWD}"
+node_modules/.bin/aberlaas compress "$@"
