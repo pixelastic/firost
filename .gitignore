@@ -1,6 +1,7 @@
 # Hidden files
 .DS_Store
 .envrc
+.npmrc
 
 # Directories
 build/
@@ -8,7 +9,6 @@ dist/
 node_modules/
 tmp/
 .claude/
-.turbo/
 
 # Files
 Thumbs.db
