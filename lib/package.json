@@ -23,7 +23,8 @@
     "newFile/templates/*",
     "watch/helpers/*.js",
     "watch/*.js",
-    "*.js"
+    "*.js",
+    "README.md"
   ],
   "exports": {
     ".": "./main.js"
