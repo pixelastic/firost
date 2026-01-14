@@ -19,6 +19,7 @@
     "node": ">=22.18.0"
   },
   "files": [
+    "helpers/*.js",
     "newFile/index.js",
     "newFile/templates/*",
     "watch/helpers/*.js",
