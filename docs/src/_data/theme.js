@@ -32,7 +32,7 @@ module.exports = {
     },
     {
       name: 'Commands',
-      links: ['run', 'which', 'env', 'exit', 'prompt', 'spinner'],
+      links: ['run', 'which', 'env', 'exit', 'prompt', 'select', 'spinner'],
     },
     {
       name: 'Watchers',
