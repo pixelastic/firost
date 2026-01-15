@@ -420,14 +420,14 @@ pulse.emit('custom', 'Hello');
 // Hello
 ```
 
-### `require(id)`
+### `firostImpot(id)`
 
-Alternative to the default `require()`. Pass `forceReload: true` as an option to
+Alternative to the default dynamic `import()`. Pass `forceReload: true` as an option to
 force reloading the latest version on disk, bypassing the singleton cache.
 
 ```js
-const module = firost.require('./path/to/module.js');
-const updatedModule = firost.require('./path/to/module.js', {
+const module = await firostImport('./path/to/module.js');
+const updatedModule = await firostImport('./path/to/module.js', {
   forceReload: true,
 });
 ```
