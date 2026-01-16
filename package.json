@@ -21,7 +21,7 @@
     "compress": "./scripts/compress",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
-    "release": "./scripts/release",
+    "release": "cd ./lib && yarn run release",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"

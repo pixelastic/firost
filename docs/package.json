@@ -1,9 +1,6 @@
 {
   "name": "firost-docs",
   "private": true,
-  "version": "5.2.0",
-  "keywords": [],
-  "homepage": "https://projects.pixelastic.com/firost/",
   "files": [],
   "dependencies": {
     "norska": "3.0.0",
@@ -16,7 +13,7 @@
     "compress": "cd ../ && ./scripts/compress",
     "lint": "cd ../ && ./scripts/lint",
     "lint:fix": "cd ../ && ./scripts/lint-fix",
-    "release": "cd ../ && ./scripts/release",
+    "release": "cd ../lib && yarn run release",
     "serve": "cd ../ && ./scripts/serve",
     "test": "cd ../lib && yarn run test",
     "test:watch": "cd ../lib && yarn run test:watch"
