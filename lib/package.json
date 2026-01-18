@@ -32,11 +32,11 @@
   },
   "main": "./main.js",
   "dependencies": {
-    "@inquirer/prompts": "7.10.1",
-    "chokidar": "4.0.3",
-    "empathic": "1.1.0",
+    "@inquirer/prompts": "8.2.0",
+    "chokidar": "5.0.0",
+    "empathic": "2.0.0",
     "eventemitter2": "6.4.9",
-    "execa": "5.1.1",
+    "execa": "9.6.1",
     "globby": "16.1.0",
     "fs-extra": "11.3.3",
     "golgoth": "3.0.0",
@@ -45,13 +45,13 @@
     "multimatch": "7.0.0",
     "nanoid": "5.1.6",
     "normalize-url": "8.1.1",
-    "ora": "8.2.0",
+    "ora": "9.0.0",
     "rev-hash": "4.1.0",
     "std-mocks": "2.0.0",
     "strip-ansi": "7.1.2",
     "temp-dir": "3.0.0",
-    "untildify": "5.0.0",
-    "which": "5.0.0"
+    "untildify": "6.0.0",
+    "which": "6.0.0"
   },
   "devDependencies": {
     "get-port": "7.1.0"
