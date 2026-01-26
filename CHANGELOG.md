@@ -1,3 +1,14 @@
+## v5.5.0
+
+
+### Features
+
+- **wrap:** Change signature to accept parent object and method name (cf515b7)
+
+### Bug Fixes
+
+- **wrap:** Dynamically resolve method references at call time (f6cb4cc)
+
 # [0.21.0](https://github.com/pixelastic/firost/compare/0.20.0...0.21.0) (2020-01-07)
 
 
@@ -539,4 +550,3 @@
 
 
 ## 0.0.2 (2018-09-27)
-
