@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-echo "TODO: Set a default script"
+echo "TODO: This should serve the docs/"

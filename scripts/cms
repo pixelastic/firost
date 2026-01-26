@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-echo "TODO: Set a default script"
+echo "TODO: Provide a browser-based edition experience of the docs/ data"
