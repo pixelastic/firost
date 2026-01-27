@@ -52,7 +52,7 @@
     "strip-ansi": "7.1.2",
     "temp-dir": "3.0.0",
     "untildify": "6.0.0",
-    "which": "5.0.0"
+    "which": "6.0.0"
   },
   "devDependencies": {
     "get-port": "7.1.0"
