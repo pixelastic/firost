@@ -1,3 +1,11 @@
+## v5.5.1
+
+Updating inner libraries to latest versions (chokidar, empathic, ora).
+Also ditching chalk in favor of yoctocolors.
+
+This should not have any impact on user, but a way to test if something broke in
+the wild.
+
 ## v5.5.0
 
 
