@@ -35,7 +35,7 @@
     "@inquirer/input": "5.0.4",
     "@inquirer/select": "5.0.4",
     "chokidar": "4.0.3",
-    "empathic": "1.1.0",
+    "empathic": "2.0.0",
     "eventemitter2": "6.4.9",
     "execa": "9.6.1",
     "fs-extra": "11.3.3",

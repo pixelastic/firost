@@ -8423,6 +8423,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"empathic@npm:2.0.0":
+  version: 2.0.0
+  resolution: "empathic@npm:2.0.0"
+  checksum: 10c0/7d3b14b04a93b35c47bcc950467ec914fd241cd9acc0269b0ea160f13026ec110f520c90fae64720fde72cc1757b57f3f292fb606617b7fccac1f4d008a76506
+  languageName: node
+  linkType: hard
+
 "enabled@npm:2.0.x":
   version: 2.0.0
   resolution: "enabled@npm:2.0.0"
@@ -10347,7 +10354,7 @@ __metadata:
     "@inquirer/input": "npm:5.0.4"
     "@inquirer/select": "npm:5.0.4"
     chokidar: "npm:4.0.3"
-    empathic: "npm:1.1.0"
+    empathic: "npm:2.0.0"
     eventemitter2: "npm:6.4.9"
     execa: "npm:9.6.1"
     fs-extra: "npm:11.3.3"
