@@ -10352,6 +10352,7 @@ __metadata:
     temp-dir: "npm:3.0.0"
     untildify: "npm:6.0.0"
     which: "npm:6.0.0"
+    yoctocolors: "npm:2.1.2"
   languageName: unknown
   linkType: soft
 
@@ -22115,7 +22116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yoctocolors@npm:^2.1.1":
+"yoctocolors@npm:2.1.2, yoctocolors@npm:^2.1.1":
   version: 2.1.2
   resolution: "yoctocolors@npm:2.1.2"
   checksum: 10c0/b220f30f53ebc2167330c3adc86a3c7f158bcba0236f6c67e25644c3188e2571a6014ffc1321943bb619460259d3d27eb4c9cc58c2d884c1b195805883ec7066
