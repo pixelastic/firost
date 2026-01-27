@@ -10314,7 +10314,7 @@ __metadata:
     std-mocks: "npm:2.0.0"
     strip-ansi: "npm:7.1.2"
     temp-dir: "npm:3.0.0"
-    untildify: "npm:5.0.0"
+    untildify: "npm:6.0.0"
     which: "npm:5.0.0"
   languageName: unknown
   linkType: soft
@@ -21133,6 +21133,13 @@ __metadata:
   version: 5.0.0
   resolution: "untildify@npm:5.0.0"
   checksum: 10c0/fefc6cccb3586a7b41ce684c08b2ccf125e50c65ff3cae69b1c5732b72c5bea7e400e1d95b3fa665e7cd6807ee0badf2dc63ced977aef11a097fe6a4a95e33a5
+  languageName: node
+  linkType: hard
+
+"untildify@npm:6.0.0":
+  version: 6.0.0
+  resolution: "untildify@npm:6.0.0"
+  checksum: 10c0/0a1ed4f3e3322b9e09340152a40e4068b9f0cf5aa343d8a040e5fa14275d0c83ffc874484facb0687becf659cfe8c6dcaf04e36ea116212c83613602004a1e4f
   languageName: node
   linkType: hard
 

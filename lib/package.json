@@ -51,7 +51,7 @@
     "std-mocks": "2.0.0",
     "strip-ansi": "7.1.2",
     "temp-dir": "3.0.0",
-    "untildify": "5.0.0",
+    "untildify": "6.0.0",
     "which": "5.0.0"
   },
   "devDependencies": {
