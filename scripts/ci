@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-echo "node $(node --version), yarn $(yarn --version)"
-
 ./node_modules/.bin/aberlaas ci "$@"
