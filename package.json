@@ -2,17 +2,18 @@
   "name": "firost-monorepo",
   "type": "module",
   "private": true,
-  "description": "firost monorepo",
   "workspaces": [
     "lib",
     "docs"
   ],
+  "description": "firost monorepo",
+  "homepage": "https://projects.pixelastic.com/firost/",
+  "keywords": [],
+  "packageManager": "yarn@4.12.0",
+  "files": [],
   "devDependencies": {
     "aberlaas": "2.19.0"
   },
-  "files": [],
-  "homepage": "https://projects.pixelastic.com/firost/",
-  "keywords": [],
   "scripts": {
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
@@ -25,6 +26,5 @@
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
-  },
-  "packageManager": "yarn@4.12.0"
+  }
 }
