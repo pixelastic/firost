@@ -1,16 +1,14 @@
 {
   "name": "firost-monorepo",
-  "type": "module",
   "private": true,
+  "type": "module",
   "workspaces": [
     "lib",
     "docs"
   ],
   "description": "firost monorepo",
   "homepage": "https://projects.pixelastic.com/firost/",
-  "keywords": [],
   "packageManager": "yarn@4.12.0",
-  "files": [],
   "devDependencies": {
     "aberlaas": "2.21.1"
   },

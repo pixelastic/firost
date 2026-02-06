@@ -1,7 +1,8 @@
 {
   "name": "firost-docs",
   "private": true,
-  "files": [],
+  "type": "commonjs",
+  "description": "Documentation website of firost",
   "dependencies": {
     "norska": "3.0.0",
     "norska-theme-docs": "5.0.3"
