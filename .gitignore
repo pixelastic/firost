@@ -1,5 +1,5 @@
 # Important files that should not be committed
-.npmrc
+.env
 .envrc
 
 # Build directories
