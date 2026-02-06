@@ -1,3 +1,10 @@
+## v5.5.2
+
+
+### Bug Fixes
+
+- **error:** Remove error code prefix from error messages (3917446)
+
 ## v5.5.1
 
 Updating inner libraries to latest versions (chokidar, empathic, ora).
