@@ -22,12 +22,12 @@
     "node": ">=22.18.0"
   },
   "files": [
-    "helpers/*.js",
-    "newFile/index.js",
-    "newFile/templates/*",
-    "watch/helpers/*.js",
-    "watch/*.js",
-    "*.js"
+    "./*.js",
+    "./helpers/*.js",
+    "./newFile/*.js",
+    "./newFile/templates/*",
+    "./watch/*.js",
+    "./watch/helpers/*.js"
   ],
   "exports": {
     ".": "./main.js"
