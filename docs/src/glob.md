@@ -32,7 +32,5 @@ Set `options.directories` to `false` to match only files, and not directories.
 Set `options.absolutePaths` to `false` to return relative paths instead of
 absolute ones (you need to also pass `options.cwd` for it to work).
 
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
-
 [1]: https://github.com/sindresorhus/globby#options
 [2]: https://github.com/mrmlnc/fast-glob#options-3
