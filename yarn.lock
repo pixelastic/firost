@@ -11052,7 +11052,6 @@ __metadata:
     rev-hash: "npm:4.1.0"
     std-mocks: "npm:2.0.0"
     strip-ansi: "npm:7.1.2"
-    temp-dir: "npm:3.0.0"
     untildify: "npm:6.0.0"
     which: "npm:6.0.1"
     yoctocolors: "npm:2.1.2"

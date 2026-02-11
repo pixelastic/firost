@@ -55,7 +55,6 @@
     "rev-hash": "4.1.0",
     "std-mocks": "2.0.0",
     "strip-ansi": "7.1.2",
-    "temp-dir": "3.0.0",
     "untildify": "6.0.0",
     "which": "6.0.1",
     "yoctocolors": "2.1.2"
