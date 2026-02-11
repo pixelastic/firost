@@ -1,3 +1,14 @@
+## v5.6.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.5.2...v5.6.0)
+
+### Features
+
+- **absolute:** Remove `<placeholder>` support ([5e5aebd](https://github.com/pixelastic/firost/commit/5e5aebd))
+- **absolute:** Allow passing a last argument as options to provide cwd ([2fbf16e](https://github.com/pixelastic/firost/commit/2fbf16e))
+- **callerDir:** Add new utility for resolving paths relative to caller ([4589f41](https://github.com/pixelastic/firost/commit/4589f41))
+- **firostImport:** Use `uuid` rather than `Date.now()` for cache busting
+
 ## v5.5.2
 
 
