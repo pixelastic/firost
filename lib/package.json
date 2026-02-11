@@ -61,6 +61,7 @@
     "yoctocolors": "2.1.2"
   },
   "scripts": {
+    "bench": "cd ../ && ./scripts/bench",
     "build": "cd ../ && ./scripts/build",
     "build:prod": "cd ../ && ./scripts/build-prod",
     "cms": "cd ../ && ./scripts/cms",
