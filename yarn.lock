@@ -10816,7 +10816,7 @@ __metadata:
   resolution: "firost-docs@workspace:docs"
   dependencies:
     norska: "npm:3.0.0"
-    norska-theme-docs: "npm:5.0.3"
+    norska-theme-docs: "npm:6.0.0"
   languageName: unknown
   linkType: soft
 
@@ -10827,34 +10827,6 @@ __metadata:
     aberlaas: "npm:2.23.0"
   languageName: unknown
   linkType: soft
-
-"firost@npm:2.15.0":
-  version: 2.15.0
-  resolution: "firost@npm:2.15.0"
-  dependencies:
-    callsites: "npm:3.1.0"
-    chokidar: "npm:3.5.2"
-    clear-module: "npm:4.1.1"
-    eventemitter2: "npm:6.4.4"
-    execa: "npm:5.1.1"
-    find-up: "npm:5.0.0"
-    fs-extra: "npm:10.0.0"
-    globby: "npm:11.0.4"
-    golgoth: "npm:2.0.0"
-    inquirer: "npm:8.1.1"
-    is-glob: "npm:4.0.1"
-    json-stable-stringify: "npm:1.0.1"
-    nanoid: "npm:3.1.23"
-    normalize-url: "npm:6.1.0"
-    ora: "npm:5.4.1"
-    std-mocks: "npm:1.0.1"
-    strip-ansi: "npm:6.0.0"
-    tempy: "npm:1.0.1"
-    untildify: "npm:4.0.0"
-    which: "npm:2.0.2"
-  checksum: 10c0/9214f11be47272635ed65680711738d2bcdf59d7559cdb98329aa63d18b1a4bf6f5017fc1808b8f77922577b1688f378c6341df3ea6939188e2f86e62e6de24e
-  languageName: node
-  linkType: hard
 
 "firost@npm:2.16.2":
   version: 2.16.2
@@ -16696,13 +16668,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-theme-docs@npm:5.0.3":
-  version: 5.0.3
-  resolution: "norska-theme-docs@npm:5.0.3"
+"norska-theme-docs@npm:6.0.0":
+  version: 6.0.0
+  resolution: "norska-theme-docs@npm:6.0.0"
   dependencies:
-    firost: "npm:2.15.0"
+    firost: "npm:2.17.0"
     parse-github-repo-url: "npm:1.4.1"
-  checksum: 10c0/bdb74a82d6b4658f4fd65ad00a4620962dcd645c3526a3ebf6f36a21b962ca66fe1af6952820b3cb6fad36ea148aa5c783b1199842806b0d9ba681b437678e44
+  checksum: 10c0/63715890939b6b1672c34976a6a0af22dee189c049ffe36288ad015bd73762fe1414ba8dac41c3f7492a1f9182ca0b3d95855dda6c573ef684066c128233fbc7
   languageName: node
   linkType: hard
 
@@ -21545,7 +21517,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tempy@npm:1.0.1, tempy@npm:^1.0.0":
+"tempy@npm:^1.0.0":
   version: 1.0.1
   resolution: "tempy@npm:1.0.1"
   dependencies:
