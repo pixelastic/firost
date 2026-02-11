@@ -1,6 +1,6 @@
 {
   "name": "firost",
-  "version": "5.6.0",
+  "version": "5.6.1",
   "type": "module",
   "description": "Async glob, read and write files",
   "author": "Tim Carry <tim@pixelastic.com>",

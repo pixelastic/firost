@@ -1,3 +1,12 @@
+## v5.6.1
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.6.0...v5.6.1)
+
+### Performance
+
+- **feat:** Use /dev/shm by default for storing files if available
+- **bench:** Add tmpDirectory realistic I/O workflow benchmark ([108955f](https://github.com/pixelastic/firost/commit/108955f))
+
 ## v5.6.0
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.5.2...v5.6.0)
