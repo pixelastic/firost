@@ -10,9 +10,10 @@
   "homepage": "https://projects.pixelastic.com/firost/",
   "packageManager": "yarn@4.12.0",
   "devDependencies": {
-    "aberlaas": "2.22.3"
+    "aberlaas": "2.23.0"
   },
   "scripts": {
+    "bench": "./scripts/bench",
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
