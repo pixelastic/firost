@@ -21,5 +21,3 @@ await symlink('./bin/command', './lib/somewhere/run.sh');
 
 It is possible to create broken symlinks with this method; meaning the
 destination does not have to exist when you create it.
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

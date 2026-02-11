@@ -30,5 +30,3 @@ await emptyDir('./project/dist');
 ```
 
 ## Notes
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

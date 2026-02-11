@@ -22,5 +22,3 @@ await write('This is my content', './dist/content.txt');
 
 This method is intended for writing strings. You might trigger unintended
 behavior if you attempt to write content expected as binary.
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

@@ -24,6 +24,3 @@ await exists('~/empty.txt', { ignoreEmptyFiles: true }) // false
 
 You can pass `ignoreEmptyFiles: true` to count empty files the same as if the
 file didn't exist.
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
-

@@ -18,5 +18,3 @@ await download(
 ```
 
 ## Notes
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

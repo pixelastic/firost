@@ -18,5 +18,3 @@ await mkdirp('./dist/css');
 ```
 
 ## Notes
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

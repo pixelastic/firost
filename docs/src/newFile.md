@@ -18,5 +18,3 @@ await newFile('./src/blank.html');
 ## Notes
 
 If an extension is not supported, and empty file will be created instead.
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).

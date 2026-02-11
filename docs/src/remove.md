@@ -21,5 +21,3 @@ await remove(['index.back.html', './tmp/*.json']);
 ```
 
 ## Notes
-
-Supports placeholders like `<gitRoot>` (see [`absolute()`](./absolute) for details).
