@@ -37,8 +37,8 @@
     "get-port": "7.1.0"
   },
   "dependencies": {
-    "@inquirer/input": "5.0.4",
-    "@inquirer/select": "5.0.4",
+    "@inquirer/input": "5.0.6",
+    "@inquirer/select": "5.0.6",
     "chokidar": "5.0.0",
     "empathic": "2.0.0",
     "eventemitter2": "6.4.9",
