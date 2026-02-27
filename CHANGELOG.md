@@ -1,3 +1,11 @@
+## v5.7.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.6.1...v5.7.0)
+
+### Features
+
+- **spinner:** Handle Ctrl-C interruption gracefully ([bdf20b6](https://github.com/pixelastic/firost/commit/bdf20b6))
+
 ## v5.6.1
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.6.0...v5.6.1)
