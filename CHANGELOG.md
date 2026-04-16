@@ -1,3 +1,9 @@
+## v5.8.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.7.0...v5.8.0)
+
+- fix(spinner): spinners shouldn't prevent script from terminating
+
 ## v5.7.0
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.6.1...v5.7.0)
