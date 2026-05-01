@@ -25,5 +25,8 @@
     "serve": "./scripts/docs/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
+  },
+  "resolutions": {
+    "@inquirer/core": "11.1.1"
   }
 }
