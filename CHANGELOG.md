@@ -1,3 +1,11 @@
+## v5.9.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.8.0...v5.9.0)
+
+### Features
+
+- **run:** Add detached mode for background execution ([751c34d](https://github.com/pixelastic/firost/commit/751c34d))
+
 ## v5.8.0
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.7.0...v5.8.0)
