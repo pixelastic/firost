@@ -1,3 +1,11 @@
+## v5.9.1
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.9.0...v5.9.1)
+
+### Bug Fixes
+
+- **run:** Prevent parent process hang in detached mode ([58626c9](https://github.com/pixelastic/firost/commit/58626c9))
+
 ## v5.9.0
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.8.0...v5.9.0)
