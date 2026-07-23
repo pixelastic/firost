@@ -1,3 +1,11 @@
+## v5.10.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.9.1...v5.10.0)
+
+### Features
+
+- **emptyDirectory:** Add emptyDirectory as improved alias for emptyDir ([f9c1f05](https://github.com/pixelastic/firost/commit/f9c1f05))
+
 ## v5.9.1
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.9.0...v5.9.1)
