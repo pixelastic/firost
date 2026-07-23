@@ -1,5 +1,5 @@
 ---
-title: emptyDir
+title: emptyDirectory
 ---
 
 <div class="lead">
@@ -8,7 +8,7 @@ title: emptyDir
   directory.
 </div>
 
-`await emptyDir(filepath)`
+`await emptyDirectory(filepath)`
 
 
 ## Examples
@@ -21,7 +21,7 @@ title: emptyDir
 //    │  └── index.html
 //    └── package.json
 
-await emptyDir('./project/dist');
+await emptyDirectory('./project/dist');
 
 // .
 // └── project
