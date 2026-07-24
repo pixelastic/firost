@@ -1,3 +1,9 @@
+## v5.10.1
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.10.0...v5.10.1)
+
+feat(callerDirectory): Export callerDirectory (keep callerDir as alias)
+
 ## v5.10.0
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.9.1...v5.10.0)
