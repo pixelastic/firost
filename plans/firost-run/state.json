@@ -2,8 +2,9 @@
   {
     "id": "01",
     "issue": "issues/01-array-overload.md",
-    "done": false,
-    "blocked_by": []
+    "done": true,
+    "blocked_by": [],
+    "recap": "run() now accepts string[] to bypass shell parsing and pass args directly to execa"
   },
   {
     "id": "02",

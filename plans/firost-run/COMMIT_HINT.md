@@ -1,11 +1,12 @@
 ## Goal
-Allow `run()` to accept an array of arguments to bypass shell escaping issues with special characters in URLs and paths.
+Allow `run()` callers to pass arguments as an array, bypassing shell parsing for arguments containing spaces, metacharacters, or quotes.
 
 ## Done
-Created PRD for the array overload feature.
+When `run()` receives a `string[]`, it destructures directly into `[binary, ...args]` instead of calling `parseCommandString`. String form unchanged. Four behavioral tests cover: basic array call, spaces in args, shell metacharacters as literals, literal quotes. JSDoc updated to `{string|string[]}`.
 
 ## Key files
-- `plans/firost-run/PRD.md` — feature spec and implementation decisions
+- `lib/run.js` — array detection branch before `parseCommandString`, JSDoc update
+- `lib/__tests__/run.js` — `describe('array form')` with `it.each` covering four acceptance criteria
 
 ## Suggested type(scope)
-`plan(firost-run)` — planning for run() array overload
+`feat(run)` — new array overload for `run()`
