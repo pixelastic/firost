@@ -4824,62 +4824,62 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aberlaas-ci@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-ci@npm:2.34.0"
+"aberlaas-ci@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-ci@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     ci-info: "npm:4.4.0"
     firost: "npm:5.10.0"
-  checksum: 10c0/9676b3c92599678fab8bf26335187993c67d64c161bf356ae69cc02b6d6784f83800965cfd2bdd0fba4c82ea348c6ec499a5b9bd065022cd966cf3fbe2052764
+  checksum: 10c0/c326fd84025ac3a8ad419fea5f3c5935c7ac3df2e0820f8ce64d692b9ac93a48aef266c50e650a2d3ece2b76972637ddabeae975d1c40076c74f03fb6a39169f
   languageName: node
   linkType: hard
 
-"aberlaas-compress@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-compress@npm:2.34.0"
+"aberlaas-compress@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-compress@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     firost: "npm:5.10.0"
     golgoth: "npm:3.1.0"
-  checksum: 10c0/4e0e272b21352f79c6d9c159d6a5ab8455a21cc68ea68221440eeb5344d5a32cefb2bf78dd08c88814fce41834cdb4eb957ae48e15f83c55cb84c3ce0b9acaca
+  checksum: 10c0/463d93e44da8a81f58f968247366ec2584b2b0b59bbc7b40127124de084ca45047673e0190894d81bd7d6fcc54c612ef513851c218b146ee3eb51479703676fa
   languageName: node
   linkType: hard
 
-"aberlaas-helper@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-helper@npm:2.34.0"
+"aberlaas-helper@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-helper@npm:2.35.0"
   dependencies:
-    aberlaas-versions: "npm:2.34.0"
+    aberlaas-versions: "npm:2.35.0"
     firost: "npm:5.10.0"
     golgoth: "npm:3.1.0"
-  checksum: 10c0/c6fe6d3efbe494c100da8e316a46d4c1dba14d1155153f1b32b441c29fd15ee112e46dd4fa30f0798f27a8b85fae3a3775c2f1801c3d06cb35ffede96e23d08b
+  checksum: 10c0/37b395a99300bde044a21edda48a2cabfe87e36d18688629488b8703e7e9e85673e8b12d535e515da740afc8504b284d05814b165cebc6a5fd2f05f9e8536c28
   languageName: node
   linkType: hard
 
-"aberlaas-init@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-init@npm:2.34.0"
+"aberlaas-init@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-init@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
-    aberlaas-versions: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
+    aberlaas-versions: "npm:2.35.0"
     firost: "npm:5.10.0"
     gilmore: "npm:1.2.2"
     golgoth: "npm:3.1.0"
-  checksum: 10c0/b6eff7c7532a80546fd866093f8970e6aa655333b7114a8a90bcdcf54f98990525ece98ec51892b435ec732665703f8bae1579a55219617fe49d8454bace40ea
+  checksum: 10c0/8d731b083fd6e9a0d2bf1ab2bbc2af9d7838aa998a5e5f9897a9bcabcec5da82f4f8a954bd56cf41ff7dcd220774569dbd600f64bbf613e2ec0fc4f84f626bbc
   languageName: node
   linkType: hard
 
-"aberlaas-lint@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-lint@npm:2.34.0"
+"aberlaas-lint@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-lint@npm:2.35.0"
   dependencies:
     "@eslint/js": "npm:9.39.2"
     "@eslint/json": "npm:1.0.0"
     "@typescript-eslint/utils": "npm:8.55.0"
     "@vitest/eslint-plugin": "npm:1.6.7"
-    aberlaas-helper: "npm:2.34.0"
-    aberlaas-versions: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
+    aberlaas-versions: "npm:2.35.0"
     ci-info: "npm:4.4.0"
     eslint: "npm:9.39.2"
     eslint-config-prettier: "npm:10.1.8"
@@ -4900,42 +4900,42 @@ __metadata:
     typescript: "npm:5.9.3"
     vue-eslint-parser: "npm:10.4.0"
     yaml-lint: "npm:1.7.0"
-  checksum: 10c0/a90147e479079de17c1f890b59a7a04949d521c20101035f03534bcab8815253f29b563a6445871a73e0db93af8e41352f5f1da3345309016a95a897ba741417
+  checksum: 10c0/4a1960ca053e4d52cab5173bca91bdcb578404e0edac18d7806bd4f427bf42b9966112155b0dfa14a768fbfd6c99692cd7fafa14bcab1cb3f4b282fef8f68f1d
   languageName: node
   linkType: hard
 
-"aberlaas-precommit@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-precommit@npm:2.34.0"
+"aberlaas-precommit@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-precommit@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     firost: "npm:5.10.0"
     lint-staged: "npm:16.2.7"
-  checksum: 10c0/088af964a32bb3b0e29712d2956e5bb69bcb6d60a38d19189e1c5e8dced3fc2ba93368322af4374cf13c0730c5bbd5a067500b641738df9231d68929717593d7
+  checksum: 10c0/0ef590d254925fb75c379465558271866eb2f2f79825b8522db041e7dd2e4dd1d4c9694de390258c7bb5cf00ccbf857b1c48f32032a8367dfb31a3f85a18d4e4
   languageName: node
   linkType: hard
 
-"aberlaas-readme@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-readme@npm:2.34.0"
+"aberlaas-readme@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-readme@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     dedent: "npm:1.7.1"
     firost: "npm:5.10.0"
     front-matter: "npm:4.0.2"
     gilmore: "npm:1.2.2"
     golgoth: "npm:3.1.0"
-  checksum: 10c0/edd2643cf1c0b5f13288fd1df1eb88cd024a57fe1d15c197ff585d6aaea90b7f3e7d17dd7c3f61645f88e8a134124e889925b5f9e149e6fd47c635941650046b
+  checksum: 10c0/3dd56060047781eaf70754ed8f50cef7e176fbad0bf4a4fe47f139b91c1bbdb493c36af3d52295f86a68bfddd95a49086872b309aded3bd792cf1aa4d7c51741
   languageName: node
   linkType: hard
 
-"aberlaas-release@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-release@npm:2.34.0"
+"aberlaas-release@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-release@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
-    aberlaas-lint: "npm:2.34.0"
-    aberlaas-test: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
+    aberlaas-lint: "npm:2.35.0"
+    aberlaas-test: "npm:2.35.0"
     changelogen: "npm:0.6.2"
     cli-markdown: "npm:3.5.1"
     firost: "npm:5.10.0"
@@ -4943,66 +4943,66 @@ __metadata:
     golgoth: "npm:3.1.0"
     keyleth: "npm:0.2.0"
     semver: "npm:7.7.4"
-  checksum: 10c0/deba900f5f8f7370f369267b55ae3cb337133ce48462defa538a43bdaeba0a399d58627a4a6baeb366f6e50181a0d9957c73223d5f150178e486b952e5f04b09
+  checksum: 10c0/a40be299f93a48d31e9976ab94ac604e96d90737774e81de72eea09b922004f9d45eb0f817411d9e47dc9661beae907469a7d71a99b05e38b80040e127a9a43b
   languageName: node
   linkType: hard
 
-"aberlaas-setup@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-setup@npm:2.34.0"
+"aberlaas-setup@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-setup@npm:2.35.0"
   dependencies:
     "@octokit/rest": "npm:22.0.1"
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     firost: "npm:5.10.0"
     gilmore: "npm:1.2.2"
     golgoth: "npm:3.1.0"
     parse-github-repo-url: "npm:1.4.1"
-  checksum: 10c0/e5bd0305213b82090cc1bba95381bf497a7b49d628d6789481c981835c1d9fff17ce717b9141a18a19b0da8bb062cf5739feca20a17090f02700daf3be750658
+  checksum: 10c0/28639ad73b4dd35aca93ddb869f37c643859239de73ad15d8441f5ab077d660e005a05f764c1be6c250938817a748ef780e1637930c1d81ee7d3e06fcf113d47
   languageName: node
   linkType: hard
 
-"aberlaas-test@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-test@npm:2.34.0"
+"aberlaas-test@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-test@npm:2.35.0"
   dependencies:
-    aberlaas-helper: "npm:2.34.0"
+    aberlaas-helper: "npm:2.35.0"
     dedent: "npm:1.7.1"
     firost: "npm:5.10.0"
     globals: "npm:17.2.0"
     golgoth: "npm:3.1.0"
     vitest: "npm:4.0.18"
-  checksum: 10c0/cf58077130f8e1087682bf4a2fec4a61e6485e1e09830eace94d9d5043fa1af4c3140dbf390e3fa37d50ce98fb75ba70aa9feca5c0279484fc6b213be0bb6611
+  checksum: 10c0/ede5f68cc2147b56eff07d2ae1e4766ec272278396694aaa481064bdff172a9111d6872094ea25b0c4a3f38940bce706a02b68bb827054e1c3251bd21f8d84ad
   languageName: node
   linkType: hard
 
-"aberlaas-versions@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas-versions@npm:2.34.0"
-  checksum: 10c0/6843eef4eed130eaa963a5e100e913afcb0bbee04e8c0b16d9a529f4e513e3c057780806a240534673a9b8fb530a453e6b78964323168256cfc1c8e7e182ab75
+"aberlaas-versions@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas-versions@npm:2.35.0"
+  checksum: 10c0/d7b88d9ca9bed6cdb7d0036db761ab03617e6154c8992c267d1ce989ba5d21a9084caadc721179b37aaec1903834fa2bcb8dc2eb4fe3462ed7b21b8f9c363053
   languageName: node
   linkType: hard
 
-"aberlaas@npm:2.34.0":
-  version: 2.34.0
-  resolution: "aberlaas@npm:2.34.0"
+"aberlaas@npm:2.35.0":
+  version: 2.35.0
+  resolution: "aberlaas@npm:2.35.0"
   dependencies:
-    aberlaas-ci: "npm:2.34.0"
-    aberlaas-compress: "npm:2.34.0"
-    aberlaas-helper: "npm:2.34.0"
-    aberlaas-init: "npm:2.34.0"
-    aberlaas-lint: "npm:2.34.0"
-    aberlaas-precommit: "npm:2.34.0"
-    aberlaas-readme: "npm:2.34.0"
-    aberlaas-release: "npm:2.34.0"
-    aberlaas-setup: "npm:2.34.0"
-    aberlaas-test: "npm:2.34.0"
-    aberlaas-versions: "npm:2.34.0"
+    aberlaas-ci: "npm:2.35.0"
+    aberlaas-compress: "npm:2.35.0"
+    aberlaas-helper: "npm:2.35.0"
+    aberlaas-init: "npm:2.35.0"
+    aberlaas-lint: "npm:2.35.0"
+    aberlaas-precommit: "npm:2.35.0"
+    aberlaas-readme: "npm:2.35.0"
+    aberlaas-release: "npm:2.35.0"
+    aberlaas-setup: "npm:2.35.0"
+    aberlaas-test: "npm:2.35.0"
+    aberlaas-versions: "npm:2.35.0"
     firost: "npm:5.10.0"
     golgoth: "npm:3.1.0"
     minimist: "npm:1.2.8"
   bin:
     aberlaas: bin/aberlaas.js
-  checksum: 10c0/a33af2f38468923a518be4d8a8d81af24aaa515c55b26c0c5a81ffe80fecf05212df2c300348a9b9a6f34809999a7e2c2870ca4628f264c81f63eb05958024fd
+  checksum: 10c0/635ee9fd1d1d4f9664bb10f9a1df34426454d19de8ee57b3adbe4e28da47a33b77da5e87ef4b2d2f06b91c9589023f634c0c0b7ddd2e074218d23a3d9a160f1c
   languageName: node
   linkType: hard
 
@@ -10852,7 +10852,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "firost-monorepo@workspace:."
   dependencies:
-    aberlaas: "npm:2.34.0"
+    aberlaas: "npm:2.35.0"
   languageName: unknown
   linkType: soft
 
@@ -10968,9 +10968,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:5.10.0, firost@workspace:lib":
-  version: 0.0.0-use.local
-  resolution: "firost@workspace:lib"
+"firost@npm:5.10.0":
+  version: 5.10.0
+  resolution: "firost@npm:5.10.0"
   dependencies:
     "@inquirer/input": "npm:5.0.4"
     "@inquirer/select": "npm:5.0.4"
@@ -10979,7 +10979,6 @@ __metadata:
     eventemitter2: "npm:6.4.9"
     execa: "npm:9.6.1"
     fs-extra: "npm:11.3.3"
-    get-port: "npm:7.1.0"
     globby: "npm:16.1.0"
     golgoth: "npm:3.1.0"
     is-glob: "npm:4.0.3"
@@ -10994,8 +10993,9 @@ __metadata:
     untildify: "npm:6.0.0"
     which: "npm:6.0.1"
     yoctocolors: "npm:2.1.2"
-  languageName: unknown
-  linkType: soft
+  checksum: 10c0/4aa393661674c57da381871f4c6ee28560ad8f0329c271c0bcbc782dd3f5b5d0ce832ddc2b590812603abda8e7b33bbc6f139eb7f12d895731df94e240b8caec
+  languageName: node
+  linkType: hard
 
 "firost@npm:5.3.0":
   version: 5.3.0
@@ -11055,6 +11055,35 @@ __metadata:
   checksum: 10c0/7c227f56ecfdaeceecb7fd9f3363016434f5ba99bc6b5ad206f56c2a194ddb2e72c4e85ab8b8989482c0e60e4f697d40bdbd00ac41f26c07a7a796825a5f6a65
   languageName: node
   linkType: hard
+
+"firost@workspace:lib":
+  version: 0.0.0-use.local
+  resolution: "firost@workspace:lib"
+  dependencies:
+    "@inquirer/input": "npm:5.0.4"
+    "@inquirer/select": "npm:5.0.4"
+    chokidar: "npm:5.0.0"
+    empathic: "npm:2.0.0"
+    eventemitter2: "npm:6.4.9"
+    execa: "npm:9.6.1"
+    fs-extra: "npm:11.3.3"
+    get-port: "npm:7.1.0"
+    globby: "npm:16.1.0"
+    golgoth: "npm:3.1.0"
+    is-glob: "npm:4.0.3"
+    json-stable-stringify: "npm:1.3.0"
+    multimatch: "npm:7.0.0"
+    nanoid: "npm:5.1.6"
+    normalize-url: "npm:8.1.1"
+    ora: "npm:9.3.0"
+    rev-hash: "npm:4.1.0"
+    std-mocks: "npm:2.0.0"
+    strip-ansi: "npm:7.1.2"
+    untildify: "npm:6.0.0"
+    which: "npm:6.0.1"
+    yoctocolors: "npm:2.1.2"
+  languageName: unknown
+  linkType: soft
 
 "flat-cache@npm:^4.0.0":
   version: 4.0.1
