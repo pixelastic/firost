@@ -1,3 +1,11 @@
+## v5.11.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.10.1...v5.11.0)
+
+### Features
+
+- **run:** Accept array of arguments to bypass shell parsing ([726b2cc](https://github.com/pixelastic/firost/commit/726b2cc))
+
 ## v5.10.1
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.10.0...v5.10.1)
