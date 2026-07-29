@@ -5,7 +5,7 @@
   "description": "Documentation website of firost",
   "dependencies": {
     "norska": "3.0.0",
-    "norska-theme-docs": "5.0.3"
+    "norska-theme-docs": "6.0.0"
   },
   "scripts": {
     "build": "cd ../ && ./scripts/build",
