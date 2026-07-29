@@ -10,3 +10,8 @@
 - execa v9.6.1 — supports `execa(binary, argsArray)` natively
 
 ## Discoveries
+
+### Issue 02 — Scan dependents
+- Only 2 real migration candidates across all dependents; most `run()` calls use static strings or need shell features (ssh, `$()`, `$EDITOR`)
+- emulation project wraps firost `run` in its own `remote/run.js` for ssh — those calls are inherently shell-dependent and not candidates
+- oroshi is not in `/home/tim/local/www/projects/`, only found in `/home/tim/local/tmp/oroshi` with no package.json

@@ -1,12 +1,12 @@
 ## Goal
-Allow `run()` callers to pass arguments as an array, bypassing shell parsing for arguments containing spaces, metacharacters, or quotes.
+Audit firost dependents for `run()` quoting workarounds and `execFile` usage that could migrate to the new `run([...])` array overload.
 
 ## Done
-When `run()` receives a `string[]`, it destructures directly into `[binary, ...args]` instead of calling `parseCommandString`. String form unchanged. Four behavioral tests cover: basic array call, spaces in args, shell metacharacters as literals, literal quotes. JSDoc updated to `{string|string[]}`.
+Scanned 7 firost-dependent projects (aberlaas, emulation, norska, pietro, renovate-config-aberlaas, shortwheel, solkan). Found 2 confirmed migration candidates: aberlaas `compress/lib/png.js` (file paths joined with spaces) and emulation `backupSaveFileLocally.js` (quoted filepath workaround). Most other `run()` calls use static strings or require shell features (ssh, `$()`, env var expansion). Updated plan guidance with findings.
 
 ## Key files
-- `lib/run.js` — array detection branch before `parseCommandString`, JSDoc update
-- `lib/__tests__/run.js` — `describe('array form')` with `it.each` covering four acceptance criteria
+- `plans/firost-run/state.json` — marked audit issue done with recap
+- `plans/firost-run/GUIDANCE.md` — added discoveries about dependent scan results
 
 ## Suggested type(scope)
-`feat(run)` — new array overload for `run()`
+`chore(firost-run)` — audit-only, no production code changes
