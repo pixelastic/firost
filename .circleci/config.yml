@@ -12,7 +12,7 @@ aliases:
       name: 'Installing correct yarn version'
       command: |
         corepack enable --install-directory="/home/circleci/bin"
-        yarn set version 4.10.3
+        yarn set version 4.18.0
   - &install_dependencies
     run:
       name: 'Installing dependencies'
