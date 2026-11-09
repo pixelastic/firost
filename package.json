@@ -13,7 +13,7 @@
   },
   "packageManager": "yarn@4.18.0",
   "devDependencies": {
-    "aberlaas": "2.41.3"
+    "aberlaas": "2.41.6"
   },
   "scripts": {
     "bench": "./scripts/bench",
