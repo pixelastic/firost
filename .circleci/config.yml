@@ -1,0 +1,42 @@
+version: 2.1
+
+aliases:
+  - &defaults
+    docker:
+      - image: cimg/node:22.18.0
+  - &restore_cache
+    restore_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+  - &install_yarn
+    run:
+      name: 'Installing correct yarn version'
+      command: |
+        corepack enable --install-directory="/home/circleci/bin"
+        yarn set version 4.10.3
+  - &install_dependencies
+    run:
+      name: 'Installing dependencies'
+      command: 'yarn install'
+  - &save_cache
+    save_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+      paths:
+        - ~/.cache/yarn
+
+jobs:
+  ci:
+    <<: *defaults
+    steps:
+      - checkout
+      - *restore_cache
+      - *install_yarn
+      - *install_dependencies
+      - *save_cache
+      - run: 'yarn run ci'
+
+workflows:
+  version: 2
+  # On every commit
+  commit:
+    jobs:
+      - ci
