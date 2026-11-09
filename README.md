@@ -123,7 +123,6 @@ packageRoot(); // /home/tim/projects/firost
 packageRoot('~/projects/aberlaas/lib/main.js'); // /home/tim/projects/aberlaas/
 ```
 
-
 ### `read(path)`
 
 Returns the textual content of a file located at the specified filepath.
@@ -422,8 +421,9 @@ pulse.emit('custom', 'Hello');
 
 ### `firostImpot(id)`
 
-Alternative to the default dynamic `import()`. Pass `forceReload: true` as an option to
-force reloading the latest version on disk, bypassing the singleton cache.
+Alternative to the default dynamic `import()`. Pass `forceReload: true` as an
+option to force reloading the latest version on disk, bypassing the singleton
+cache.
 
 ```js
 const module = await firostImport('./path/to/module.js');

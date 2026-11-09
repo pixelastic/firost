@@ -8,7 +8,10 @@
   ],
   "description": "firost monorepo",
   "homepage": "https://projects.pixelastic.com/firost/",
-  "packageManager": "yarn@4.12.0",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "yarn@4.18.0",
   "devDependencies": {
     "aberlaas": "2.41.5"
   },
