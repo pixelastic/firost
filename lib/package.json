@@ -1,6 +1,6 @@
 {
   "name": "firost",
-  "version": "5.11.0",
+  "version": "5.11.1",
   "type": "module",
   "description": "Async glob, read and write files",
   "author": "Tim Carry <tim@pixelastic.com>",
@@ -71,8 +71,5 @@
     "serve": "cd ../ && ./scripts/serve",
     "test": "cd ../ && ./scripts/test",
     "test:watch": "cd ../ && ./scripts/test-watch"
-  },
-  "aberlaas": {
-    "trustedPublisher": true
   }
 }
