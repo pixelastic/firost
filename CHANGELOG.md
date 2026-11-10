@@ -1,3 +1,9 @@
+## v5.11.2
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.11.1...v5.11.2)
+
+Dummy release to test the trusted publish workflow.
+
 ## v5.11.1
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.11.0...v5.11.1)
