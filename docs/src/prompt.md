@@ -7,7 +7,13 @@ title: prompt
   on <code>CTRL-C</code>, but does not end the process.
 </div>
 
-`await prompt(question)`
+`await prompt(question, options)`
+
+## Options
+
+| Option    | Description                                                                          |
+| --------- | ------------------------------------------------------------------------------------ |
+| `prefill` | Value already typed in the input. The user can edit it, or press Enter to accept it. |
 
 ## Examples
 
@@ -21,4 +27,6 @@ try {
   return;
 }
 console.log('Continuing');
+
+const name = await prompt('Package name?', { prefill: 'my-package' });
 ```
