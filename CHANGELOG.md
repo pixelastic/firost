@@ -1,3 +1,12 @@
+## v5.12.0
+
+[compare changes](https://github.com/pixelastic/firost/compare/v5.11.2...v5.12.0)
+
+### Features
+
+- **prompt:** Add prefill option to pre-type an editable answer
+  ([454b6cc](https://github.com/pixelastic/firost/commit/454b6cc))
+
 ## v5.11.2
 
 [compare changes](https://github.com/pixelastic/firost/compare/v5.11.1...v5.11.2)
